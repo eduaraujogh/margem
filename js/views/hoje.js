@@ -83,6 +83,25 @@ export function render() {
       </div>
     </section>` : "";
 
+  const instalado = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  let dispensou = false;
+  try { dispensou = localStorage.getItem("margem.instalar") === "ok"; } catch (e) {}
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const instalar = !instalado && !dispensou ? `
+    <div class="card install" id="instalar">
+      <div class="row" style="align-items:flex-start">
+        <span class="tile" aria-hidden="true" style="background:#FBE9AB;color:#6A5008">★</span>
+        <div class="grow">
+          <p class="t" style="font-weight:800">Coloque o Margem na tela de início</p>
+          <p class="small mt-s" style="color:var(--ink-2)">${ios
+            ? "No Safari, toque em <strong>Compartilhar</strong> (o quadrado com a seta) e depois em <strong>Adicionar à Tela de Início</strong>."
+            : "No Chrome, toque no menu <strong>⋮</strong> e depois em <strong>Adicionar à tela inicial</strong> ou <strong>Instalar app</strong>."}
+            Assim ele abre como um app e o seu progresso fica guardado com segurança.</p>
+        </div>
+      </div>
+      <button class="link-btn" id="instalar-ok" type="button">Já fiz isso</button>
+    </div>` : "";
+
   return {
     mod: nRev > 0 ? null : prox?.modulo,
     html: `
@@ -95,6 +114,7 @@ export function render() {
         <a class="stat b" href="#/trilha"><b>${r.estudados}</b><span>estudados</span></a>
         <a class="stat c" href="#/trilha"><b>${r.total - r.estudados}</b><span>pela frente</span></a>
       </div>
+      ${instalar}
       ${passo}
       ${segundo}
       ${atencao}
@@ -113,6 +133,10 @@ export function render() {
       <p class="mt" style="text-align:center"><a class="link-btn" href="#/ajustes">Ajustes e backup do progresso</a></p>`,
     montar(el) {
       el.querySelector("#ir-revisao")?.addEventListener("click", () => iniciarSessao({ tipo: "revisao" }));
+      el.querySelector("#instalar-ok")?.addEventListener("click", () => {
+        try { localStorage.setItem("margem.instalar", "ok"); } catch (e) {}
+        el.querySelector("#instalar").remove();
+      });
     },
   };
 }

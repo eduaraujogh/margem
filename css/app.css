@@ -350,3 +350,4 @@ label.lbl { display: block; font-weight: 700; font-size: 14px; margin: 14px 0 6p
 .hero .meta { margin-right: 64px; }
 .dock { background: none; }
 .dock .btn { box-shadow: 0 12px 24px -10px rgba(30, 20, 5, .45); }
+.install { margin-bottom: 14px; }

@@ -24,6 +24,8 @@ function diasEntre(a, b) {
 }
 
 export function carregarProgresso() {
+  // pede ao navegador para não apagar os dados do app
+  try { navigator.storage?.persist?.(); } catch (e) {}
   try {
     const raw = localStorage.getItem(CHAVE);
     if (raw) S = { ...vazio(), ...JSON.parse(raw) };
