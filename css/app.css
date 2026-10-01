@@ -1,6 +1,6 @@
 /* Margem: sépia, cartões pastel, pílulas pretas. Mobile primeiro. */
 :root {
-  --bg: #F3EADB;
+  --bg: #F4ECDF;
   --bg-grad: linear-gradient(180deg, #F7F0E4 0%, #F1E6D3 55%, #EEE1CB 100%);
   --surface: #FFFBF4;
   --surface-2: #EFE5D4;
@@ -39,7 +39,7 @@
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; background: var(--bg); }
 body {
-  margin: 0; min-height: 100vh; background: var(--bg-grad) fixed, var(--bg); color: var(--ink);
+  margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink);
   font: 15px/1.5 var(--sans); -webkit-font-smoothing: antialiased;
   padding-bottom: calc(var(--tab-h) + 28px + var(--safe-b)); overflow-x: hidden;
 }
@@ -291,13 +291,32 @@ main { max-width: 640px; margin: 0 auto; padding: 4px var(--gutter) 24px; outlin
 .result-ring b { position: absolute; inset: 0; display: grid; place-items: center; font: 800 36px/1 var(--sans); letter-spacing: -0.03em; }
 
 /* ---------- Busca ---------- */
-.search-box { position: sticky; top: calc(var(--top-h) + env(safe-area-inset-top, 0px)); z-index: 5; padding: 4px 0 10px; background: linear-gradient(var(--bg) 80%, transparent); }
-.search-box input {
-  width: 100%; height: 54px; padding: 0 18px 0 48px; border-radius: 999px; border: 0; box-shadow: var(--shadow);
-  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23877B6B' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='6.5'/%3E%3Cpath d='M16 16l4.5 4.5'/%3E%3C/svg%3E") 18px 50% / 20px no-repeat;
-  font: 600 16px var(--sans); color: var(--ink);
+.search-box {
+  position: sticky; top: calc(var(--top-h) + env(safe-area-inset-top, 0px)); z-index: 6;
+  margin: 0 calc(var(--gutter) * -1); padding: 4px var(--gutter) 12px; background: var(--bg);
+  box-shadow: 0 10px 14px -14px rgba(60, 40, 10, .35);
 }
-.search-box input:focus { outline: 2.5px solid var(--ink); outline-offset: 0; }
+.search-field { position: relative; }
+.search-box input {
+  -webkit-appearance: none; appearance: none;
+  width: 100%; height: 52px; padding: 0 52px 0 48px; border-radius: 999px; border: 1.5px solid transparent; box-shadow: var(--shadow);
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23877B6B' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='6.5'/%3E%3Cpath d='M16 16l4.5 4.5'/%3E%3C/svg%3E") 18px 50% / 20px no-repeat;
+  font: 600 16px var(--sans); color: var(--ink); text-overflow: ellipsis;
+}
+.search-box input::placeholder { color: var(--muted); font-weight: 500; }
+.search-box input::-webkit-search-cancel-button, .search-box input::-webkit-search-decoration { -webkit-appearance: none; display: none; }
+.search-box input:focus { outline: none; border-color: #EE7A47; box-shadow: 0 0 0 4px rgba(238, 122, 71, .18); }
+.search-clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border-radius: 50%; border: 0; background: var(--surface-2); color: var(--ink); display: grid; place-items: center; cursor: pointer; }
+.search-clear svg { width: 16px; height: 16px; stroke-width: 2.4; }
+#filtros { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 10px calc(var(--gutter) * -1) 0; padding: 2px var(--gutter) 4px;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 var(--gutter), #000 calc(100% - 40px), transparent);
+          mask-image: linear-gradient(90deg, transparent 0, #000 var(--gutter), #000 calc(100% - 40px), transparent); }
+#filtros::-webkit-scrollbar { display: none; }
+#filtros .chip { min-height: 38px; box-shadow: none; background: var(--surface); }
+#filtros .chip[aria-pressed="true"] { background: var(--black); color: var(--on-black); }
+body.pg-busca .topbar { background: var(--bg); box-shadow: none; backdrop-filter: none; }
+body.pg-busca .topbar a[href='#/busca'] { display: none; }
+#res .section:first-child { margin-top: 14px; }
 .result { padding: 16px; display: block; text-decoration: none; color: inherit; width: 100%; text-align: left; background: var(--surface); border: 0; border-radius: 20px; box-shadow: var(--shadow); cursor: pointer; }
 .result .t { font-weight: 700; }
 .result .snip { color: var(--ink-2); font-size: 14.5px; margin-top: 4px; font-family: var(--serif); line-height: 1.55; }
@@ -351,3 +370,4 @@ label.lbl { display: block; font-weight: 700; font-size: 14px; margin: 14px 0 6p
 .dock { background: none; }
 .dock .btn { box-shadow: 0 12px 24px -10px rgba(30, 20, 5, .45); }
 .install { margin-bottom: 14px; }
+@media (min-width: 720px) { .search-box { box-shadow: none; } }

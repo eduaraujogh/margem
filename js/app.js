@@ -51,7 +51,7 @@ function render() {
   let r;
   try { r = view.render(...args, params); }
   catch (e) { console.error(e); r = { html: `<div class="empty">Não encontrei esta página.<br><a href="#/">Voltar ao início</a></div>` }; }
-  document.body.className = [r.mod ? `m-${r.mod}` : "", r.tinta ? "tinta" : ""].join(" ").trim();
+  document.body.className = [r.mod ? `m-${r.mod}` : "", r.tinta ? "tinta" : "", r.classe || ""].join(" ").trim();
   main.innerHTML = `<div class="fade-in">${r.html}</div>`;
   document.title = r.titulo ? `${r.titulo} · Margem` : "Margem";
   document.getElementById("titulo-topo").textContent = r.titulo || "";

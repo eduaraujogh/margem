@@ -10,10 +10,14 @@ export function render(params) {
   const filtro = params?.get?.("pdf") || "";
   return {
     titulo: "Buscar",
+    classe: "pg-busca",
     html: `
       <div class="search-box">
         <label class="sr" for="q">Buscar em tudo</label>
-        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Ex.: vantagem transitória, Blockbuster, PESTEL" value="${esc(q0)}">
+        <div class="search-field">
+          <input id="q" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Busque um termo, conceito ou empresa" value="${esc(q0)}">
+          <button class="search-clear" id="limpar" type="button" aria-label="Limpar busca" ${q0 ? "" : "hidden"}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></button>
+        </div>
         <div class="chips mt-s" id="filtros" role="group" aria-label="Filtrar por material">
           <button class="chip" type="button" data-f="" aria-pressed="${!filtro}">Tudo</button>
           ${D.materiais.slice().sort((a, b) => a.ordem - b.ordem).map(m => `<button class="chip" type="button" data-f="${m.id}" aria-pressed="${filtro === m.id}">${esc(m.curto)}</button>`).join("")}
@@ -24,10 +28,10 @@ export function render(params) {
       const inp = el.querySelector("#q"), res = el.querySelector("#res");
       let f = filtro, tm;
       const filtros = el.querySelector("#filtros");
-      filtros.style.cssText = "flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:2px 2px 8px;margin:0 -2px";
       const pintar = () => {
         filtros.querySelectorAll("[data-f]").forEach(b => b.setAttribute("aria-pressed", b.dataset.f === f));
         const q = inp.value.trim(); ultima = q;
+        el.querySelector("#limpar").hidden = !inp.value;
         history.replaceState(null, "", `#/busca?q=${encodeURIComponent(q)}${f ? `&pdf=${f}` : ""}`);
         if (q.length < 2) { res.innerHTML = `<div class="empty">Procure uma palavra, um conceito ou uma empresa citada nas aulas. Mostro de onde veio cada resultado.</div>`; return; }
         const rs = buscar(q, f);
@@ -40,6 +44,8 @@ export function render(params) {
         }).join("");
       };
       inp.addEventListener("input", () => { clearTimeout(tm); tm = setTimeout(pintar, 120); });
+      inp.addEventListener("keydown", e => { if (e.key === "Enter") inp.blur(); });
+      el.querySelector("#limpar").onclick = () => { inp.value = ""; pintar(); inp.focus(); };
       filtros.addEventListener("click", e => { const b = e.target.closest("[data-f]"); if (b) { f = b.dataset.f; pintar(); } });
       pintar();
       if (!q0) inp.focus();
