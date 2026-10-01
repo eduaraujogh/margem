@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Margem Estudos</title>
 <meta name="description" content="Estudos de Planejamento Estratégico a partir dos materiais da disciplina.">
-<meta name="theme-color" content="#F6F3EE" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#171614" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F7F0E4">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Margem">
@@ -15,10 +14,10 @@
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/app.css">
 <script>
-  try { const t = localStorage.getItem("margem.tema"); if (t && t !== "auto") document.documentElement.dataset.theme = t; } catch (e) {}
+  try { if (localStorage.getItem("margem.tema") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
 </script>
 </head>
 <body>

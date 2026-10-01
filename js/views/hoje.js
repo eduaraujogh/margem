@@ -88,21 +88,26 @@ export function render() {
     html: `
       <div class="page-head">
         <div class="eyebrow">Planejamento Estratégico</div>
-        <h1 class="page-title">${saudacao()}.</h1>
+        <h1 class="page-title">${saudacao()}!</h1>
+      </div>
+      <div class="stats">
+        <a class="stat a" href="#/revisar"><b>${nRev}</b><span>para revisar</span></a>
+        <a class="stat b" href="#/trilha"><b>${r.estudados}</b><span>estudados</span></a>
+        <a class="stat c" href="#/trilha"><b>${r.total - r.estudados}</b><span>pela frente</span></a>
       </div>
       ${passo}
       ${segundo}
       ${atencao}
       ${comoFunciona}
       <section class="section">
-        <h2 class="section-title">Seu progresso</h2>
+        <h2 class="section-title">Por módulo</h2>
         <div class="card">
           <div class="rings">${D.modulos.map(m => {
             const ts = D.topicosDo[m.id];
             const p = Math.round(ts.filter(t => !["nao", "andamento"].includes(estadoTopico(t.id))).length / ts.length * 100);
             return `<a class="ring-item m-${m.id}" href="#/trilha">${anel(p)}<span>${esc(m.titulo)}</span></a>`;
           }).join("")}</div>
-          <p class="progress-line small mt" style="text-align:center">${r.estudados} de ${r.total} tópicos estudados · ${r.dominados} ${r.dominados === 1 ? "dominado" : "dominados"}</p>
+          <p class="progress-line small mt" style="text-align:center">${r.dominados} ${r.dominados === 1 ? "tópico dominado" : "tópicos dominados"} de ${r.total}</p>
         </div>
       </section>
       <p class="mt" style="text-align:center"><a class="link-btn" href="#/ajustes">Ajustes e backup do progresso</a></p>`,

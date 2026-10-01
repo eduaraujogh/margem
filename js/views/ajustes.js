@@ -4,8 +4,8 @@ import { exportar, importar, apagar, estado, hoje } from "../store.js";
 
 export function render() {
   const s = estado();
-  let tema = "auto";
-  try { tema = localStorage.getItem("margem.tema") || "auto"; } catch (e) {}
+  let tema = "light";
+  try { tema = localStorage.getItem("margem.tema") === "dark" ? "dark" : "light"; } catch (e) {}
   const reps = s.reportes || [];
   const nOcr = D.paginas.filter(p => p.origem === "ocr").length;
   const nTrans = D.paginas.filter(p => p.origem === "transcricao").length;
@@ -16,8 +16,8 @@ export function render() {
 
       <section class="section">
         <h2 class="section-title">Aparência</h2>
-        <div class="tabs" role="radiogroup" aria-label="Tema" style="position:static">
-          ${[["auto", "Automático"], ["light", "Claro"], ["dark", "Escuro"]].map(([k, n]) => `<button type="button" role="radio" aria-selected="${tema === k}" aria-checked="${tema === k}" data-tema="${k}">${n}</button>`).join("")}
+        <div class="tabs" role="radiogroup" aria-label="Tema" style="position:static;max-width:280px">
+          ${[["light", "Sépia"], ["dark", "Escuro"]].map(([k, n]) => `<button type="button" role="radio" aria-selected="${tema === k}" aria-checked="${tema === k}" data-tema="${k}">${n}</button>`).join("")}
         </div>
       </section>
 
@@ -54,7 +54,7 @@ export function render() {
       el.querySelectorAll("[data-tema]").forEach(b => b.onclick = () => {
         const t = b.dataset.tema;
         try { localStorage.setItem("margem.tema", t); } catch (e) {}
-        if (t === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
+        if (t === "light") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
         el.querySelectorAll("[data-tema]").forEach(x => { x.setAttribute("aria-selected", x === b); x.setAttribute("aria-checked", x === b); });
       });
       el.querySelector("#exp").onclick = () => {

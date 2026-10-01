@@ -1,6 +1,6 @@
 // Funciona offline depois da primeira visita. App e conteúdo: rede primeiro (pega atualizações),
 // cache como reserva. PDFs, fontes e PDF.js: cache primeiro.
-const V = "margem-v2";
+const V = "margem-v4";
 const APP = ["./", "index.html", "css/app.css", "js/app.js", "js/data.js", "js/store.js", "js/ui.js", "js/folhas.js", "js/busca.js",
   "js/views/hoje.js", "js/views/trilha.js", "js/views/topico.js", "js/views/sessao.js", "js/views/revisar.js", "js/views/biblioteca.js",
   "js/views/material.js", "js/views/pdf.js", "js/views/busca.js", "js/views/glossario.js", "js/views/ajustes.js",

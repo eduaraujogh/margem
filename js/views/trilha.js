@@ -10,13 +10,12 @@ export function render() {
       <section class="modulo-card m-${m.id}" id="${m.id}">
         <div class="modulo-head"><span class="badge" aria-hidden="true">${numMod(m.id)}</span><h2 class="grow">${esc(m.titulo)}</h2>${anel(Math.round(feitos / ts.length * 100), `${feitos}/${ts.length}`, 46, 5)}</div>
         <p class="modulo-desc">${esc(m.aulas)} · ${esc(m.descricao)}</p>
-        <div class="list">
+        <div class="rail">
           ${ts.map(t => {
             const e = estadoTopico(t.id);
             return `
-            <a class="item" href="#/t/${t.id}">
-              <span class="dot ${e}" role="img" aria-label="${ROTULO_ESTADO[e]}"></span>
-              <div class="grow"><div class="t">${esc(t.titulo)}</div><div class="s">${esc(t.resumo)}</div></div>${ico.chev}
+            <a class="item ${["estudado", "revisando", "dominado"].includes(e) ? "feito" : ""}" href="#/t/${t.id}">
+              <div class="grow"><div class="t">${esc(t.titulo)}</div><div class="s">${esc(t.resumo)}</div><span class="pill ${e}">${ROTULO_ESTADO[e]}</span></div>${ico.chev}
             </a>`;
           }).join("")}
         </div>
@@ -29,9 +28,7 @@ export function render() {
         <h1 class="page-title">Trilha</h1>
         <p class="page-sub">${D.topicos.length} tópicos em ${D.modulos.length} módulos, na ordem das aulas.</p>
       </div>
-      <div class="legend" aria-label="Legenda">
-        ${["andamento", "estudado", "revisando", "dominado"].map(k => `<span><i class="dot ${k}"></i>${ROTULO_ESTADO[k]}</span>`).join("")}
-      </div>
+
       ${mods}`,
   };
 }

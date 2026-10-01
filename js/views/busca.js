@@ -24,9 +24,9 @@ export function render(params) {
       const inp = el.querySelector("#q"), res = el.querySelector("#res");
       let f = filtro, tm;
       const filtros = el.querySelector("#filtros");
-      filtros.style.cssText = "flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px";
+      filtros.style.cssText = "flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:2px 2px 8px;margin:0 -2px";
       const pintar = () => {
-        filtros.querySelectorAll("[data-f]").forEach(b => { b.setAttribute("aria-pressed", b.dataset.f === f); b.style.borderColor = b.dataset.f === f ? "var(--accent)" : ""; b.style.color = b.dataset.f === f ? "var(--accent)" : ""; });
+        filtros.querySelectorAll("[data-f]").forEach(b => b.setAttribute("aria-pressed", b.dataset.f === f));
         const q = inp.value.trim(); ultima = q;
         history.replaceState(null, "", `#/busca?q=${encodeURIComponent(q)}${f ? `&pdf=${f}` : ""}`);
         if (q.length < 2) { res.innerHTML = `<div class="empty">Procure uma palavra, um conceito ou uma empresa citada nas aulas. Mostro de onde veio cada resultado.</div>`; return; }
