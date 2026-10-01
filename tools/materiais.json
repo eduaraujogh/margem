@@ -1,0 +1,58 @@
+[
+ {
+  "id": "aula1",
+  "titulo": "Aula 1: Planejamento Estratégico",
+  "tipo": "Slides",
+  "ordem": 1,
+  "curto": "Aula 1"
+ },
+ {
+  "id": "plano-aulas-1-2",
+  "titulo": "Plano de Aula Integrada (Aulas 1 e 2)",
+  "tipo": "Guia do professor",
+  "ordem": 2,
+  "curto": "Plano de aula 1-2"
+ },
+ {
+  "id": "aula2",
+  "titulo": "Aula 2: Navegação Estratégica",
+  "tipo": "Slides",
+  "ordem": 3,
+  "curto": "Aula 2"
+ },
+ {
+  "id": "aula3-guia",
+  "titulo": "Aula 3: Estratégia Adaptativa vs. Planejamento Tradicional",
+  "tipo": "Guia de aula",
+  "ordem": 4,
+  "curto": "Guia da Aula 3"
+ },
+ {
+  "id": "aula3-interno",
+  "titulo": "Aula 3: Análise do Ambiente Interno",
+  "tipo": "Slides",
+  "ordem": 5,
+  "curto": "Aula 3"
+ },
+ {
+  "id": "aula4",
+  "titulo": "Aula 4: Ambiente Externo",
+  "tipo": "Slides",
+  "ordem": 6,
+  "curto": "Aula 4"
+ },
+ {
+  "id": "plataforma-a",
+  "titulo": "Análise SWOT (Sagah)",
+  "tipo": "Capítulo de livro",
+  "ordem": 7,
+  "curto": "Leitura SWOT"
+ },
+ {
+  "id": "aula6",
+  "titulo": "Aula 6: A Experiência SWOT",
+  "tipo": "Slides",
+  "ordem": 8,
+  "curto": "Aula 6"
+ }
+]

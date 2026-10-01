@@ -1,0 +1,93 @@
+{
+ "modulo": { "id": "mod4", "titulo": "Ambiente externo", "descricao": "Macro e microambiente, PESTEL, 5 Forças de Porter e substitutos.", "aulas": "Aula 4" },
+ "topicos": [
+  {
+   "id": "t22", "titulo": "Macroambiente x microambiente",
+   "resumo": "Duas camadas de análise externa, interdependentes.",
+   "aprender": [
+    { "texto": "“Nenhuma estratégia é formulada no vácuo” (Robert M. Grant). A análise externa reduz a incerteza, antecipa mudanças e fundamenta o ajuste entre recursos internos e ambiente (strategic fit). É o insumo da coluna Oportunidades e Ameaças da SWOT.", "fontes": ["aula4-p3"] },
+    { "texto": "Macroambiente: afeta todas as indústrias (com intensidades variáveis) e é analisado pelo PESTEL. Microambiente: é específico da indústria em que a empresa compete e é analisado pelas 5 Forças de Porter.", "fontes": ["aula4-p4"] },
+    { "texto": "As duas camadas são interdependentes, não paralelas: uma mudança macro rompe a estrutura da indústria.", "fontes": ["aula4-p4"] }
+   ],
+   "pontosChave": [
+    { "texto": "Macro → PESTEL (todas as indústrias).", "fontes": ["aula4-p4"] },
+    { "texto": "Micro → 5 Forças (a indústria da empresa).", "fontes": ["aula4-p4"] },
+    { "texto": "Mudança macro rompe a estrutura da indústria.", "fontes": ["aula4-p4"] }
+   ],
+   "termos": ["g-macro", "g-micro"],
+   "relacionados": ["t23", "t24", "t28"]
+  },
+  {
+   "id": "t23", "titulo": "Modelo PESTEL",
+   "resumo": "Seis forças do macroambiente.",
+   "aprender": [
+    { "texto": "PESTEL: Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas e Legais. O objetivo é identificar as forças de mudança realmente relevantes ao setor, e não apenas preencher um checklist.", "fontes": ["aula4-p5"] },
+    { "texto": "Políticas: estabilidade política, política tarifária, grau de intervenção, relações comerciais internacionais. Econômicas: juros, inflação, câmbio, ciclo econômico, nível de emprego. Exemplo: com juros elevados, cai a demanda por bens duráveis financiados (automóveis, construção civil).", "fontes": ["aula4-p6"] },
+    { "texto": "Sociais: demografia, valores culturais, estilo de vida, comportamento do consumidor. Tecnológicas: ritmo de inovação, automação, digitalização, novos modelos de negócio. Exemplo: desde 2023 a IA generativa redesenha atendimento, criação de conteúdo e custos.", "fontes": ["aula4-p7"] },
+    { "texto": "Ecológicas: mudanças climáticas, regulação ambiental, escassez de recursos, pressão ESG. Legais: legislação trabalhista, defesa da concorrência, proteção de dados (LGPD/GDPR). Exemplo: a regulação europeia contra o desmatamento (EUDR) impõe custos de rastreabilidade a exportadores brasileiros de café e soja.", "fontes": ["aula4-p8"] }
+   ],
+   "pontosChave": [
+    { "texto": "P-E-S-T-E-L: Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas, Legais.", "fontes": ["aula4-p5"] },
+    { "texto": "Juros altos (E) retraem bens duráveis financiados.", "fontes": ["aula4-p6"] },
+    { "texto": "IA generativa é força Tecnológica (T).", "fontes": ["aula4-p7"] },
+    { "texto": "LGPD/GDPR são forças Legais (L).", "fontes": ["aula4-p8"] }
+   ],
+   "termos": ["g-pestel"],
+   "relacionados": ["t22", "t24"]
+  },
+  {
+   "id": "t24", "titulo": "As 5 Forças de Porter",
+   "resumo": "O que determina a atratividade de um setor.",
+   "aprender": [
+    { "texto": "As 5 forças: ameaça de novos entrantes, poder de negociação dos fornecedores, rivalidade entre concorrentes, poder de negociação dos compradores e ameaça de produtos/serviços substitutos. A intensidade conjunta delas determina a atratividade (o potencial de lucro médio) do setor.", "fontes": ["aula4-p9"] },
+    { "texto": "Gatilhos de intensidade: a rivalidade sobe com concorrentes numerosos/equilibrados, crescimento lento e baixa diferenciação. Compradores ficam fortes quando concentrados, com produto padronizado e muita informação. Fornecedores ficam fortes com poucos players, insumo essencial e alto custo de troca.", "fontes": ["aula4-p10"] },
+    { "texto": "Barreiras (escala, capital, marca, regulação) reduzem a ameaça de novos entrantes. Substitutos são produtos de OUTRAS indústrias que atendem à mesma necessidade.", "fontes": ["aula4-p10"] },
+    { "texto": "Exemplos: no setor automotivo, regulação de emissões, custo de baterias e eletrificação aumentam a rivalidade e a ameaça de novos entrantes (fabricantes chineses). No Duolingo, a IA generativa reduz barreiras de entrada e amplia a ameaça de substitutos (chatbots).", "fontes": ["aula4-p11"] }
+   ],
+   "pontosChave": [
+    { "texto": "As 5 forças determinam o potencial de lucro médio do setor.", "fontes": ["aula4-p9"] },
+    { "texto": "Barreiras de entrada reduzem a ameaça de novos entrantes.", "fontes": ["aula4-p10"] },
+    { "texto": "Substituto = outra indústria, mesma necessidade.", "fontes": ["aula4-p10"] }
+   ],
+   "termos": ["g-5forcas", "g-substituto"],
+   "relacionados": ["t25", "t23"]
+  },
+  {
+   "id": "t25", "titulo": "Produtos substitutos",
+   "resumo": "Outra indústria, mesma necessidade: o teto de preço do setor.",
+   "aprender": [
+    { "texto": "Concorrentes diretos disputam o cliente na mesma indústria. Substitutos pertencem a indústrias diferentes, mas resolvem a mesma necessidade por outro caminho. O perigo é impor um teto de preço ao setor e limitar sua rentabilidade.", "fontes": ["aula4-p12"] },
+    { "texto": "Exemplos do material: videoconferência x viagens corporativas; telemedicina x consultas presenciais; streaming x cinemas, TV a cabo e locadoras; assistentes de IA x EdTech e tutores; e-books x livros impressos.", "fontes": ["aula4-p13", "aula4-p14", "aula4-p15", "aula4-p16", "aula4-p17"] },
+    { "texto": "Em cada caso há um trade-off. Ex.: no streaming, perde-se a experiência sensorial do cinema e ganha-se conveniência, portabilidade, personalização e custo por hora imbatível.", "fontes": ["aula4-p15"] },
+    { "texto": "Como as líderes combatem substitutos: 1) elevar os custos de troca; 2) diferenciar pela experiência (cinemas com salas VIP e IMAX); 3) hibridização: adotar o substituto antes do concorrente (hospitais com telemedicina própria).", "fontes": ["aula4-p18"] }
+   ],
+   "pontosChave": [
+    { "texto": "Substituto impõe teto de preço ao setor.", "fontes": ["aula4-p12"] },
+    { "texto": "Defesas: custo de troca, experiência, hibridização.", "fontes": ["aula4-p18"] }
+   ],
+   "termos": ["g-substituto"],
+   "relacionados": ["t24"]
+  }
+ ],
+ "questoes": [
+  { "id": "q2201", "topico": "t22", "tipo": "multipla", "enunciado": "Qual ferramenta analisa o microambiente, segundo a Aula 4?", "alternativas": ["PESTEL", "5 Forças de Porter", "Matriz SWOT", "Ikigai"], "correta": 1, "explicacao": "Microambiente: específico à indústria, analisado via 5 Forças de Porter. O macro usa PESTEL.", "fontes": ["aula4-p4"] },
+  { "id": "q2202", "topico": "t22", "tipo": "multipla", "enunciado": "Qual a relação entre macro e microambiente?", "alternativas": ["São paralelas e independentes", "São interdependentes: uma mudança macro rompe a estrutura da indústria", "O micro sempre determina o macro", "Só o macro importa"], "correta": 1, "explicacao": "As duas camadas são totalmente interdependentes, não paralelas.", "fontes": ["aula4-p4"] },
+  { "id": "f2201", "topico": "t22", "tipo": "flashcard", "frente": "“Nenhuma estratégia é formulada no vácuo.”", "verso": "Robert M. Grant. A análise externa reduz a incerteza, fundamenta o strategic fit e alimenta a coluna O/A da SWOT.", "fontes": ["aula4-p3"] },
+
+  { "id": "q2301", "topico": "t23", "tipo": "multipla", "enunciado": "No PESTEL, LGPD/GDPR é uma força:", "alternativas": ["Política", "Social", "Ecológica", "Legal"], "correta": 3, "explicacao": "Legais: legislação trabalhista, defesa da concorrência, proteção de dados pessoais (LGPD/GDPR).", "fontes": ["aula4-p8"] },
+  { "id": "q2302", "topico": "t23", "tipo": "multipla", "enunciado": "Em cenário de juros elevados (força E), o que acontece segundo o slide?", "alternativas": ["Aumenta a demanda por bens duráveis", "Retração imediata da demanda por bens duráveis financiados", "Aumenta a exportação de café", "Cai a rivalidade"], "correta": 1, "explicacao": "Ocorre retração imediata da demanda por bens duráveis financiados (automóveis, construção civil).", "fontes": ["aula4-p6"] },
+  { "id": "q2303", "topico": "t23", "tipo": "multipla", "enunciado": "Qual é o objetivo principal do PESTEL?", "alternativas": ["Preencher um checklist completo", "Identificar forças de mudança realmente relevantes ao setor analisado", "Calcular o lucro médio", "Mapear competências essenciais"], "correta": 1, "explicacao": "Identificar forças motrizes relevantes ao setor, e não apenas preencher um checklist.", "fontes": ["aula4-p5"] },
+  { "id": "f2301", "topico": "t23", "tipo": "flashcard", "frente": "O que significa cada letra do PESTEL?", "verso": "Políticas, Econômicas, Sociais, Tecnológicas, Ecológicas, Legais.", "fontes": ["aula4-p5"] },
+
+  { "id": "q2401", "topico": "t24", "tipo": "multipla", "enunciado": "O que a intensidade conjunta das 5 Forças determina?", "alternativas": ["A missão da empresa", "A atratividade (potencial de lucro médio) do setor", "O número de concorrentes", "A cultura organizacional"], "correta": 1, "explicacao": "A intensidade conjunta das forças determina a atratividade do setor.", "fontes": ["aula4-p9"] },
+  { "id": "q2402", "topico": "t24", "tipo": "multipla", "enunciado": "O que reduz a ameaça de novos entrantes?", "alternativas": ["Baixa diferenciação", "Barreiras como escala, capital, marca e regulação", "Compradores concentrados", "Crescimento lento"], "correta": 1, "explicacao": "Barreiras existentes (escala, capital, marca, regulação) reduzem essa ameaça.", "fontes": ["aula4-p10"] },
+  { "id": "q2403", "topico": "t24", "tipo": "multipla", "enunciado": "Quando o poder de negociação dos fornecedores é alto?", "alternativas": ["Muitos fornecedores e insumo comum", "Poucos players, insumo essencial e alto custo de troca para o comprador", "Produto padronizado e compradores concentrados", "Barreiras de entrada altas"], "correta": 1, "explicacao": "Gatilhos dos fornecedores: poucos players, insumo essencial, alto custo de troca.", "fontes": ["aula4-p10"] },
+  { "id": "q2404", "topico": "t24", "tipo": "multipla", "enunciado": "No exemplo do Duolingo, a IA generativa:", "alternativas": ["Aumenta as barreiras de entrada", "Reduz barreiras de entrada e amplia a ameaça de substitutos", "Reduz a rivalidade", "Aumenta o poder dos fornecedores"], "correta": 1, "explicacao": "Reduz barreiras (conteúdo mais barato) e amplia a ameaça de substitutos (chatbots de IA de uso geral).", "fontes": ["aula4-p11"] },
+  { "id": "f2401", "topico": "t24", "tipo": "flashcard", "frente": "As 5 Forças de Porter", "verso": "Ameaça de novos entrantes; poder dos fornecedores; rivalidade entre concorrentes; poder dos compradores; ameaça de substitutos.", "fontes": ["aula4-p9"] },
+
+  { "id": "q2501", "topico": "t25", "tipo": "multipla", "enunciado": "Qual é o perigo estratégico de um produto substituto?", "alternativas": ["Copiar a marca", "Impor um teto de preço aos produtos do setor e limitar a rentabilidade", "Aumentar o custo dos insumos", "Mudar a legislação"], "correta": 1, "explicacao": "O substituto pode impor um teto de preço e limitar a rentabilidade média da indústria.", "fontes": ["aula4-p12"] },
+  { "id": "q2502", "topico": "t25", "tipo": "multipla", "enunciado": "Hospitais criando seus próprios canais de telemedicina é exemplo de qual defesa contra substitutos?", "alternativas": ["Elevar os custos de troca", "Diferenciação pela experiência", "Hibridização estratégica", "Guerra de preços"], "correta": 2, "explicacao": "Hibridização: adotar o substituto antes que o concorrente o faça.", "fontes": ["aula4-p18"] },
+  { "id": "q2503", "topico": "t25", "tipo": "multipla", "enunciado": "Cinemas investindo em salas VIP e IMAX contra o streaming é exemplo de:", "alternativas": ["Diferenciação pela experiência", "Custo de troca", "Hibridização", "Estratégia corporativa"], "correta": 0, "explicacao": "Focar nos pontos onde o substituto falha: diferenciação pela experiência.", "fontes": ["aula4-p18"] },
+  { "id": "f2501", "topico": "t25", "tipo": "flashcard", "frente": "Concorrente direto x substituto", "verso": "Concorrente direto: mesma indústria, mesma tecnologia ou modelo. Substituto: indústria diferente que resolve a mesma necessidade por outro caminho.", "fontes": ["aula4-p12"] }
+ ]
+}

@@ -1,0 +1,17 @@
+CHECAGEM DE ENTENDIMENTO (1 MIN)
+
+Cenário: A Diretoria exige um aumento imediato na qualidade do atendimento. O Gerente de
+RH cria um programa intensivo de treinamento diário. A equipe de vendas participa das aulas.
+
+eee srrésico
+|
+
+2
+
+E | — Criar o programa de aulas - E
+
+[e e. . 72-00
+LF | Participar do treinamento diário >
+
+(8 Gemini Notebook
+

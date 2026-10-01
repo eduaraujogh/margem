@@ -1,0 +1,1409 @@
+{
+ "modulo": {
+  "id": "mod1",
+  "titulo": "Fundamentos da estratégia",
+  "descricao": "O que é estratégia, cultura e MVV, níveis de decisão e vantagem transitória.",
+  "aulas": "Aulas 1 e 2"
+ },
+ "topicos": [
+  {
+   "id": "t01",
+   "titulo": "O que é estratégia",
+   "resumo": "Origem da palavra, definição e a ideia de escolher o que não fazer.",
+   "aprender": [
+    {
+     "texto": "A palavra “estratégia” vem do grego “strategos”, que significa “arte do general”. No início, estava ligada ao planejamento de operações militares; depois o conceito foi ampliado para negócios, política, esportes e vida pessoal.",
+     "fontes": [
+      "aula1-p10"
+     ]
+    },
+    {
+     "texto": "De forma geral, estratégia é um plano de ação cuidadosamente elaborado para alcançar um objetivo específico. Envolve analisar o ambiente, definir metas e implementar ações coordenadas para atingi-las.",
+     "fontes": [
+      "aula1-p10"
+     ]
+    },
+    {
+     "texto": "Na Aula 2, a definição central é: estratégia é a escolha consciente de para onde ir e por que ir lá. Já a operação é o conjunto de tarefas necessárias para atingir o objetivo.",
+     "fontes": [
+      "aula2-p11"
+     ]
+    },
+    {
+     "texto": "Para Salibi e Magaldi, estratégia é fazer escolhas difíceis, selecionar os territórios de atuação e saber ao que dizer “não”. Os objetivos (como as metas de Jack Welch na GE) são os fins; a estratégia é o “como” a organização vai competir para chegar lá.",
+     "fontes": [
+      "aula3-guia-p1"
+     ]
+    },
+    {
+     "texto": "Na comparação com um aplicativo de navegação: o Ponto A (onde estou) é o diagnóstico do ambiente; o Ponto B (onde quero chegar) é o objetivo de longo prazo; a rota é a estratégia, o plano de ação para alocar recursos e vencer a concorrência.",
+     "fontes": [
+      "aula2-p16"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Strategos = “arte do general”.",
+     "fontes": [
+      "aula1-p10"
+     ]
+    },
+    {
+     "texto": "Estratégia: escolha consciente de para onde ir e por que ir lá.",
+     "fontes": [
+      "aula2-p11"
+     ]
+    },
+    {
+     "texto": "Operação: tarefas necessárias para atingir o objetivo.",
+     "fontes": [
+      "aula2-p11"
+     ]
+    },
+    {
+     "texto": "“Estratégia é falar não.” (Steve Jobs)",
+     "fontes": [
+      "aula3-guia-p1"
+     ]
+    },
+    {
+     "texto": "Objetivos são os fins; estratégia é o caminho (o “como”).",
+     "fontes": [
+      "aula3-guia-p1"
+     ]
+    }
+   ],
+   "termos": [
+    "g-estrategia",
+    "g-operacao"
+   ],
+   "relacionados": [
+    "t02",
+    "t11"
+   ]
+  },
+  {
+   "id": "t02",
+   "titulo": "Decisão estratégica x operacional",
+   "resumo": "Fazer bem feito algo que nem deveria estar sendo feito não adianta.",
+   "aprender": [
+    {
+     "texto": "Na metáfora da viagem, decidir o destino (Atacama em vez de Alaska, nos slides; praia em vez de montanhas, no plano de aula) é a decisão estratégica. Calibrar pneus, abastecer, arrumar as malas e trocar o óleo são ações operacionais.",
+     "fontes": [
+      "aula2-p12",
+      "plano-aulas-1-2-p5"
+     ]
+    },
+    {
+     "texto": "Ser um motorista impecável na estrada errada leva ao fracasso. Nas empresas é igual: não adianta fazer muito bem feito (operação) algo que nem deveria estar sendo feito (estratégia).",
+     "fontes": [
+      "aula2-p12",
+      "plano-aulas-1-2-p6"
+     ]
+    },
+    {
+     "texto": "As decisões estratégicas se diferenciam das operacionais porque definem a direção geral, envolvem grandes volumes de recursos, têm impacto de longo prazo e lidam com incertezas.",
+     "fontes": [
+      "aula2-p12"
+     ]
+    },
+    {
+     "texto": "Exemplo da Blockbuster: focava na excelência operacional das lojas físicas (logística de fitas, prateleiras limpas, multas por atraso). Mantinha uma operação impecável de um modelo falido.",
+     "fontes": [
+      "aula2-p13"
+     ]
+    },
+    {
+     "texto": "Exemplo do plano de aula: a padaria de bairro foca na excelência operacional da sua única loja; o “Bauru do Ponto” decidiu virar rede de franquias e padronizou processos e sabor. A primeira é operacional; a segunda, estratégica.",
+     "fontes": [
+      "plano-aulas-1-2-p6"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Estratégica: define direção, muitos recursos, longo prazo, incerteza.",
+     "fontes": [
+      "aula2-p12"
+     ]
+    },
+    {
+     "texto": "Operacional: as tarefas necessárias para fazer o veículo rodar (pneus, combustível, malas, óleo).",
+     "fontes": [
+      "plano-aulas-1-2-p5",
+      "aula2-p12"
+     ]
+    },
+    {
+     "texto": "Comprar um forno mais rápido é operacional (eficiência).",
+     "fontes": [
+      "plano-aulas-1-2-p7"
+     ]
+    },
+    {
+     "texto": "Mudar o modelo para assinaturas B2B é estratégico (muda direção e cliente).",
+     "fontes": [
+      "plano-aulas-1-2-p7"
+     ]
+    }
+   ],
+   "termos": [
+    "g-estrategia",
+    "g-operacao"
+   ],
+   "relacionados": [
+    "t01",
+    "t08",
+    "t06"
+   ]
+  },
+  {
+   "id": "t03",
+   "titulo": "Cultura, missão, visão e valores",
+   "resumo": "A cultura vem da história e dos fundadores; MVV a formaliza.",
+   "aprender": [
+    {
+     "texto": "Cultura organizacional é a personalidade da empresa: o conjunto de regras não escritas, “como as coisas funcionam por aqui”, o que é recompensado, tolerado ou inaceitável. É o DNA da organização.",
+     "fontes": [
+      "plano-aulas-1-2-p5"
+     ]
+    },
+    {
+     "texto": "Esse DNA vem, em grande parte, da história de surgimento da empresa e das crenças inegociáveis dos fundadores: as dores, os primeiros problemas, os sacrifícios e as primeiras vitórias.",
+     "fontes": [
+      "plano-aulas-1-2-p5",
+      "aula2-p21"
+     ]
+    },
+    {
+     "texto": "Missão formaliza o propósito histórico (por que nascemos). Visão formaliza o sonho grande (onde queremos chegar). Valores formalizam as crenças inegociáveis (como agimos).",
+     "fontes": [
+      "plano-aulas-1-2-p5"
+     ]
+    },
+    {
+     "texto": "Na metáfora da casa: o telhado é a visão (onde chegar em 5, 10 ou 20 anos), as paredes são a missão (o dia a dia: por que existimos, o que fazemos, para quem e como) e o alicerce são os valores (no que acreditamos, regras inegociáveis).",
+     "fontes": [
+      "aula2-p29"
+     ]
+    },
+    {
+     "texto": "Caso Natura: em 1969, Luiz Seabra abriu uma pequena fábrica e loja na Rua Oscar Freire e atendia cada cliente pessoalmente. Em 1974 fechou a loja e apostou 100% na venda direta. Daí veio o “Bem Estar Bem” e, nos anos 2000, o uso da biodiversidade amazônica com comunidades locais, como extensão natural da cultura.",
+     "fontes": [
+      "aula2-p24",
+      "aula2-p26",
+      "aula2-p27"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Cultura = personalidade, DNA, “como as coisas funcionam por aqui”.",
+     "fontes": [
+      "plano-aulas-1-2-p5"
+     ]
+    },
+    {
+     "texto": "Missão = propósito histórico, o que fazem hoje.",
+     "fontes": [
+      "plano-aulas-1-2-p5",
+      "aula2-p30"
+     ]
+    },
+    {
+     "texto": "Visão = sonho grande, onde querem chegar com prazo definido.",
+     "fontes": [
+      "plano-aulas-1-2-p5",
+      "aula2-p30"
+     ]
+    },
+    {
+     "texto": "Valores = crenças inegociáveis, como agimos.",
+     "fontes": [
+      "plano-aulas-1-2-p5"
+     ]
+    },
+    {
+     "texto": "Casa: telhado = visão; paredes = missão; alicerce = valores.",
+     "fontes": [
+      "aula2-p29"
+     ]
+    }
+   ],
+   "termos": [
+    "g-cultura",
+    "g-missao",
+    "g-visao",
+    "g-valores"
+   ],
+   "relacionados": [
+    "t01"
+   ]
+  },
+  {
+   "id": "t04",
+   "titulo": "Do mapa de papel ao GPS",
+   "resumo": "Planejamento clássico rígido x planejamento ágil; estratégia deliberada x emergente.",
+   "aprender": [
+    {
+     "texto": "Nas décadas de 1970 e 1980, o planejamento estratégico era como um mapa impresso: grosso, rígido e feito para durar 5 ou 10 anos, porque se acreditava que o mundo era previsível.",
+     "fontes": [
+      "aula2-p15",
+      "plano-aulas-1-2-p7"
+     ]
+    },
+    {
+     "texto": "Hoje ele funciona como o Waze ou o Google Maps: o destino (a visão) está definido, mas a rota é recalculada continuamente diante de engarrafamentos, acidentes ou bloqueios. Estratégia moderna é um processo contínuo de aprendizado e recalibragem.",
+     "fontes": [
+      "aula2-p15",
+      "plano-aulas-1-2-p7"
+     ]
+    },
+    {
+     "texto": "Planejamento clássico: o trem nos trilhos, planos rígidos de 5 a 10 anos, estratégia deliberada (Mintzberg). Planejamento ágil: o barco a vela, o objetivo se mantém mas a rota muda conforme o vento, estratégia emergente (Mintzberg).",
+     "fontes": [
+      "aula2-p31",
+      "aula2-p32"
+     ]
+    },
+    {
+     "texto": "Modelo de Mintzberg e Waters: Estratégia Realizada = Estratégia Deliberada + Estratégia Emergente. A pretendida é o plano formal; a deliberada é a parte executada como planejado; a não realizada foi abandonada; a emergente surge da base, sem intenção formal; a realizada é o comportamento real da empresa.",
+     "fontes": [
+      "plano-aulas-1-2-p14",
+      "plano-aulas-1-2-p15"
+     ]
+    },
+    {
+     "texto": "Kodak inventou a câmera digital nos anos 1970, mas manteve o foco em filmes e faliu. A Fujifilm “recalculou a rota” e usou seu conhecimento químico para entrar em cosméticos, medicamentos e telas de LCD.",
+     "fontes": [
+      "aula2-p17"
+     ]
+    },
+    {
+     "texto": "Mesbla e Mappin mantiveram o planejamento focado em grandes lojas físicas e crédito via carnê e faliram. A Magalu recalculou a rota: lançou lojas virtuais com terminais de computador antes da internet ser popular e virou plataforma tecnológica.",
+     "fontes": [
+      "plano-aulas-1-2-p7",
+      "plano-aulas-1-2-p8"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Mapa de papel / trem nos trilhos = clássico, rígido, deliberado.",
+     "fontes": [
+      "aula2-p15",
+      "aula2-p31"
+     ]
+    },
+    {
+     "texto": "GPS / barco a vela = ágil, rota recalculada, emergente.",
+     "fontes": [
+      "aula2-p15",
+      "aula2-p32"
+     ]
+    },
+    {
+     "texto": "Realizada = Deliberada + Emergente.",
+     "fontes": [
+      "plano-aulas-1-2-p14"
+     ]
+    },
+    {
+     "texto": "Kodak (ficou no filme) x Fujifilm (diversificou).",
+     "fontes": [
+      "aula2-p17"
+     ]
+    }
+   ],
+   "termos": [
+    "g-deliberada",
+    "g-emergente"
+   ],
+   "relacionados": [
+    "t07",
+    "t12"
+   ]
+  },
+  {
+   "id": "t05",
+   "titulo": "Estratégia corporativa x de negócios",
+   "resumo": "Em quais negócios atuar x como vencer em cada negócio.",
+   "aprender": [
+    {
+     "texto": "Estratégia corporativa responde: “Em quais negócios devemos atuar?”. Foco no todo: diversificação, fusões, alocação de capital. Exemplo: a Disney decide comprar a Marvel e a Fox.",
+     "fontes": [
+      "aula2-p35"
+     ]
+    },
+    {
+     "texto": "Estratégia de negócios responde: “Como vamos vencer a concorrência neste negócio?”. Foco na unidade competitiva: diferenciação ou custo (Porter). Exemplo: como o Disney+ vai vencer a Netflix no streaming.",
+     "fontes": [
+      "aula2-p35"
+     ]
+    },
+    {
+     "texto": "Na metáfora do clube esportivo: decidir em quais modalidades investir é corporativo; decidir como o time de futebol vai vencer o campeonato é de negócios.",
+     "fontes": [
+      "plano-aulas-1-2-p8",
+      "plano-aulas-1-2-p9"
+     ]
+    },
+    {
+     "texto": "Grupo O Boticário: a diretoria decide em quais negócios estar (O Boticário, Eudora, Quem Disse, Berenice?, Beleza na Web, Truss), o que é corporativo. A Eudora define como competir com Natura e Avon na venda direta, o que é de negócios.",
+     "fontes": [
+      "plano-aulas-1-2-p9"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Corporativa = onde jogar (quais tabuleiros).",
+     "fontes": [
+      "aula2-p36"
+     ]
+    },
+    {
+     "texto": "De negócios = como vencer o concorrente direto naquele mercado.",
+     "fontes": [
+      "aula2-p36"
+     ]
+    },
+    {
+     "texto": "Comprar empresas e gerir portfólio é corporativo.",
+     "fontes": [
+      "plano-aulas-1-2-p9"
+     ]
+    }
+   ],
+   "termos": [
+    "g-corporativa",
+    "g-negocios"
+   ],
+   "relacionados": [
+    "t06"
+   ]
+  },
+  {
+   "id": "t06",
+   "titulo": "Níveis estratégico, tático e operacional",
+   "resumo": "Quem decide, em que prazo, e como a estratégia chega à base.",
+   "aprender": [
+    {
+     "texto": "Nível estratégico (o cérebro, a bússola): alta diretoria e C-Level, longo prazo (anos), foco no ambiente externo, sobrevivência e visão do todo. Decisões de alto impacto e risco.",
+     "fontes": [
+      "aula2-p38"
+     ]
+    },
+    {
+     "texto": "Nível tático (a ponte): gerentes de departamento e lideranças médias, médio prazo (semestres/ano). Papel de tradutor: transformar metas abstratas da diretoria (“aumentar receita”) em processos práticos para a base (“nova campanha de marketing”).",
+     "fontes": [
+      "aula2-p39"
+     ]
+    },
+    {
+     "texto": "Nível operacional (os músculos, o motor): supervisores, analistas e operadores, curto prazo (dias/meses), foco na execução da rotina, eficiência diária e métricas claras.",
+     "fontes": [
+      "aula2-p38"
+     ]
+    },
+    {
+     "texto": "Na metáfora do navio: o comandante define o destino (estratégico); os chefes de seção traduzem para cada setor (tático); a equipe de execução faz a rotina diária (operacional).",
+     "fontes": [
+      "plano-aulas-1-2-p10"
+     ]
+    },
+    {
+     "texto": "Exemplo Nubank: expandir para Colômbia e México é estratégico; o RH contratar engenheiros locais e as finanças estruturarem o orçamento internacional é tático; os atendentes respondendo clientes colombianos no chat é operacional.",
+     "fontes": [
+      "plano-aulas-1-2-p10",
+      "plano-aulas-1-2-p11"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Estratégico: diretoria, longo prazo (anos).",
+     "fontes": [
+      "aula2-p38"
+     ]
+    },
+    {
+     "texto": "Tático: gerentes, médio prazo (semestres/ano), tradutor.",
+     "fontes": [
+      "aula2-p39"
+     ]
+    },
+    {
+     "texto": "Operacional: supervisores e operadores, curto prazo (dias/meses).",
+     "fontes": [
+      "aula2-p38"
+     ]
+    },
+    {
+     "texto": "“A estratégia falha se não for traduzida.”",
+     "fontes": [
+      "aula2-p39"
+     ]
+    }
+   ],
+   "termos": [
+    "g-tatico"
+   ],
+   "relacionados": [
+    "t02",
+    "t05"
+   ]
+  },
+  {
+   "id": "t07",
+   "titulo": "Vantagem transitória",
+   "resumo": "Rita McGrath: surfar ondas em vez de defender um castelo.",
+   "aprender": [
+    {
+     "texto": "A ideia clássica de vantagem competitiva sustentável era construir um diferencial (um fosso em volta do castelo) e defendê-lo para sempre. O problema: o mercado atual é rápido demais, os fossos secam e a inovação destrói muros da noite para o dia.",
+     "fontes": [
+      "aula2-p41"
+     ]
+    },
+    {
+     "texto": "Rita McGrath (Columbia) defende que a vantagem competitiva é passageira. A empresa deve agir como um surfista: identificar a onda, surfar o pico e pular fora antes que ela quebre, já remando para a próxima.",
+     "fontes": [
+      "aula2-p47",
+      "plano-aulas-1-2-p12"
+     ]
+    },
+    {
+     "texto": "As 5 fases do ciclo de uma vantagem transitória: lançamento (launch), aceleração (ramp-up), exploração máxima (exploitation), reconfiguração (reconfiguration) e desengajamento (disengagement).",
+     "fontes": [
+      "plano-aulas-1-2-p16"
+     ]
+    },
+    {
+     "texto": "Segundo o guia da Aula 3, essas vantagens temporárias duram de 2 a 5 anos. O planejamento continua necessário, em ciclos de 1 ano, com revisões profundas de 2 a 3 vezes por ano.",
+     "fontes": [
+      "aula3-guia-p2"
+     ]
+    },
+    {
+     "texto": "Natura &Co pulou de onda em onda: da venda direta para lojas físicas e e-commerce, depois para a compra de Aesop, The Body Shop (depois vendida) e Avon.",
+     "fontes": [
+      "plano-aulas-1-2-p12"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Castelo com fosso = vantagem sustentável (visão antiga).",
+     "fontes": [
+      "aula2-p41"
+     ]
+    },
+    {
+     "texto": "Surfista = vantagem transitória (McGrath).",
+     "fontes": [
+      "aula2-p47"
+     ]
+    },
+    {
+     "texto": "Fases: lançamento, aceleração, exploração, reconfiguração, desengajamento.",
+     "fontes": [
+      "plano-aulas-1-2-p16"
+     ]
+    },
+    {
+     "texto": "Vantagens temporárias duram de 2 a 5 anos.",
+     "fontes": [
+      "aula3-guia-p2"
+     ]
+    }
+   ],
+   "termos": [
+    "g-transitoria",
+    "g-sustentavel"
+   ],
+   "relacionados": [
+    "t04",
+    "t12"
+   ]
+  },
+  {
+   "id": "t08",
+   "titulo": "Porter: eficácia operacional x posicionamento",
+   "resumo": "Fazer melhor o mesmo não é estratégia; estratégia é ser diferente e escolher o que não fazer.",
+   "aprender": [
+    {
+     "texto": "Porter adverte que muitos executivos confundem eficácia operacional com estratégia. Eficácia operacional é realizar atividades semelhantes melhor que os concorrentes (produzir mais rápido, eliminar refugos, adotar SAP, Lean).",
+     "fontes": [
+      "plano-aulas-1-2-p13"
+     ]
+    },
+    {
+     "texto": "Quando todas as empresas fazem as mesmas coisas melhor, elas se tornam idênticas (convergência competitiva) e a competição vira uma guerra destrutiva de preços.",
+     "fontes": [
+      "plano-aulas-1-2-p13"
+     ]
+    },
+    {
+     "texto": "Posicionamento estratégico é realizar atividades diferentes das dos concorrentes, ou semelhantes de maneiras diferentes, entregando uma combinação única de valor. Pode se basear em variedade (Jiffy Lube), necessidade (Bessemer Trust) ou acesso (Carmike Cinemas).",
+     "fontes": [
+      "plano-aulas-1-2-p13",
+      "plano-aulas-1-2-p14"
+     ]
+    },
+    {
+     "texto": "A essência da estratégia é escolher o que não fazer (trade-offs). A sustentabilidade vem do fit estratégico, o alinhamento entre todas as atividades, que impede a cópia de uma parte solta.",
+     "fontes": [
+      "plano-aulas-1-2-p14"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Eficácia operacional: fazer o mesmo, melhor.",
+     "fontes": [
+      "plano-aulas-1-2-p13"
+     ]
+    },
+    {
+     "texto": "Posicionamento: fazer diferente ou de modo diferente.",
+     "fontes": [
+      "plano-aulas-1-2-p13"
+     ]
+    },
+    {
+     "texto": "Bases: variedade, necessidade, acesso.",
+     "fontes": [
+      "plano-aulas-1-2-p13",
+      "plano-aulas-1-2-p14"
+     ]
+    },
+    {
+     "texto": "Trade-off: escolher o que NÃO fazer.",
+     "fontes": [
+      "plano-aulas-1-2-p14"
+     ]
+    }
+   ],
+   "termos": [
+    "g-eficacia",
+    "g-tradeoff"
+   ],
+   "relacionados": [
+    "t02",
+    "t01"
+   ]
+  },
+  {
+   "id": "t09",
+   "titulo": "Visão sistêmica e autores clássicos",
+   "resumo": "O todo é maior que a soma das partes; Sun Tzu, Porter e Mintzberg.",
+   "aprender": [
+    {
+     "texto": "Visão sistêmica é compreender o todo a partir da análise das partes e da interação entre elas. Ao ver a organização como um sistema, analisa-se o ambiente: as forças internas e externas que influenciam seu funcionamento.",
+     "fontes": [
+      "aula1-p8"
+     ]
+    },
+    {
+     "texto": "Conhecer essa dinâmica permite propor ações mais eficazes, principalmente de médio e longo prazo. A visão sistêmica se baseia na ideia de que o todo é muito maior que a soma das partes.",
+     "fontes": [
+      "aula1-p8"
+     ]
+    },
+    {
+     "texto": "“A Arte da Guerra”, de Sun Tzu, é um tratado militar do século V a.C. cujas lições foram adaptadas para negócios, gestão e planejamento estratégico. Sun Tzu ensina que a melhor vitória é obtida sem conflito.",
+     "fontes": [
+      "aula1-p11",
+      "aula1-p12"
+     ]
+    },
+    {
+     "texto": "Michael Porter (Harvard) é conhecido pelas Cinco Forças e defende que estratégia competitiva é ser único, com uma proposta de valor diferente da dos concorrentes. Henry Mintzberg distinguiu estratégia deliberada (como planejada) de emergente (que surge da ação).",
+     "fontes": [
+      "aula1-p18"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Visão sistêmica: o todo é maior que a soma das partes.",
+     "fontes": [
+      "aula1-p8"
+     ]
+    },
+    {
+     "texto": "Sun Tzu: vencer sem lutar.",
+     "fontes": [
+      "aula1-p12"
+     ]
+    },
+    {
+     "texto": "Porter: Cinco Forças, ser único.",
+     "fontes": [
+      "aula1-p18"
+     ]
+    },
+    {
+     "texto": "Mintzberg: deliberada x emergente.",
+     "fontes": [
+      "aula1-p18"
+     ]
+    }
+   ],
+   "termos": [
+    "g-sistemica"
+   ],
+   "relacionados": [
+    "t04",
+    "t24"
+   ]
+  },
+  {
+   "id": "t10",
+   "titulo": "Ikigai",
+   "resumo": "Razão de ser: o cruzamento de quatro elementos.",
+   "aprender": [
+    {
+     "texto": "Ikigai é um conceito japonês que significa “razão de ser” ou “razão para acordar pela manhã”. Está no cruzamento de quatro elementos: o que você ama (paixão), o que o mundo precisa (missão), pelo que você pode ser pago (vocação) e no que você é bom (profissão).",
+     "fontes": [
+      "aula1-p21"
+     ]
+    },
+    {
+     "texto": "A origem não é claramente documentada, mas a ideia é enraizada na cultura japonesa, especialmente em Okinawa, conhecida por muitos centenários.",
+     "fontes": [
+      "aula1-p21"
+     ]
+    },
+    {
+     "texto": "Para preencher a mandala, recomenda-se fazer à mão, em quatro seções: o que amo fazer, o que posso fazer bem, o que posso ser pago para fazer e o que o mundo precisa.",
+     "fontes": [
+      "aula1-p24"
+     ]
+    }
+   ],
+   "pontosChave": [
+    {
+     "texto": "Paixão: o que você ama.",
+     "fontes": [
+      "aula1-p21"
+     ]
+    },
+    {
+     "texto": "Missão: o que o mundo precisa.",
+     "fontes": [
+      "aula1-p21"
+     ]
+    },
+    {
+     "texto": "Vocação: pelo que você pode ser pago.",
+     "fontes": [
+      "aula1-p21"
+     ]
+    },
+    {
+     "texto": "Profissão: no que você é bom.",
+     "fontes": [
+      "aula1-p21"
+     ]
+    }
+   ],
+   "termos": [],
+   "relacionados": [
+    "t31"
+   ]
+  }
+ ],
+ "questoes": [
+  {
+   "id": "q0101",
+   "topico": "t01",
+   "tipo": "multipla",
+   "enunciado": "O termo grego “strategos”, origem da palavra estratégia, significa:",
+   "alternativas": [
+    "Arte do general",
+    "Plano de longo prazo",
+    "Escolha do caminho",
+    "Arte da guerra"
+   ],
+   "correta": 0,
+   "explicacao": "O slide da Aula 1 diz que “strategos” significa “arte do general”.",
+   "fontes": [
+    "aula1-p10"
+   ]
+  },
+  {
+   "id": "q0102",
+   "topico": "t01",
+   "tipo": "multipla",
+   "enunciado": "Segundo a Aula 2, qual a diferença entre estratégia e operação?",
+   "alternativas": [
+    "Estratégia é a escolha consciente de para onde ir e por que; operação são as tarefas para atingir o objetivo",
+    "Estratégia é o orçamento anual; operação é o plano de cinco anos",
+    "Estratégia cabe aos gerentes; operação cabe à diretoria",
+    "Não há diferença: são sinônimos"
+   ],
+   "correta": 0,
+   "explicacao": "Conceito central do Bloco A: estratégia é a escolha consciente de para onde ir e por que ir lá; operação é o conjunto de tarefas para atingir o objetivo.",
+   "fontes": [
+    "aula2-p11"
+   ]
+  },
+  {
+   "id": "q0103",
+   "topico": "t01",
+   "tipo": "multipla",
+   "enunciado": "Para Salibi e Magaldi, qual papel têm objetivos como as metas de Jack Welch na GE (ser nº 1 ou 2 em cada setor)?",
+   "alternativas": [
+    "São a própria estratégia",
+    "São os fins, não o caminho",
+    "São ações operacionais",
+    "São valores da empresa"
+   ],
+   "correta": 1,
+   "explicacao": "O guia diz que a estratégia estabelece o “como”; os objetivos são apenas os fins, não o caminho.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "q0104",
+   "topico": "t01",
+   "tipo": "multipla",
+   "enunciado": "Na analogia com o app de navegação, a “rota” corresponde a:",
+   "alternativas": [
+    "Diagnóstico do ambiente",
+    "Objetivo de longo prazo",
+    "Estratégia: plano de ação para alocar recursos e vencer a concorrência",
+    "Operação diária"
+   ],
+   "correta": 2,
+   "explicacao": "Ponto A = diagnóstico; Ponto B = objetivo; a rota = a estratégia.",
+   "fontes": [
+    "aula2-p16"
+   ]
+  },
+  {
+   "id": "f0101",
+   "topico": "t01",
+   "tipo": "flashcard",
+   "frente": "“Estratégia é falar não.” Quem disse e o que significa?",
+   "verso": "Steve Jobs. Estratégia é fazer escolhas difíceis, selecionar territórios de atuação e saber ao que dizer “não”.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "q0201",
+   "topico": "t02",
+   "tipo": "multipla",
+   "enunciado": "Uma padaria compra um forno elétrico que assa pães 10 minutos mais rápido. Segundo o gabarito do professor, essa decisão é:",
+   "alternativas": [
+    "Estratégica",
+    "Operacional",
+    "Corporativa",
+    "Tática"
+   ],
+   "correta": 1,
+   "explicacao": "A compra do forno é operacional: é uma melhoria de eficiência.",
+   "fontes": [
+    "plano-aulas-1-2-p6",
+    "plano-aulas-1-2-p7"
+   ]
+  },
+  {
+   "id": "q0202",
+   "topico": "t02",
+   "tipo": "multipla",
+   "enunciado": "A mesma padaria fecha o balcão e passa a atender só empresas por assinatura mensal. Isso é:",
+   "alternativas": [
+    "Operacional, porque muda a rotina",
+    "Estratégico, porque muda a direção e o cliente de destino",
+    "Tático, porque envolve gerentes",
+    "Irrelevante para a estratégia"
+   ],
+   "correta": 1,
+   "explicacao": "Gabarito: a mudança para assinaturas B2B é estratégica, pois muda a direção e o cliente de destino.",
+   "fontes": [
+    "plano-aulas-1-2-p6",
+    "plano-aulas-1-2-p7"
+   ]
+  },
+  {
+   "id": "q0203",
+   "topico": "t02",
+   "tipo": "multipla",
+   "enunciado": "Qual destas NÃO é uma característica das decisões estratégicas citada na Aula 2?",
+   "alternativas": [
+    "Definem a direção geral",
+    "Envolvem grandes volumes de recursos",
+    "Têm impacto de curto prazo e baixa incerteza",
+    "Lidam com incertezas"
+   ],
+   "correta": 2,
+   "explicacao": "Decisões estratégicas têm impacto de longo prazo e lidam com incertezas.",
+   "fontes": [
+    "aula2-p12"
+   ]
+  },
+  {
+   "id": "q0204",
+   "topico": "t02",
+   "tipo": "multipla",
+   "enunciado": "O slide sobre a Blockbuster resume o caso como:",
+   "alternativas": [
+    "Uma operação ruim de um modelo vencedor",
+    "Uma operação impecável de um modelo falido",
+    "Uma estratégia de franquias bem-sucedida",
+    "Uma empresa que diversificou a tempo"
+   ],
+   "correta": 1,
+   "explicacao": "“Blockbuster: Mantinha uma operação impecável de um modelo falido.”",
+   "fontes": [
+    "aula2-p13"
+   ]
+  },
+  {
+   "id": "f0201",
+   "topico": "t02",
+   "tipo": "flashcard",
+   "frente": "Padaria de bairro x Bauru do Ponto",
+   "verso": "Padaria: foco operacional na única loja. Bauru do Ponto: decisão estratégica de virar rede de franquias, com padronização de processos e sabor.",
+   "fontes": [
+    "plano-aulas-1-2-p6"
+   ]
+  },
+  {
+   "id": "q0301",
+   "topico": "t03",
+   "tipo": "multipla",
+   "enunciado": "Se a Apple diz “Fazer os melhores produtos da terra”, isso é:",
+   "alternativas": [
+    "Missão",
+    "Visão",
+    "Valores",
+    "Cultura"
+   ],
+   "correta": 0,
+   "explicacao": "Resposta do slide: Missão (o que fazem hoje).",
+   "fontes": [
+    "aula2-p30"
+   ]
+  },
+  {
+   "id": "q0302",
+   "topico": "t03",
+   "tipo": "multipla",
+   "enunciado": "E se a Apple disser “Ser 100% carbono neutro até 2030”?",
+   "alternativas": [
+    "Missão",
+    "Visão",
+    "Valores",
+    "Estratégia operacional"
+   ],
+   "correta": 1,
+   "explicacao": "Resposta do slide: Visão (onde querem chegar com prazo definido).",
+   "fontes": [
+    "aula2-p30"
+   ]
+  },
+  {
+   "id": "q0303",
+   "topico": "t03",
+   "tipo": "multipla",
+   "enunciado": "Na metáfora da construção da casa, os valores são:",
+   "alternativas": [
+    "O telhado",
+    "As paredes",
+    "O alicerce",
+    "As janelas"
+   ],
+   "correta": 2,
+   "explicacao": "Telhado = visão; paredes = missão; alicerce = valores.",
+   "fontes": [
+    "aula2-p29"
+   ]
+  },
+  {
+   "id": "q0304",
+   "topico": "t03",
+   "tipo": "multipla",
+   "enunciado": "Em 1974, qual decisão a Natura tomou?",
+   "alternativas": [
+    "Abriu a primeira loja na Rua Oscar Freire",
+    "Fechou a única loja física e apostou 100% na venda direta",
+    "Comprou a Avon",
+    "Lançou o e-commerce"
+   ],
+   "correta": 1,
+   "explicacao": "Em 1974 a empresa fechou a única loja física e apostou 100% no modelo de venda direta.",
+   "fontes": [
+    "aula2-p26"
+   ]
+  },
+  {
+   "id": "q0305",
+   "topico": "t03",
+   "tipo": "multipla",
+   "enunciado": "De onde vem, em grande parte, o DNA (cultura) de uma organização?",
+   "alternativas": [
+    "Do organograma atual",
+    "Da história de surgimento e das crenças inegociáveis dos fundadores",
+    "Das metas de vendas do ano",
+    "Do mercado concorrente"
+   ],
+   "correta": 1,
+   "explicacao": "O plano de aula diz que esse DNA vem da história do surgimento da empresa e das crenças inegociáveis dos fundadores.",
+   "fontes": [
+    "plano-aulas-1-2-p5"
+   ]
+  },
+  {
+   "id": "f0301",
+   "topico": "t03",
+   "tipo": "flashcard",
+   "frente": "Missão, visão e valores formalizam o quê?",
+   "verso": "Missão: o propósito histórico (por que nascemos). Visão: o sonho grande (onde queremos chegar). Valores: as crenças inegociáveis (como agimos).",
+   "fontes": [
+    "plano-aulas-1-2-p5"
+   ]
+  },
+  {
+   "id": "q0401",
+   "topico": "t04",
+   "tipo": "multipla",
+   "enunciado": "Segundo o modelo de Mintzberg e Waters, a estratégia realizada é igual a:",
+   "alternativas": [
+    "Pretendida + Não realizada",
+    "Deliberada + Emergente",
+    "Corporativa + de Negócios",
+    "Tática + Operacional"
+   ],
+   "correta": 1,
+   "explicacao": "Estratégia Realizada = Estratégia Deliberada + Estratégia Emergente.",
+   "fontes": [
+    "plano-aulas-1-2-p14"
+   ]
+  },
+  {
+   "id": "q0402",
+   "topico": "t04",
+   "tipo": "multipla",
+   "enunciado": "A metáfora do “trem nos trilhos” representa:",
+   "alternativas": [
+    "O planejamento ágil e a estratégia emergente",
+    "O planejamento clássico e a estratégia deliberada",
+    "A vantagem transitória",
+    "O nível tático"
+   ],
+   "correta": 1,
+   "explicacao": "Planejamento clássico: trem nos trilhos, planos rígidos de 5 a 10 anos, estratégia deliberada.",
+   "fontes": [
+    "aula2-p31"
+   ]
+  },
+  {
+   "id": "q0403",
+   "topico": "t04",
+   "tipo": "multipla",
+   "enunciado": "Estratégia emergente, segundo o plano de aula, é:",
+   "alternativas": [
+    "A parte do plano executada exatamente como previsto",
+    "Os planos abandonados por erro de premissa",
+    "Padrões que surgem ao longo do tempo em resposta a imprevistos, vindos da base, sem intenção formal prévia",
+    "O plano formal da alta administração"
+   ],
+   "correta": 2,
+   "explicacao": "Definição do plano de aula para estratégia emergente.",
+   "fontes": [
+    "plano-aulas-1-2-p15"
+   ]
+  },
+  {
+   "id": "q0404",
+   "topico": "t04",
+   "tipo": "multipla",
+   "enunciado": "O que a Fujifilm fez de diferente da Kodak?",
+   "alternativas": [
+    "Inventou a câmera digital",
+    "Manteve o foco em filmes fotográficos",
+    "Usou seu conhecimento químico para entrar em cosméticos, medicamentos e telas de LCD",
+    "Fechou todas as lojas físicas"
+   ],
+   "correta": 2,
+   "explicacao": "A Fujifilm “recalculou a rota” e diversificou; a Kodak, que inventou a câmera digital, manteve o foco em filmes e faliu.",
+   "fontes": [
+    "aula2-p17"
+   ]
+  },
+  {
+   "id": "f0401",
+   "topico": "t04",
+   "tipo": "flashcard",
+   "frente": "Mapa de papel x Waze",
+   "verso": "Mapa: planejamento dos anos 1970/80, rígido, para 5 ou 10 anos. Waze: destino (visão) definido, rota recalculada continuamente.",
+   "fontes": [
+    "aula2-p15"
+   ]
+  },
+  {
+   "id": "q0501",
+   "topico": "t05",
+   "tipo": "multipla",
+   "enunciado": "A Magalu decide comprar a Jovem Nerd e o Kabum!. Segundo o slide, isso é estratégia:",
+   "alternativas": [
+    "Corporativa",
+    "De negócios",
+    "Operacional",
+    "Tática"
+   ],
+   "correta": 0,
+   "explicacao": "Corporativa: decidindo em quais tabuleiros jogar.",
+   "fontes": [
+    "aula2-p36"
+   ]
+  },
+  {
+   "id": "q0502",
+   "topico": "t05",
+   "tipo": "multipla",
+   "enunciado": "A Magalu oferece “Frete Grátis em 24h” para smartphones no app. Isso é estratégia:",
+   "alternativas": [
+    "Corporativa",
+    "De negócios",
+    "Emergente",
+    "Operacional"
+   ],
+   "correta": 1,
+   "explicacao": "De negócios: como vencer o concorrente direto naquele mercado.",
+   "fontes": [
+    "aula2-p36"
+   ]
+  },
+  {
+   "id": "q0503",
+   "topico": "t05",
+   "tipo": "multipla",
+   "enunciado": "A Petrobras vende sua rede de postos (BR Distribuidora) para focar no pré-sal. Segundo o gabarito, isso é:",
+   "alternativas": [
+    "Estratégia de negócios",
+    "Estratégia corporativa",
+    "Decisão operacional",
+    "Decisão tática"
+   ],
+   "correta": 1,
+   "explicacao": "Estratégia corporativa, pois trata do portfólio de negócios e do foco de atuação do grupo.",
+   "fontes": [
+    "plano-aulas-1-2-p9"
+   ]
+  },
+  {
+   "id": "f0501",
+   "topico": "t05",
+   "tipo": "flashcard",
+   "frente": "Disney compra Marvel e Fox x Disney+ contra Netflix",
+   "verso": "Comprar Marvel e Fox: estratégia corporativa (em quais negócios atuar). Disney+ vencer a Netflix: estratégia de negócios (como vencer neste negócio).",
+   "fontes": [
+    "aula2-p35"
+   ]
+  },
+  {
+   "id": "q0601",
+   "topico": "t06",
+   "tipo": "multipla",
+   "enunciado": "Montar o quadro de horários e turnos dos atendentes do supermercado para o feriado é planejamento:",
+   "alternativas": [
+    "Estratégico",
+    "Tático",
+    "Operacional",
+    "Corporativo"
+   ],
+   "correta": 2,
+   "explicacao": "Gabarito: operacional (curto prazo, focado na rotina imediata de tarefas).",
+   "fontes": [
+    "plano-aulas-1-2-p11"
+   ]
+  },
+  {
+   "id": "q0602",
+   "topico": "t06",
+   "tipo": "multipla",
+   "enunciado": "Qual o horizonte do nível tático, segundo a Aula 2?",
+   "alternativas": [
+    "Anos",
+    "Semestres/ano",
+    "Dias/meses",
+    "Décadas"
+   ],
+   "correta": 1,
+   "explicacao": "Nível tático: médio prazo (semestres/ano).",
+   "fontes": [
+    "aula2-p39"
+   ]
+  },
+  {
+   "id": "q0603",
+   "topico": "t06",
+   "tipo": "multipla",
+   "enunciado": "Por que o gerente é chamado de “a ponte”?",
+   "alternativas": [
+    "Porque executa a rotina diária",
+    "Porque traduz metas abstratas da diretoria em processos práticos para a base",
+    "Porque define o destino da empresa",
+    "Porque negocia com fornecedores externos"
+   ],
+   "correta": 1,
+   "explicacao": "O papel fundamental do nível tático é ser tradutor entre estratégia e operação.",
+   "fontes": [
+    "aula2-p39"
+   ]
+  },
+  {
+   "id": "q0604",
+   "topico": "t06",
+   "tipo": "multipla",
+   "enunciado": "No exemplo do Nubank, contratar engenheiros na Colômbia e adaptar a política salarial é uma ação de nível:",
+   "alternativas": [
+    "Estratégico",
+    "Tático",
+    "Operacional",
+    "Corporativo"
+   ],
+   "correta": 1,
+   "explicacao": "É atuação da gerência de RH no nível tático.",
+   "fontes": [
+    "plano-aulas-1-2-p10"
+   ]
+  },
+  {
+   "id": "f0601",
+   "topico": "t06",
+   "tipo": "flashcard",
+   "frente": "Os três níveis: quem e qual prazo?",
+   "verso": "Estratégico: alta diretoria, longo prazo (anos). Tático: gerentes, médio prazo (semestres/ano). Operacional: supervisores, analistas e operadores, curto prazo (dias/meses).",
+   "fontes": [
+    "aula2-p38",
+    "aula2-p39"
+   ]
+  },
+  {
+   "id": "q0701",
+   "topico": "t07",
+   "tipo": "multipla",
+   "enunciado": "Qual a ordem correta das fases da vantagem transitória?",
+   "alternativas": [
+    "Lançamento, aceleração, exploração, reconfiguração, desengajamento",
+    "Exploração, lançamento, desengajamento, aceleração, reconfiguração",
+    "Diagnóstico, objetivo, rota, execução, controle",
+    "Lançamento, exploração, aceleração, desengajamento, reconfiguração"
+   ],
+   "correta": 0,
+   "explicacao": "Launch, Ramp-up, Exploitation, Reconfiguration, Disengagement.",
+   "fontes": [
+    "plano-aulas-1-2-p16"
+   ]
+  },
+  {
+   "id": "q0702",
+   "topico": "t07",
+   "tipo": "multipla",
+   "enunciado": "Segundo o guia da Aula 3, quanto tempo duram os ciclos de vantagens temporárias?",
+   "alternativas": [
+    "De 6 meses a 1 ano",
+    "De 2 a 5 anos",
+    "De 10 a 20 anos",
+    "Cerca de 60 anos"
+   ],
+   "correta": 1,
+   "explicacao": "As empresas hoje operam em ciclos rápidos de vantagens temporárias que duram de 2 a 5 anos.",
+   "fontes": [
+    "aula3-guia-p2"
+   ]
+  },
+  {
+   "id": "q0703",
+   "topico": "t07",
+   "tipo": "multipla",
+   "enunciado": "Por que as empresas que faziam apenas câmeras digitais compactas perderam a liderança?",
+   "alternativas": [
+    "Porque cobravam multas por atraso",
+    "Porque sua vantagem era transitória e foi engolida pela onda dos smartphones",
+    "Porque eram pequenas demais",
+    "Porque não tinham missão definida"
+   ],
+   "correta": 1,
+   "explicacao": "Gabarito do professor: a vantagem da câmera compacta era transitória e foi engolida pela onda dos smartphones multifuncionais.",
+   "fontes": [
+    "plano-aulas-1-2-p12"
+   ]
+  },
+  {
+   "id": "f0701",
+   "topico": "t07",
+   "tipo": "flashcard",
+   "frente": "Castelo fortificado x surfista",
+   "verso": "Castelo: vantagem competitiva sustentável, defender um fosso para sempre. Surfista: vantagem transitória, surfar o pico e pular para a próxima onda antes que a atual quebre.",
+   "fontes": [
+    "aula2-p41",
+    "aula2-p47"
+   ]
+  },
+  {
+   "id": "q0801",
+   "topico": "t08",
+   "tipo": "multipla",
+   "enunciado": "Segundo Porter, o que acontece quando todas as empresas buscam apenas eficácia operacional?",
+   "alternativas": [
+    "Todas ganham margens maiores",
+    "Elas se tornam idênticas e a competição vira guerra de preços",
+    "Surge uma vantagem sustentável",
+    "O setor deixa de ter concorrência"
+   ],
+   "correta": 1,
+   "explicacao": "Convergência competitiva: as empresas ficam idênticas e a competição se degrada em guerra destrutiva de preços.",
+   "fontes": [
+    "plano-aulas-1-2-p13"
+   ]
+  },
+  {
+   "id": "q0802",
+   "topico": "t08",
+   "tipo": "multipla",
+   "enunciado": "Jiffy Lube, focada só em lubrificantes automotivos, é exemplo de posicionamento baseado em:",
+   "alternativas": [
+    "Variedade",
+    "Necessidade",
+    "Acesso",
+    "Custo"
+   ],
+   "correta": 0,
+   "explicacao": "Variedade: produzir um subconjunto de produtos/serviços de uma indústria.",
+   "fontes": [
+    "plano-aulas-1-2-p13"
+   ]
+  },
+  {
+   "id": "q0803",
+   "topico": "t08",
+   "tipo": "multipla",
+   "enunciado": "Carmike Cinemas, focada em cidades pequenas, é exemplo de posicionamento baseado em:",
+   "alternativas": [
+    "Variedade",
+    "Necessidade",
+    "Acesso",
+    "Diferenciação de produto"
+   ],
+   "correta": 2,
+   "explicacao": "Acesso: segmentar clientes acessados de formas distintas por geografia ou escala.",
+   "fontes": [
+    "plano-aulas-1-2-p14"
+   ]
+  },
+  {
+   "id": "f0801",
+   "topico": "t08",
+   "tipo": "flashcard",
+   "frente": "Trade-offs e fit estratégico (Porter)",
+   "verso": "Trade-off: a essência da estratégia é escolher o que NÃO fazer. Fit: o alinhamento entre todas as atividades impede a cópia por rivais que imitam só uma parte.",
+   "fontes": [
+    "plano-aulas-1-2-p14"
+   ]
+  },
+  {
+   "id": "q0901",
+   "topico": "t09",
+   "tipo": "multipla",
+   "enunciado": "A visão sistêmica se baseia no conceito de que:",
+   "alternativas": [
+    "Cada parte deve ser analisada isoladamente",
+    "O todo é muito maior que a soma das partes",
+    "Só as forças internas importam",
+    "O curto prazo é prioritário"
+   ],
+   "correta": 1,
+   "explicacao": "A visão sistêmica está baseada no conceito de que o todo é muito maior que a soma das partes.",
+   "fontes": [
+    "aula1-p8"
+   ]
+  },
+  {
+   "id": "q0902",
+   "topico": "t09",
+   "tipo": "multipla",
+   "enunciado": "Para Sun Tzu, qual é a melhor vitória?",
+   "alternativas": [
+    "A conquistada com mais soldados",
+    "A obtida sem conflito",
+    "A mais rápida",
+    "A que destrói o inimigo"
+   ],
+   "correta": 1,
+   "explicacao": "Sun Tzu ensina que a melhor vitória é aquela obtida sem conflito.",
+   "fontes": [
+    "aula1-p12"
+   ]
+  },
+  {
+   "id": "q0903",
+   "topico": "t09",
+   "tipo": "multipla",
+   "enunciado": "Quem introduziu a distinção entre estratégia deliberada e emergente?",
+   "alternativas": [
+    "Michael Porter",
+    "Sun Tzu",
+    "Henry Mintzberg",
+    "Peter Drucker"
+   ],
+   "correta": 2,
+   "explicacao": "Mintzberg introduziu a distinção entre estratégia deliberada e emergente.",
+   "fontes": [
+    "aula1-p18"
+   ]
+  },
+  {
+   "id": "q1001",
+   "topico": "t10",
+   "tipo": "multipla",
+   "enunciado": "No Ikigai, “pelo que você pode ser pago” corresponde a:",
+   "alternativas": [
+    "Paixão",
+    "Missão",
+    "Vocação",
+    "Profissão"
+   ],
+   "correta": 2,
+   "explicacao": "Pelo que você pode ser pago = vocação.",
+   "fontes": [
+    "aula1-p21"
+   ]
+  },
+  {
+   "id": "q1002",
+   "topico": "t10",
+   "tipo": "multipla",
+   "enunciado": "No Ikigai, “no que você é bom” corresponde a:",
+   "alternativas": [
+    "Paixão",
+    "Missão",
+    "Vocação",
+    "Profissão"
+   ],
+   "correta": 3,
+   "explicacao": "No que você é bom = profissão.",
+   "fontes": [
+    "aula1-p21"
+   ]
+  },
+  {
+   "id": "f1001",
+   "topico": "t10",
+   "tipo": "flashcard",
+   "frente": "Os quatro elementos do Ikigai",
+   "verso": "O que você ama (paixão), o que o mundo precisa (missão), pelo que você pode ser pago (vocação), no que você é bom (profissão).",
+   "fontes": [
+    "aula1-p21"
+   ]
+  }
+ ]
+}

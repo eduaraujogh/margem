@@ -1,0 +1,121 @@
+{
+ "modulo": { "id": "mod3", "titulo": "Ambiente interno", "descricao": "Controlabilidade, VBR, recursos e competências, diagnóstico funcional e FCS.", "aulas": "Aula 3" },
+ "topicos": [
+  {
+   "id": "t17", "titulo": "O que a empresa controla e o que não controla",
+   "resumo": "Princípio da controlabilidade: interno é decisão; externo é monitoramento.",
+   "aprender": [
+    { "texto": "Ambiente interno (ação direta): fatores que a organização controla, como cultura, clima, comunicação, liderança, estrutura, processos e tecnologia. Não cabe adaptação, cabe decisão e gestão ativa: se um componente falha, a empresa pode alterá-lo.", "fontes": ["aula3-interno-p16"] },
+    { "texto": "Ambiente externo (monitoramento): forças incontroláveis, como concorrentes, legislação, macroeconomia e clientes. A empresa reage, prevê e se adapta, mas não dita as regras do jogo.", "fontes": ["aula3-interno-p16"] },
+    { "texto": "O erro fatal do diagnóstico é confundir forças e fraquezas (internas) com oportunidades e ameaças (externas). Isso destrói o planejamento estratégico.", "fontes": ["aula3-interno-p16"] },
+    { "texto": "O raio-X do ambiente interno passa por: fronteiras de controle, VBR, diagnóstico funcional (forças e fraquezas), filtros VRIO (valioso, raro, inimitável, organizado) e fatores críticos de sucesso.", "fontes": ["aula3-interno-p14"] }
+   ],
+   "pontosChave": [
+    { "texto": "Interno: controlável, cabe decisão.", "fontes": ["aula3-interno-p16"] },
+    { "texto": "Externo: incontrolável, cabe monitorar e se adaptar.", "fontes": ["aula3-interno-p16"] },
+    { "texto": "Erro fatal: misturar forças/fraquezas com oportunidades/ameaças.", "fontes": ["aula3-interno-p16"] },
+    { "texto": "VRIO: Valioso, Raro, Inimitável, Organizado.", "fontes": ["aula3-interno-p14"] }
+   ],
+   "termos": ["g-vrio"],
+   "relacionados": ["t18", "t26"]
+  },
+  {
+   "id": "t18", "titulo": "Visão Baseada em Recursos (VBR)",
+   "resumo": "A vantagem vem dos recursos internos, não só do setor em que se está.",
+   "aprender": [
+    { "texto": "A análise do ambiente interno identifica e avalia ativos, processos, pessoas e capacidades. Enquanto a análise externa olha oportunidades e ameaças (perspectiva Market-Driven, de Porter), o diagnóstico interno se baseia na Visão Baseada em Recursos (VBR/RBV), de Edith Penrose, popularizada por Jay Barney.", "fontes": ["aula3-interno-p12"] },
+    { "texto": "A VBR diz que as organizações são conjuntos diferentes de recursos e capacidades. A vantagem sustentável vem, sobretudo, de dominar recursos internos valiosos, raros, difíceis de imitar e bem organizados.", "fontes": ["aula3-interno-p12"] },
+    { "texto": "Segundo Urdan (2010), a competitividade depende do portfólio interno. Não existem clones empresariais: cada empresa tem trajetória única. O desempenho superior é um sintoma; a causa está na quantidade, qualidade e adequação dos recursos internos.", "fontes": ["aula3-interno-p17"] },
+    { "texto": "Ativos tangíveis (caixa, estoque, maquinário) aparecem no balanço, têm capacidade finita e são fáceis de comprar por rivais. Ativos intangíveis (reputação, patentes, dados, relacionamentos) são difíceis de quantificar, não se desgastam com o uso e são muito difíceis de imitar.", "fontes": ["aula3-interno-p18"] }
+   ],
+   "pontosChave": [
+    { "texto": "VBR: Penrose; popularizada por Jay Barney.", "fontes": ["aula3-interno-p12"] },
+    { "texto": "Recursos valiosos, raros, difíceis de imitar e organizados.", "fontes": ["aula3-interno-p12"] },
+    { "texto": "Desempenho é sintoma; recursos são a causa.", "fontes": ["aula3-interno-p17"] },
+    { "texto": "Intangíveis: uso não desgasta, imitabilidade baixíssima.", "fontes": ["aula3-interno-p18"] }
+   ],
+   "termos": ["g-vbr", "g-tangivel", "g-intangivel"],
+   "relacionados": ["t19", "t17"]
+  },
+  {
+   "id": "t19", "titulo": "Recursos, capacidades e competências essenciais",
+   "resumo": "A hierarquia da VBR e os três filtros da competência essencial.",
+   "aprender": [
+    { "texto": "Recursos são ativos controlados pela organização: tangíveis (físicos, financeiros, tecnológicos) ou intangíveis (marca, cultura, propriedade intelectual, patentes, relacionamentos).", "fontes": ["aula3-interno-p19"] },
+    { "texto": "Capacidades são a habilidade de combinar e usar os recursos por meio de rotinas e processos (ex.: logística expressa). São os conhecimentos coletivos que colocam os ativos em movimento (Urdan, 2010). Comprar o melhor CRM é inútil sem a equipe saber analisar e agir sobre os dados.", "fontes": ["aula3-interno-p19", "aula3-interno-p20"] },
+    { "texto": "Competências essenciais (Prahalad e Hamel, 1990) são o aprendizado coletivo da organização. Devem dar acesso a vários mercados, contribuir muito para o benefício percebido pelo cliente e ser difíceis de imitar.", "fontes": ["aula3-interno-p19"] },
+    { "texto": "Diferente de máquinas, que se depreciam, as competências essenciais se fortalecem com o uso. Raramente uma empresa lidera mundialmente em mais de 5 ou 6 delas.", "fontes": ["aula3-interno-p21"] },
+    { "texto": "Três filtros (Prahalad, Hamel e Urdan): impacto no valor para o consumidor, eficiência interna e inimitabilidade. Precisa passar nos três ao mesmo tempo. Se for valiosa e eficiente mas fácil de copiar, é só uma vantagem temporária.", "fontes": ["aula3-interno-p23"] }
+   ],
+   "pontosChave": [
+    { "texto": "Recursos → Capacidades → Competências essenciais.", "fontes": ["aula3-interno-p19"] },
+    { "texto": "Capacidades põem os ativos em movimento.", "fontes": ["aula3-interno-p20"] },
+    { "texto": "Competências essenciais se fortalecem com o uso.", "fontes": ["aula3-interno-p21"] },
+    { "texto": "Filtros: valor, eficiência, inimitabilidade (os três juntos).", "fontes": ["aula3-interno-p23"] }
+   ],
+   "termos": ["g-capacidades", "g-competencias"],
+   "relacionados": ["t18", "t21"]
+  },
+  {
+   "id": "t20", "titulo": "Diagnóstico das 4 áreas funcionais",
+   "resumo": "Onde procurar forças e fraquezas, com evidência e não percepção.",
+   "aprender": [
+    { "texto": "Finanças: estrutura de capital, liquidez, capacidade de investimento. Recursos Humanos: clima (eNPS), taxa de turnover, estrutura de carreira.", "fontes": ["aula3-interno-p24"] },
+    { "texto": "Produção (operações): uso de capacidade instalada, logística, certificações de qualidade. Marketing: patrimônio da marca, custo de aquisição, lealdade do consumidor.", "fontes": ["aula3-interno-p24"] },
+    { "texto": "Força é qualquer particularidade que eleva a capacidade competitiva; fraqueza é o que a diminui. O diagnóstico exige dados de controladoria, auditorias de processo e pesquisas contínuas, não só a intuição da diretoria.", "fontes": ["aula3-interno-p24"] }
+   ],
+   "pontosChave": [
+    { "texto": "4 áreas: Finanças, RH, Produção, Marketing.", "fontes": ["aula3-interno-p24"] },
+    { "texto": "Força eleva a capacidade competitiva; fraqueza diminui.", "fontes": ["aula3-interno-p24"] },
+    { "texto": "Evidência, não percepção.", "fontes": ["aula3-interno-p24"] }
+   ],
+   "termos": [],
+   "relacionados": ["t27"]
+  },
+  {
+   "id": "t21", "titulo": "Fatores críticos de sucesso (FCS) e KPI",
+   "resumo": "Onde concentrar a execução e como medir.",
+   "aprender": [
+    { "texto": "Os FCS (Porter; Rockart) são um número restrito de áreas ou processos essenciais onde resultados positivos garantem desempenho superior. São condições vitais: ignorar um FCS leva ao fracasso do negócio aos olhos do cliente.", "fontes": ["aula3-interno-p25"] },
+    { "texto": "Nem todo ponto forte é crítico: um fator-chave pode hoje ser uma fraqueza que exige intervenção imediata.", "fontes": ["aula3-interno-p25"] },
+    { "texto": "Tipos de FCS (Santos, 2003): ambientais (fora do controle, como leis tributárias), empresariais (comuns a quase toda empresa, como controle de custos), setoriais (do mercado, como segurança na aviação) e organizacionais (da identidade da empresa, como o unboxing da Apple).", "fontes": ["aula3-interno-p27"] },
+    { "texto": "Mapeie no máximo de 7 a 10 FCS por ciclo. O fator de maior peso deve garantir a sustentabilidade interna, seguido pela satisfação do cliente (Gomes).", "fontes": ["aula3-interno-p28"] },
+    { "texto": "FCS é o direcionador: define ONDE focar (ex.: “experiência de compra perfeita”). KPI é a métrica: mede QUÃO BEM se executa (ex.: taxa de conversão, tempo médio de fila, NPS).", "fontes": ["aula3-interno-p29"] }
+   ],
+   "pontosChave": [
+    { "texto": "FCS: poucas áreas vitais para o desempenho superior.", "fontes": ["aula3-interno-p25"] },
+    { "texto": "Tipos: ambientais, empresariais, setoriais, organizacionais.", "fontes": ["aula3-interno-p27"] },
+    { "texto": "No máximo 7 a 10 FCS por ciclo.", "fontes": ["aula3-interno-p28"] },
+    { "texto": "FCS = onde focar; KPI = quão bem executa.", "fontes": ["aula3-interno-p29"] }
+   ],
+   "termos": ["g-fcs", "g-kpi"],
+   "relacionados": ["t19", "t20"]
+  }
+ ],
+ "questoes": [
+  { "id": "q1701", "topico": "t17", "tipo": "multipla", "enunciado": "Segundo o Princípio da Controlabilidade, o que cabe à empresa diante do ambiente interno?", "alternativas": ["Apenas adaptação", "Decisão e gestão ativa", "Apenas monitoramento", "Nada, pois é incontrolável"], "correta": 1, "explicacao": "No ambiente interno não cabe adaptação, cabe decisão e gestão ativa.", "fontes": ["aula3-interno-p16"] },
+  { "id": "q1702", "topico": "t17", "tipo": "multipla", "enunciado": "Qual destes é um fator do ambiente externo no slide da controlabilidade?", "alternativas": ["Cultura", "Liderança", "Legislação", "Processos"], "correta": 2, "explicacao": "Concorrentes, legislação, macroeconomia e clientes estão no anel externo; cultura, liderança e processos são internos.", "fontes": ["aula3-interno-p16"] },
+  { "id": "q1703", "topico": "t17", "tipo": "multipla", "enunciado": "Qual é o “erro fatal do diagnóstico”?", "alternativas": ["Fazer a SWOT todo ano", "Confundir forças e fraquezas (internas) com oportunidades e ameaças (externas)", "Usar dados de controladoria", "Mapear poucos FCS"], "correta": 1, "explicacao": "Essa confusão destrói o planejamento estratégico.", "fontes": ["aula3-interno-p16"] },
+
+  { "id": "q1801", "topico": "t18", "tipo": "multipla", "enunciado": "Quem formulou e quem popularizou a Visão Baseada em Recursos, segundo a Aula 3?", "alternativas": ["Porter formulou; Mintzberg popularizou", "Edith Penrose formulou; Jay Barney popularizou", "Prahalad formulou; Hamel popularizou", "Drucker formulou; Urdan popularizou"], "correta": 1, "explicacao": "VBR formulada por autores como Edith Penrose e popularizada por Jay Barney.", "fontes": ["aula3-interno-p12"] },
+  { "id": "q1802", "topico": "t18", "tipo": "multipla", "enunciado": "Para a VBR, o desempenho superior no mercado é:", "alternativas": ["A causa da vantagem", "Um sintoma; a causa está nos recursos internos", "Resultado apenas do setor escolhido", "Sorte"], "correta": 1, "explicacao": "O desempenho superior é um sintoma; a causa está na quantidade, qualidade e adequação dos recursos internos.", "fontes": ["aula3-interno-p17"] },
+  { "id": "q1803", "topico": "t18", "tipo": "multipla", "enunciado": "Qual característica é dos ativos intangíveis?", "alternativas": ["Registrados no balanço patrimonial", "Capacidade finita a longo prazo", "Fáceis de serem comprados por rivais", "O uso não desgasta o ativo"], "correta": 3, "explicacao": "Intangíveis têm capacidade ilimitada (o uso não desgasta) e imitabilidade baixíssima.", "fontes": ["aula3-interno-p18"] },
+  { "id": "f1801", "topico": "t18", "tipo": "flashcard", "frente": "Tangíveis x intangíveis: exemplos", "verso": "Tangíveis: dinheiro em caixa, galpões, frotas (caixa, estoque, maquinário). Intangíveis: reputação da marca, patentes, banco de dados, relacionamentos.", "fontes": ["aula3-interno-p18"] },
+
+  { "id": "q1901", "topico": "t19", "tipo": "multipla", "enunciado": "“Comprar o melhor software de CRM é inútil sem a habilidade da equipe de analisar e agir sobre os dados.” O CRM e a habilidade são, respectivamente:", "alternativas": ["Capacidade e ativo", "Ativo e capacidade", "Competência essencial e recurso", "KPI e FCS"], "correta": 1, "explicacao": "No slide, o CRM é o ativo e a habilidade coletiva da equipe é a capacidade.", "fontes": ["aula3-interno-p20"] },
+  { "id": "q1902", "topico": "t19", "tipo": "multipla", "enunciado": "Uma competência que é valiosa e eficiente, mas fácil de copiar, é:", "alternativas": ["Uma competência essencial", "Apenas uma vantagem temporária, não essencial", "Um fator crítico de sucesso", "Um ativo intangível"], "correta": 1, "explicacao": "A competência essencial precisa passar nos três filtros ao mesmo tempo; se é fácil de copiar, é só vantagem temporária.", "fontes": ["aula3-interno-p23"] },
+  { "id": "q1903", "topico": "t19", "tipo": "multipla", "enunciado": "Em quantas competências essenciais uma empresa raramente consegue liderança mundial?", "alternativas": ["Mais de 1 ou 2", "Mais de 5 ou 6", "Mais de 10", "Mais de 20"], "correta": 1, "explicacao": "Raramente uma empresa estabelece liderança mundial em mais de 5 ou 6 competências essenciais.", "fontes": ["aula3-interno-p21"] },
+  { "id": "q1904", "topico": "t19", "tipo": "multipla", "enunciado": "Quem introduziu o conceito de competências essenciais (core competencies), em 1990?", "alternativas": ["Edith Penrose", "C.K. Prahalad e Gary Hamel", "Michael Porter", "Peter Drucker"], "correta": 1, "explicacao": "Conceito introduzido por C.K. Prahalad e Gary Hamel (1990).", "fontes": ["aula3-interno-p19"] },
+  { "id": "f1901", "topico": "t19", "tipo": "flashcard", "frente": "Os três filtros da competência essencial", "verso": "1. Impacto no valor (aumenta vantagens ou reduz custos para o consumidor). 2. Eficiência interna (reduz custos da instituição). 3. Inimitabilidade (impossível copiar rapidamente). Precisa passar nos três.", "fontes": ["aula3-interno-p23"] },
+
+  { "id": "q2001", "topico": "t20", "tipo": "multipla", "enunciado": "Clima (eNPS) e taxa de turnover são indicadores de qual área funcional?", "alternativas": ["Finanças", "Recursos Humanos", "Produção", "Marketing"], "correta": 1, "explicacao": "RH: clima (eNPS), taxa de turnover, estrutura de carreira.", "fontes": ["aula3-interno-p24"] },
+  { "id": "q2002", "topico": "t20", "tipo": "multipla", "enunciado": "Custo de aquisição e lealdade do consumidor pertencem a qual área?", "alternativas": ["Finanças", "Recursos Humanos", "Produção", "Marketing"], "correta": 3, "explicacao": "Marketing: patrimônio da marca, custo de aquisição, lealdade do consumidor.", "fontes": ["aula3-interno-p24"] },
+  { "id": "f2001", "topico": "t20", "tipo": "flashcard", "frente": "Evidência x percepção no diagnóstico interno", "verso": "O diagnóstico exige cruzamento de dados de controladoria, auditorias de processo e pesquisas contínuas, não apenas a intuição da diretoria.", "fontes": ["aula3-interno-p24"] },
+
+  { "id": "q2101", "topico": "t21", "tipo": "multipla", "enunciado": "Qual a diferença entre FCS e KPI?", "alternativas": ["São sinônimos", "FCS define onde focar; KPI mede quão bem se executa", "KPI define onde focar; FCS mede a execução", "FCS é financeiro; KPI é de RH"], "correta": 1, "explicacao": "FCS é o direcionador; KPI é a métrica.", "fontes": ["aula3-interno-p29"] },
+  { "id": "q2102", "topico": "t21", "tipo": "multipla", "enunciado": "Quantos FCS devem ser mapeados por ciclo estratégico, no máximo?", "alternativas": ["2 a 3", "7 a 10", "15 a 20", "Quantos forem possíveis"], "correta": 1, "explicacao": "Foco restrito: no máximo de 7 a 10 FCS por ciclo. Excesso anula a palavra “crítico”.", "fontes": ["aula3-interno-p28"] },
+  { "id": "q2103", "topico": "t21", "tipo": "multipla", "enunciado": "A experiência de unboxing da Apple é exemplo de FCS:", "alternativas": ["Ambiental", "Empresarial", "Setorial", "Organizacional"], "correta": 3, "explicacao": "Organizacionais: específicos da identidade e estratégia única da empresa.", "fontes": ["aula3-interno-p27"] },
+  { "id": "q2104", "topico": "t21", "tipo": "multipla", "enunciado": "Segundo Gomes, qual fator deve ter o maior peso entre os FCS?", "alternativas": ["Satisfação do cliente", "Sustentabilidade interna", "Redução de custos", "Inovação"], "correta": 1, "explicacao": "O fator de maior peso deve garantir a sustentabilidade interna, seguido pela satisfação do cliente.", "fontes": ["aula3-interno-p28"] },
+  { "id": "f2101", "topico": "t21", "tipo": "flashcard", "frente": "Exemplos de KPI no varejo e na indústria", "verso": "Varejo: taxa de conversão, tempo médio de fila, NPS. Indústria: índice de refugo, tempo de máquina parada.", "fontes": ["aula3-interno-p29"] }
+ ]
+}

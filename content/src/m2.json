@@ -1,0 +1,143 @@
+{
+ "modulo": { "id": "mod2", "titulo": "Estratégia adaptativa", "descricao": "Planejamento x estratégia, perfis, casos de disrupção, Drucker e as escolas.", "aulas": "Aula 3" },
+ "topicos": [
+  {
+   "id": "t11", "titulo": "Planejamento estratégico não é estratégia",
+   "resumo": "O grande equívoco corporativo segundo Salibi e Magaldi.",
+   "aprender": [
+    { "texto": "Segundo Salibi e Magaldi, a maioria das empresas possui um “planejamento estratégico”, mas não possui uma “estratégia”.", "fontes": ["aula3-guia-p1", "aula3-interno-p3"] },
+    { "texto": "O planejamento virou um ritual engessado, geralmente em retiros (offsites) em outubro, e incrementalista: olha pelo retrovisor e projeta crescimentos lineares (crescer 10% ou 15% sobre a base anterior), desdobrados em orçamentos e planos táticos.", "fontes": ["aula3-guia-p1"] },
+    { "texto": "Como provocou Jaime Dias (RH da MSD Saúde Animal): “Para crescer 10% ao ano, eu não preciso de estratégia”. O crescimento incremental mexe só em variáveis operacionais e não garante a sobrevivência diante de rupturas tecnológicas. Orçamentos rígidos matam a inovação.", "fontes": ["aula3-guia-p1"] },
+    { "texto": "Estratégia é fazer escolhas difíceis, selecionar territórios de atuação e saber ao que dizer “não”.", "fontes": ["aula3-guia-p1"] }
+   ],
+   "pontosChave": [
+    { "texto": "Ter planejamento estratégico ≠ ter estratégia.", "fontes": ["aula3-guia-p1"] },
+    { "texto": "Planejamento tradicional: ritual, incrementalista, olha pelo retrovisor.", "fontes": ["aula3-guia-p1"] },
+    { "texto": "“Para crescer 10% ao ano, eu não preciso de estratégia.” (Jaime Dias)", "fontes": ["aula3-guia-p1"] }
+   ],
+   "termos": ["g-incrementalismo"],
+   "relacionados": ["t01", "t13"]
+  },
+  {
+   "id": "t12", "titulo": "Da era clássica à era adaptativa",
+   "resumo": "Como a tecnologia encurtou os ciclos e mudou o planejamento.",
+   "aprender": [
+    { "texto": "Era clássica (anos 1970 e 1980): ambiente previsível e estável. Michael Porter criou o primeiro curso formal de estratégia em Harvard no início dos anos 1980. A premissa era a vantagem competitiva sustentável, com planos de 5 ou 10 anos e barreiras de entrada.", "fontes": ["aula3-guia-p1", "aula3-guia-p2"] },
+    { "texto": "Era digital e adaptativa (anos 2000 até hoje): tecnologia, internet e IA rompem barreiras instantaneamente. Manter planos rígidos de 5 anos em ambiente volátil é um erro grave. O planejamento deve ser feito em ciclos de 1 ano, com revisões profundas de 2 a 3 vezes por ano.", "fontes": ["aula3-guia-p2"] },
+    { "texto": "Evolução por décadas: anos 1960 (design), 1970 (planejamento e ambiente, crises do petróleo), 1980 (posicionamento com Porter e cultura japonesa), 1990 em diante (aprendizado, competências essenciais e transformação contínua).", "fontes": ["aula3-interno-p4"] },
+    { "texto": "A compressão do tempo: a eletricidade levou mais de 40 anos para ampla adoção, o computador pessoal 16, o smartphone 4 e a IA generativa menos de 2. O tempo médio de uma empresa no S&P 500 caiu de 60 anos para menos de 15.", "fontes": ["aula2-p42", "aula2-p45"] },
+    { "texto": "Semicondutores mantinham relevância por até 20 anos nos anos 1960; hoje, de 2 a 5 anos. Os ciclos de inovação passaram de 10 anos (mainframes, anos 1960) para 2 anos (IA, anos 2020).", "fontes": ["aula2-p43", "aula2-p44"] }
+   ],
+   "pontosChave": [
+    { "texto": "Clássica: previsível, planos de 5 a 10 anos, vantagem sustentável.", "fontes": ["aula3-guia-p2"] },
+    { "texto": "Adaptativa: ciclos de 1 ano, revisões 2 a 3 vezes por ano.", "fontes": ["aula3-guia-p2"] },
+    { "texto": "S&P 500: de 60 anos para menos de 15.", "fontes": ["aula2-p45"] },
+    { "texto": "Adoção: eletricidade 40+ anos; PC 16; smartphone 4; IA generativa < 2.", "fontes": ["aula2-p42"] }
+   ],
+   "termos": ["g-sustentavel", "g-transitoria"],
+   "relacionados": ["t04", "t07", "t16"]
+  },
+  {
+   "id": "t13", "titulo": "O estrategista x o planejador",
+   "resumo": "Dois perfis distintos e interdependentes.",
+   "aprender": [
+    { "texto": "Salibi e Magaldi defendem que formular a estratégia e estruturar o plano de execução exigem habilidades e mentalidades diferentes, embora interdependentes.", "fontes": ["aula3-guia-p2"] },
+    { "texto": "O estrategista tem foco em ideação, visão panorâmica e quebra de estruturas; decide sob extrema incerteza; usa criatividade, inconformismo e perguntas; e gera desconforto e angústia na organização.", "fontes": ["aula3-guia-p2", "aula3-interno-p10"] },
+    { "texto": "O planejador (gestor de projetos) foca em detalhes, encadeamento lógico e organização; busca previsibilidade e controle; coordena processos (o que, quem, quando, como) e mede; e oferece conforto com orçamentos e cronogramas.", "fontes": ["aula3-guia-p2", "aula3-interno-p10"] },
+    { "texto": "As duas funções são essenciais: uma excelente estratégia sem bom planejador morre na execução; um excelente plano sem visão estratégica executa com perfeição a direção errada.", "fontes": ["aula3-guia-p3"] }
+   ],
+   "pontosChave": [
+    { "texto": "Estrategista: ideação, incerteza, perguntas, gera desconforto.", "fontes": ["aula3-interno-p10"] },
+    { "texto": "Planejador: detalhes, previsibilidade, coordenação, gera conforto.", "fontes": ["aula3-interno-p10"] },
+    { "texto": "Um sem o outro falha: na execução ou na direção.", "fontes": ["aula3-guia-p3"] }
+   ],
+   "termos": [],
+   "relacionados": ["t11"]
+  },
+  {
+   "id": "t14", "titulo": "Casos de disrupção",
+   "resumo": "Nubank, Walmart, Zara x Shein, Spotify, Netflix, Intel x NVIDIA.",
+   "aprender": [
+    { "texto": "Nubank: os bancos protegiam a vantagem com milhares de agências. O Nubank, em 13 anos e sem nenhuma agência física, virou o banco digital mais valioso do mundo, com mais de 110 milhões de clientes. A inovação foi o modelo de negócios digital.", "fontes": ["aula3-guia-p3", "aula3-interno-p7"] },
+    { "texto": "Walmart: perdendo espaço para a Amazon, ressignificou as lojas físicas como mini centros de distribuição do e-commerce. É a empresa que mais faz entregas por drones nos EUA, em 15 a 20 minutos num raio de 15 km.", "fontes": ["aula3-guia-p3", "aula3-interno-p8"] },
+    { "texto": "Zara (fast fashion) abastecia lojas do mundo rapidamente com tendências. A Shein (real-time fashion) usa dados e algoritmos, coloca mais de 2.000 produtos por dia na prateleira virtual sem fabricá-los antes e produz só sob demanda real.", "fontes": ["aula3-guia-p3"] },
+    { "texto": "Spotify compete em milissegundos e faz “Hack Weeks”, semanas para confrontar todas as premissas do negócio antes que a concorrência o faça.", "fontes": ["aula3-guia-p3"] },
+    { "texto": "Netflix (por volta de 2011/2012) previu o risco de os estúdios retirarem licenças e passou a produzir conteúdo original (House of Cards), com produção descentralizada: “E se criássemos uma cadeia de produção de filmes sem sermos donos de estúdios?”.", "fontes": ["aula3-guia-p4"] },
+    { "texto": "Intel fez inovação incremental (18 processadores desde 1971). A NVIDIA, focada em chips de videogame, percebeu que eles eram ideais para IA e pivotou. A lição: grandes empresas morrem ao dizer “Este mercado é muito pequeno para a gente entrar”.", "fontes": ["aula3-guia-p4", "aula3-interno-p9"] }
+   ],
+   "pontosChave": [
+    { "texto": "Nubank: disrupção do modelo de negócios.", "fontes": ["aula3-guia-p3"] },
+    { "texto": "Walmart: lojas viram mini centros de distribuição.", "fontes": ["aula3-guia-p3"] },
+    { "texto": "Shein: real-time fashion, produção sob demanda.", "fontes": ["aula3-guia-p3"] },
+    { "texto": "Netflix: pergunta “E se?”, conteúdo original.", "fontes": ["aula3-guia-p4"] },
+    { "texto": "Frase da morte: “Este mercado é muito pequeno para a gente entrar”.", "fontes": ["aula3-guia-p4"] }
+   ],
+   "termos": [],
+   "relacionados": ["t29", "t07"]
+  },
+  {
+   "id": "t15", "titulo": "Teoria dos Negócios de Peter Drucker",
+   "resumo": "Capacidades, ambiente e propósito alinhados.",
+   "aprender": [
+    { "texto": "A Teoria dos Negócios, de Peter Drucker, é o coração da estratégia de qualquer empresa e é composta pelo alinhamento de três dimensões.", "fontes": ["aula3-guia-p4", "aula3-interno-p11"] },
+    { "texto": "Capacidades (olhar para dentro): fortalezas, competências centrais, tecnologias e processos em que somos imbatíveis. Ambiente (olhar para fora): cliente, concorrentes e transformações tecnológicas e regulatórias. Propósito: o direcionador ao qual capacidades e ambiente devem estar submetidos.", "fontes": ["aula3-guia-p4", "aula3-interno-p11"] },
+    { "texto": "Drucker alertou Salibi: “José, as árvores não crescem até o céu. Muitos anos de sucesso levam as empresas a sempre terem respostas e nunca fazerem as perguntas certas.” A estratégia nasce de fazer perguntas difíceis; o planejamento tradicional é confortável porque trabalha com respostas prontas.", "fontes": ["aula3-guia-p4"] }
+   ],
+   "pontosChave": [
+    { "texto": "Capacidades = olhar para dentro.", "fontes": ["aula3-guia-p4"] },
+    { "texto": "Ambiente = olhar para fora.", "fontes": ["aula3-guia-p4"] },
+    { "texto": "Propósito = direcionador das outras duas.", "fontes": ["aula3-guia-p4"] },
+    { "texto": "“As árvores não crescem até o céu.”", "fontes": ["aula3-guia-p4"] }
+   ],
+   "termos": [],
+   "relacionados": ["t17", "t22"]
+  },
+  {
+   "id": "t16", "titulo": "As 10 escolas de pensamento estratégico",
+   "resumo": "O Safári de Estratégia de Mintzberg: escolas prescritivas e descritivas.",
+   "aprender": [
+    { "texto": "Mintzberg organiza a literatura em 10 escolas. Prescritivas (como formular): Design, Planejamento e Posicionamento. Descritivas (como ocorre na realidade): Empreendedora, Cognitiva, Aprendizado, Poder, Cultural, Ambiental e Configuração.", "fontes": ["plano-aulas-1-2-p15"] },
+    { "texto": "Design (anos 1960): adequação entre forças/fraquezas internas e oportunidades/ameaças externas; é a origem da matriz SWOT. Planejamento (anos 1970): processo formal e sequencial, com cronogramas e orçamentos rígidos (Ansoff). Posicionamento (anos 1980): análise da indústria, 5 forças, custo/diferenciação (Porter).", "fontes": ["aula3-interno-p5"] },
+    { "texto": "Empreendedora: a estratégia está na mente do líder visionário. Cognitiva: processo mental, vieses e esquemas. Aprendizado: padrão incremental e emergente, competências essenciais. Poder: negociação, micro e macropoder.", "fontes": ["aula3-interno-p5"] },
+    { "texto": "Cultural: processo coletivo enraizado em valores e crenças (ganhou força com as empresas japonesas). Ambiental: a organização reage passivamente ao ambiente. Configuração: períodos de estabilidade intercalados por saltos de transformação.", "fontes": ["aula3-interno-p5"] }
+   ],
+   "pontosChave": [
+    { "texto": "Prescritivas: Design, Planejamento, Posicionamento.", "fontes": ["plano-aulas-1-2-p15"] },
+    { "texto": "Escola do Design é a origem da matriz SWOT.", "fontes": ["aula3-interno-p5"] },
+    { "texto": "Posicionamento: Porter, 5 forças.", "fontes": ["aula3-interno-p5"] },
+    { "texto": "Aprendizado: estratégia emergente.", "fontes": ["aula3-interno-p5"] }
+   ],
+   "termos": [],
+   "relacionados": ["t04", "t26"]
+  }
+ ],
+ "questoes": [
+  { "id": "q1101", "topico": "t11", "tipo": "multipla", "enunciado": "Qual é o “grande equívoco corporativo” segundo Salibi e Magaldi?", "alternativas": ["Empresas não fazem planejamento", "A maioria das empresas tem planejamento estratégico, mas não tem estratégia", "Empresas mudam de estratégia com frequência demais", "Empresas não têm orçamento"], "correta": 1, "explicacao": "A maioria das empresas possui um “planejamento estratégico”, mas não possui uma “estratégia”.", "fontes": ["aula3-guia-p1"] },
+  { "id": "q1102", "topico": "t11", "tipo": "multipla", "enunciado": "Por que o planejamento tradicional é chamado de “incrementalista”?", "alternativas": ["Porque busca rupturas tecnológicas", "Porque projeta o futuro com base no passado, com crescimentos lineares como 10% ou 15%", "Porque muda a rota toda semana", "Porque é feito pela base da empresa"], "correta": 1, "explicacao": "A gestão olha pelo retrovisor e define crescimentos lineares sobre a base anterior.", "fontes": ["aula3-guia-p1"] },
+  { "id": "f1101", "topico": "t11", "tipo": "flashcard", "frente": "“Para crescer 10% ao ano, eu não preciso de estratégia.”", "verso": "Provocação de Jaime Dias (MSD Saúde Animal): crescimento incremental mexe só em variáveis operacionais e não garante sobrevivência diante de rupturas.", "fontes": ["aula3-guia-p1"] },
+
+  { "id": "q1201", "topico": "t12", "tipo": "multipla", "enunciado": "Como o guia da Aula 3 recomenda planejar hoje?", "alternativas": ["Planos rígidos de 10 anos", "Ciclos de 1 ano com revisões profundas 2 a 3 vezes por ano", "Sem nenhum planejamento", "Revisões apenas a cada 5 anos"], "correta": 1, "explicacao": "O planejamento deve ser feito em ciclos de 1 ano, com governança ágil e revisões profundas de 2 a 3 vezes por ano.", "fontes": ["aula3-guia-p2"] },
+  { "id": "q1202", "topico": "t12", "tipo": "multipla", "enunciado": "O tempo médio de permanência de uma empresa no S&P 500 caiu de cerca de 60 anos para:", "alternativas": ["Menos de 15 anos", "Cerca de 40 anos", "Cerca de 30 anos", "Menos de 2 anos"], "correta": 0, "explicacao": "De 60 anos no meio do século XX para menos de 15 anos atualmente.", "fontes": ["aula2-p45"] },
+  { "id": "q1203", "topico": "t12", "tipo": "multipla", "enunciado": "Quem criou o primeiro curso formal de estratégia em Harvard, no início dos anos 1980?", "alternativas": ["Peter Drucker", "Henry Mintzberg", "Michael Porter", "Rita McGrath"], "correta": 2, "explicacao": "Michael Porter, considerado o pai da estratégia moderna.", "fontes": ["aula3-guia-p2"] },
+  { "id": "q1204", "topico": "t12", "tipo": "multipla", "enunciado": "Quanto tempo o smartphone precisou para ampla adoção, segundo a Aula 2?", "alternativas": ["16 anos", "4 anos", "Menos de 2 anos", "Mais de 40 anos"], "correta": 1, "explicacao": "Eletricidade: 40+ anos; PC: 16; smartphone: 4; IA generativa: menos de 2.", "fontes": ["aula2-p42"] },
+
+  { "id": "q1301", "topico": "t13", "tipo": "multipla", "enunciado": "Qual perfil “gera desconforto e angústia na organização”?", "alternativas": ["O planejador", "O estrategista", "O operador", "O gerente tático"], "correta": 1, "explicacao": "O estrategista gera desconforto; o planejador oferece conforto com orçamentos e cronogramas.", "fontes": ["aula3-interno-p10"] },
+  { "id": "q1302", "topico": "t13", "tipo": "multipla", "enunciado": "Segundo a nota do guia, o que acontece com um excelente plano sem visão estratégica?", "alternativas": ["Morre na execução", "Executa com perfeição a direção errada", "Se torna estratégia emergente", "Gera vantagem sustentável"], "correta": 1, "explicacao": "Excelente estratégia sem planejador morre na execução; excelente plano sem visão executa com perfeição a direção errada.", "fontes": ["aula3-guia-p3"] },
+  { "id": "f1301", "topico": "t13", "tipo": "flashcard", "frente": "Habilidade-chave: estrategista x planejador", "verso": "Estrategista: criatividade, inconformismo e formulação de perguntas. Planejador: coordenação de processos (o que, quem, quando, como) e medição.", "fontes": ["aula3-interno-p10"] },
+
+  { "id": "q1401", "topico": "t14", "tipo": "multipla", "enunciado": "Qual foi a principal inovação do Nubank, segundo o guia?", "alternativas": ["Abrir mais agências que os bancos tradicionais", "O modelo de negócios digital, não apenas o produto", "Cobrar tarifas menores nas agências", "Comprar bancos concorrentes"], "correta": 1, "explicacao": "A inovação não foi apenas o produto, mas o modelo de negócios digital.", "fontes": ["aula3-guia-p3"] },
+  { "id": "q1402", "topico": "t14", "tipo": "multipla", "enunciado": "Como o Walmart reagiu ao crescimento da Amazon?", "alternativas": ["Fechou as lojas físicas", "Transformou as lojas em mini centros de distribuição integrados ao e-commerce", "Abandonou a estratégia de baixo custo", "Comprou a Amazon"], "correta": 1, "explicacao": "Ressignificou as lojas físicas como mini centros de distribuição; hoje é quem mais faz entregas por drones nos EUA.", "fontes": ["aula3-guia-p3"] },
+  { "id": "q1403", "topico": "t14", "tipo": "multipla", "enunciado": "O que a Shein faz que caracteriza o “real-time fashion”?", "alternativas": ["Abre lojas em todo o mundo", "Coloca mais de 2.000 produtos por dia na prateleira virtual sem fabricá-los antes e produz sob demanda", "Lança coleções duas vezes por ano", "Fabrica tudo em uma única fábrica própria"], "correta": 1, "explicacao": "A Shein usa dados e algoritmos e aciona uma cadeia produtiva descentralizada só sob demanda real.", "fontes": ["aula3-guia-p3"] },
+  { "id": "q1404", "topico": "t14", "tipo": "multipla", "enunciado": "Qual é a “frase da morte” corporativa no caso Intel x NVIDIA?", "alternativas": ["“Estratégia é falar não”", "“Este mercado é muito pequeno para a gente entrar”", "“As árvores não crescem até o céu”", "“Nenhuma estratégia é formulada no vácuo”"], "correta": 1, "explicacao": "Grandes empresas morrem ao ignorar mercados emergentes com essa frase.", "fontes": ["aula3-guia-p4"] },
+  { "id": "f1401", "topico": "t14", "tipo": "flashcard", "frente": "Hack Weeks do Spotify", "verso": "Semanas em que gestão e engenharia confrontam todas as premissas do negócio para “destruir” a própria estrutura de pensamento antes que a concorrência o faça.", "fontes": ["aula3-guia-p3"] },
+
+  { "id": "q1501", "topico": "t15", "tipo": "multipla", "enunciado": "Na Teoria dos Negócios de Drucker, “olhar para dentro” corresponde a:", "alternativas": ["Ambiente", "Capacidades", "Propósito", "Concorrência"], "correta": 1, "explicacao": "Capacidades: fortalezas, competências, tecnologias e processos em que somos imbatíveis.", "fontes": ["aula3-guia-p4"] },
+  { "id": "q1502", "topico": "t15", "tipo": "multipla", "enunciado": "Na Teoria dos Negócios, ao que capacidades e ambiente devem estar submetidos?", "alternativas": ["Ao orçamento", "Ao propósito", "Ao concorrente", "À diretoria"], "correta": 1, "explicacao": "Propósito é o direcionador existencial ao qual capacidades e ambiente devem estar inteiramente submetidos.", "fontes": ["aula3-guia-p4"] },
+  { "id": "f1501", "topico": "t15", "tipo": "flashcard", "frente": "“As árvores não crescem até o céu.”", "verso": "Alerta de Drucker a Salibi: muitos anos de sucesso levam as empresas a sempre terem respostas e nunca fazerem as perguntas certas.", "fontes": ["aula3-guia-p4"] },
+
+  { "id": "q1601", "topico": "t16", "tipo": "multipla", "enunciado": "Qual escola de pensamento estratégico é a origem da matriz SWOT?", "alternativas": ["Escola do Posicionamento", "Escola do Design", "Escola Cultural", "Escola do Poder"], "correta": 1, "explicacao": "Escola do Design (anos 1960): adequação entre forças/fraquezas e oportunidades/ameaças (origem da matriz SWOT).", "fontes": ["aula3-interno-p5"] },
+  { "id": "q1602", "topico": "t16", "tipo": "multipla", "enunciado": "Quais são as escolas prescritivas (como formular)?", "alternativas": ["Design, Planejamento e Posicionamento", "Cultural, Ambiental e Poder", "Empreendedora, Cognitiva e Aprendizado", "Configuração, Design e Cultural"], "correta": 0, "explicacao": "Prescritivas: Design, Planejamento e Posicionamento. As outras sete são descritivas.", "fontes": ["plano-aulas-1-2-p15"] },
+  { "id": "q1603", "topico": "t16", "tipo": "multipla", "enunciado": "Na Escola Ambiental, qual é o papel da organização?", "alternativas": ["Molda o ambiente com a visão do líder", "Apenas reage passivamente às forças do ecossistema", "Negocia alianças de poder", "Aprende por experimentação"], "correta": 1, "explicacao": "O ambiente externo é o ator principal; a organização apenas reage passivamente para sobreviver.", "fontes": ["aula3-interno-p5"] },
+  { "id": "f1601", "topico": "t16", "tipo": "flashcard", "frente": "Escola do Aprendizado", "verso": "A estratégia surge como padrão incremental e emergente, por experimentação, aprendizado organizacional e competências essenciais (Lindblom, Quinn, Prahalad & Hamel, Senge).", "fontes": ["aula3-interno-p5"] }
+ ]
+}

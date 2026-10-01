@@ -1,0 +1,142 @@
+{
+ "modulo": { "id": "mod5", "titulo": "Análise SWOT", "descricao": "A matriz, o ambiente interno e externo, e os casos Blockbuster, Havaianas e SWOT pessoal.", "aulas": "Leitura Sagah e Aula 6" },
+ "topicos": [
+  {
+   "id": "t26", "titulo": "A matriz SWOT",
+   "resumo": "Forças, fraquezas, oportunidades e ameaças em quatro quadrantes.",
+   "aprender": [
+    { "texto": "SWOT vem do inglês strengths, weaknesses, opportunities and threats. No Brasil também é chamada de FOFA. É um elemento clássico do planejamento estratégico, que coloca em uma tabela de quatro quadrantes as forças, fraquezas, oportunidades e ameaças da organização.", "fontes": ["plataforma-a-p2", "plataforma-a-p3"] },
+    { "texto": "A matriz surgiu na década de 1960, em debates na escola de administração, compatibilizando forças e fraquezas da empresa com oportunidades e ameaças do mercado. Pode ser usada por organizações de qualquer tamanho.", "fontes": ["plataforma-a-p3"] },
+    { "texto": "Segundo Oliveira (2007): ponto forte é uma diferenciação controlável que dá vantagem; ponto fraco é uma circunstância inadequada controlável que dá desvantagem; oportunidade é uma força ambiental incontrolável que pode beneficiar a empresa; ameaça é uma força ambiental incontrolável que cria obstáculos.", "fontes": ["plataforma-a-p4"] },
+    { "texto": "Para Kotler (2005), a SWOT relaciona o interno e o externo para que as forças sejam fortalecidas, as fraquezas suavizadas, as oportunidades asseguradas e as ameaças protegidas.", "fontes": ["plataforma-a-p5"] },
+    { "texto": "Benefícios: identifica circunstâncias negativas antes que cresçam, mostra oportunidades que passariam despercebidas, faz os líderes refletirem, prevê ameaças e ajuda a elaborar planos de contingência.", "fontes": ["plataforma-a-p7"] },
+    { "texto": "A SWOT é subjetiva; para ser eficiente deve ser específica, com orientação clara (área financeira, RH, marketing etc.). E, na Aula 6, não é um formulário estático para guardar na gaveta, mas um mapa dinâmico de sobrevivência estratégica.", "fontes": ["plataforma-a-p8", "aula6-p4"] }
+   ],
+   "pontosChave": [
+    { "texto": "SWOT = FOFA.", "fontes": ["plataforma-a-p3"] },
+    { "texto": "Interno (controlável): forças e fraquezas.", "fontes": ["plataforma-a-p4"] },
+    { "texto": "Externo (incontrolável): oportunidades e ameaças.", "fontes": ["plataforma-a-p4"] },
+    { "texto": "Surgiu na década de 1960.", "fontes": ["plataforma-a-p3"] },
+    { "texto": "A SWOT nunca deve ser copiada de um modelo genérico.", "fontes": ["aula4-p19"] }
+   ],
+   "termos": ["g-swot", "g-forca", "g-fraqueza", "g-oportunidade", "g-ameaca"],
+   "relacionados": ["t27", "t28", "t16"]
+  },
+  {
+   "id": "t27", "titulo": "Forças e fraquezas (ambiente interno)",
+   "resumo": "O que a empresa controla e pode intensificar ou minimizar.",
+   "aprender": [
+    { "texto": "O ambiente interno é onde os líderes conseguem entender, controlar e administrar forças e fraquezas: vendas, tecnologias, filiais, investimentos, máquinas, cultura organizacional etc. Deve ser analisado constantemente, pois as circunstâncias mudam rápido.", "fontes": ["plataforma-a-p8"] },
+    { "texto": "A análise interna pode ser feita a qualquer momento: na abertura de uma empresa ou filial, em um novo projeto ou para vencer adversidades atuais. Ao achar um ponto forte, a empresa pode intensificá-lo; ao achar um fraco, minimizá-lo.", "fontes": ["plataforma-a-p8", "plataforma-a-p5"] },
+    { "texto": "Forças trazem destaque e estão sob controle (ex.: marca consolidada, professores qualificados, equipamentos modernos). Fraquezas atrapalham o crescimento e precisam ser amenizadas (ex.: falta de insumos, entrega difícil, equipe pouco qualificada, tecnologia ultrapassada).", "fontes": ["plataforma-a-p9"] },
+    { "texto": "Segundo Lopes, as fraquezas ficam no quadrante superior direito da matriz e as forças no quadrante superior esquerdo.", "fontes": ["plataforma-a-p9"] },
+    { "texto": "Forças são as habilidades e recursos para explorar oportunidades e minimizar ameaças; fraquezas são deficiências que dificultam o desempenho (Matos, Matos e Almeida). Mesmo sendo análise interna, é preciso observar os concorrentes, pois forças e fraquezas posicionam a empresa em vantagem ou desvantagem.", "fontes": ["plataforma-a-p10"] }
+   ],
+   "pontosChave": [
+    { "texto": "Interno = controlável; pode intensificar forças e minimizar fraquezas.", "fontes": ["plataforma-a-p5"] },
+    { "texto": "Forças: quadrante superior esquerdo. Fraquezas: superior direito.", "fontes": ["plataforma-a-p9"] },
+    { "texto": "Análise interna pode ser feita a qualquer momento.", "fontes": ["plataforma-a-p8"] }
+   ],
+   "termos": ["g-forca", "g-fraqueza"],
+   "relacionados": ["t20", "t26"]
+  },
+  {
+   "id": "t28", "titulo": "Oportunidades e ameaças (ambiente externo)",
+   "resumo": "O que a empresa não controla e precisa monitorar.",
+   "aprender": [
+    { "texto": "O ambiente externo tem fatores que a empresa não controla: juros, legislação, crises econômicas, câmbio, desastres naturais, clima etc. Para Barney e Hesterly, são elementos fora dos limites da empresa que a influenciam e devem ser monitorados continuamente.", "fontes": ["plataforma-a-p10"] },
+    { "texto": "Oportunidades: cenário positivo (ex.: hotéis com um grande evento na cidade; exportadores com câmbio elevado). Ameaças: cenário não benéfico (ex.: hotel de praia em temporada de chuva, alta do principal insumo, falta de mão de obra, novos concorrentes, mudanças na lei).", "fontes": ["plataforma-a-p11"] },
+    { "texto": "O estudo externo abrange forças macroambientais (políticas, legais, demográficas, econômicas, sociais e culturais) e microambientais (canais de distribuição, fornecedores, consumidores, concorrentes).", "fontes": ["plataforma-a-p11"] },
+    { "texto": "Os fatores externos agem de forma homogênea sobre empresas do mesmo mercado; só as que reconhecem as mudanças e são ágeis aproveitam as oportunidades e sofrem menos com as ameaças.", "fontes": ["plataforma-a-p12"] },
+    { "texto": "Evitar ameaças nem sempre é possível, mas a empresa pode ter um plano de contingência. Por isso a SWOT deve estar sempre atualizada. E a mesma força externa pode ser oportunidade para uma empresa e ameaça para outra do mesmo setor, dependendo dos recursos.", "fontes": ["plataforma-a-p5", "aula4-p19"] }
+   ],
+   "pontosChave": [
+    { "texto": "Externo = incontrolável; monitorar continuamente.", "fontes": ["plataforma-a-p10"] },
+    { "texto": "Oportunidades e ameaças são acontecimentos externos, atuais ou potenciais.", "fontes": ["plataforma-a-p12"] },
+    { "texto": "Mesma força: oportunidade para uns, ameaça para outros.", "fontes": ["aula4-p19"] }
+   ],
+   "termos": ["g-oportunidade", "g-ameaca"],
+   "relacionados": ["t22", "t26"]
+  },
+  {
+   "id": "t29", "titulo": "Caso Blockbuster x Netflix",
+   "resumo": "Ter a SWOT na mesa e não agir.",
+   "aprender": [
+    { "texto": "Em 2000, a Blockbuster teve a chance de comprar a Netflix por US$ 50 milhões e recusou. Tinha consultores, dados e matrizes SWOT; faltou vontade de agir sobre uma ameaça externa para proteger a própria receita.", "fontes": ["aula6-p5"] },
+    { "texto": "Ameaça ignorada: viram o streaming e a entrega de DVDs pelo correio como “nicho”. Fraqueza fatal: cerca de 10% da receita vinha de multas por atraso; manter essa política expulsou os clientes para a Netflix.", "fontes": ["aula6-p6"] },
+    { "texto": "A Netflix transformou a migração digital (oportunidade) em força com sua infraestrutura de streaming, e reagiu à ameaça de os estúdios retirarem filmes investindo bilhões em produções originais.", "fontes": ["aula6-p7"] },
+    { "texto": "A lição: a verdadeira disciplina SWOT não é mapear o mercado, é ter a vontade executiva de mudar operações dolorosas com base nesses dados.", "fontes": ["aula6-p7"] }
+   ],
+   "pontosChave": [
+    { "texto": "2000: Blockbuster recusou comprar a Netflix por US$ 50 milhões.", "fontes": ["aula6-p5"] },
+    { "texto": "≈10% da receita da Blockbuster vinha de multas por atraso.", "fontes": ["aula6-p6"] },
+    { "texto": "SWOT sem ação não serve.", "fontes": ["aula6-p7"] }
+   ],
+   "termos": [],
+   "relacionados": ["t02", "t14", "t30"]
+  },
+  {
+   "id": "t30", "titulo": "Caso Havaianas",
+   "resumo": "Da crise dos anos 90 a artigo de moda global, cruzando quadrantes.",
+   "aprender": [
+    { "texto": "As Havaianas nasceram em 1962, inspiradas na sandália japonesa Zori. Nos anos 1980 eram item básico, com preço tabelado pelo governo.", "fontes": ["aula6-p10", "aula6-p13"] },
+    { "texto": "Crise dos anos 90: comoditização extrema (só necessidade básica, sem apelo emocional), estagnação de portfólio (design igual por mais de 25 anos) e guerra de preços com cópias e falsificações.", "fontes": ["aula6-p14"] },
+    { "texto": "A matriz: forças (eficiência produtiva e durabilidade, marca conhecida, identidade brasileira); fraquezas (baixo valor agregado, estigma de produto para baixa renda, inércia em design); oportunidades (nova classe média, valorização internacional do estilo brasileiro); ameaças (queda de vendas no fim dos anos 80, concorrentes com design idêntico, saturação do mercado interno).", "fontes": ["aula6-p15"] },
+    { "texto": "Cruzando quadrantes: fraqueza x oportunidade virou a Havaianas Top (modelos monocromáticos, novas cores, embalagem premium para a nova classe média), quebrando o estigma e elevando preço e margem. Força x ameaça virou o modelo Copa 98 e a exportação, usando o “DNA brasileiro” para fugir da guerra de preços interna.", "fontes": ["aula6-p16"] },
+    { "texto": "Resultado: aumento do ticket médio e da margem bruta. O ciclo é contínuo: a empresa revisitou a matriz e cortou 50% do portfólio menos rentável para proteger o caixa.", "fontes": ["aula6-p18"] }
+   ],
+   "pontosChave": [
+    { "texto": "Fraqueza x Oportunidade → Havaianas Top.", "fontes": ["aula6-p16"] },
+    { "texto": "Força x Ameaça → Copa 98 e exportação.", "fontes": ["aula6-p16"] },
+    { "texto": "Revisão contínua: corte de 50% do portfólio menos rentável.", "fontes": ["aula6-p18"] }
+   ],
+   "termos": [],
+   "relacionados": ["t26", "t29"]
+  },
+  {
+   "id": "t31", "titulo": "SWOT pessoal (Você.Inc)",
+   "resumo": "Aplicar a SWOT à própria carreira.",
+   "aprender": [
+    { "texto": "O estudante é uma “startup” num ambiente competitivo. Ambiente externo: vagas de estágio, avanço da IA, crises econômicas. Ambiente interno: hard skills, idiomas, inteligência emocional e rede de contatos.", "fontes": ["aula6-p21"] },
+    { "texto": "Exemplo do mapa: força (inglês fluente) → focar em multinacionais de tecnologia; fraqueza (pouca experiência em gestão de projetos) → projetos voluntários e entidades estudantis; oportunidade (uso de IA no setor) → cursos de IA; ameaça (concorrência por trainee) → networking ativo no LinkedIn.", "fontes": ["aula6-p22"] },
+    { "texto": "O próximo passo proposto: fazer a SWOT pessoal na semana e escolher uma fraqueza para atacar ou uma oportunidade para capitalizar.", "fontes": ["aula6-p24"] }
+   ],
+   "pontosChave": [
+    { "texto": "Interno: hard skills, idiomas, inteligência emocional, contatos.", "fontes": ["aula6-p21"] },
+    { "texto": "Externo: vagas, IA, crises.", "fontes": ["aula6-p21"] },
+    { "texto": "Escolha UMA fraqueza ou UMA oportunidade para agir.", "fontes": ["aula6-p24"] }
+   ],
+   "termos": [],
+   "relacionados": ["t10", "t26"]
+  }
+ ],
+ "questoes": [
+  { "id": "q2601", "topico": "t26", "tipo": "multipla", "enunciado": "Como a análise SWOT também é conhecida no Brasil?", "alternativas": ["PESTEL", "FOFA", "VRIO", "BCG"], "correta": 1, "explicacao": "A análise SWOT é conhecida no Brasil também como análise FOFA.", "fontes": ["plataforma-a-p3"] },
+  { "id": "q2602", "topico": "t26", "tipo": "multipla", "enunciado": "Segundo Oliveira (2007), uma oportunidade é:", "alternativas": ["Uma variável controlável que dá vantagem operacional", "Uma força ambiental incontrolável que pode beneficiar a atividade estratégica", "Uma circunstância inadequada da organização", "Uma meta de crescimento"], "correta": 1, "explicacao": "Oportunidade: força ambiental incontrolável, que pode beneficiar a atividade estratégica se conhecida e usufruída.", "fontes": ["plataforma-a-p4"] },
+  { "id": "q2603", "topico": "t26", "tipo": "multipla", "enunciado": "Em que década surgiu a matriz SWOT, segundo o capítulo da Sagah?", "alternativas": ["1940", "1960", "1980", "2000"], "correta": 1, "explicacao": "A matriz SWOT surgiu na década de 1960, a partir de debates na escola de administração.", "fontes": ["plataforma-a-p3"] },
+  { "id": "q2604", "topico": "t26", "tipo": "multipla", "enunciado": "Para Kotler (2005), o que a SWOT busca fazer com as fraquezas?", "alternativas": ["Exaltá-las", "Suavizá-las", "Ignorá-las", "Transformá-las em ameaças"], "correta": 1, "explicacao": "Forças exaltadas e fortalecidas, fraquezas suavizadas, oportunidades asseguradas e ameaças protegidas.", "fontes": ["plataforma-a-p5"] },
+  { "id": "f2601", "topico": "t26", "tipo": "flashcard", "frente": "O mito e a verdade da SWOT (Aula 6)", "verso": "Mito: um formulário estático para preencher e guardar na gaveta. Verdade: um mapa dinâmico de sobrevivência estratégica.", "fontes": ["aula6-p4"] },
+
+  { "id": "q2701", "topico": "t27", "tipo": "multipla", "enunciado": "Segundo Lopes, em qual quadrante da matriz ficam as fraquezas?", "alternativas": ["Superior esquerdo", "Superior direito", "Inferior esquerdo", "Inferior direito"], "correta": 1, "explicacao": "Fraquezas no quadrante superior direito; forças no superior esquerdo.", "fontes": ["plataforma-a-p9"] },
+  { "id": "q2702", "topico": "t27", "tipo": "multipla", "enunciado": "Quando a análise interna pode ser realizada?", "alternativas": ["Só na abertura da empresa", "Só uma vez por ano", "A qualquer momento", "Só em crises"], "correta": 2, "explicacao": "Pode ser realizada a qualquer momento: abertura de empresa ou filial, novo projeto ou para vencer adversidades atuais.", "fontes": ["plataforma-a-p8"] },
+  { "id": "q2703", "topico": "t27", "tipo": "multipla", "enunciado": "Qual destes é exemplo de fraqueza no Quadro 1?", "alternativas": ["Marca consolidada no mercado", "Equipamentos mais modernos do mercado", "Tecnologia ultrapassada", "Equipe muito unida"], "correta": 2, "explicacao": "Exemplos de fraquezas: falta de insumos, itens perecíveis, entrega difícil, equipe pouco qualificada, tecnologia ultrapassada.", "fontes": ["plataforma-a-p9"] },
+  { "id": "f2701", "topico": "t27", "tipo": "flashcard", "frente": "Por que olhar concorrentes numa análise interna?", "verso": "Porque forças e fraquezas posicionam a empresa em vantagem ou desvantagem em relação aos concorrentes.", "fontes": ["plataforma-a-p10"] },
+
+  { "id": "q2801", "topico": "t28", "tipo": "multipla", "enunciado": "Uma rede de hotéis na praia durante uma temporada de chuvas é exemplo de:", "alternativas": ["Força", "Fraqueza", "Oportunidade", "Ameaça"], "correta": 3, "explicacao": "O Quadro 2 cita a temporada de mau tempo para hotéis de praia como ameaça.", "fontes": ["plataforma-a-p11"] },
+  { "id": "q2802", "topico": "t28", "tipo": "multipla", "enunciado": "Canais de distribuição, fornecedores, consumidores e concorrentes são aspectos:", "alternativas": ["Macroambientais", "Microambientais", "Internos", "Culturais"], "correta": 1, "explicacao": "O texto lista esses itens como aspectos microambientais.", "fontes": ["plataforma-a-p11"] },
+  { "id": "q2803", "topico": "t28", "tipo": "multipla", "enunciado": "Se não é possível evitar uma ameaça externa, o que a empresa pode fazer, segundo o texto?", "alternativas": ["Ignorá-la", "Um planejamento de contingência para abafar seus efeitos", "Transformá-la em força interna", "Retirá-la da matriz"], "correta": 1, "explicacao": "A empresa pode realizar um planejamento de contingência e manter a SWOT sempre atualizada.", "fontes": ["plataforma-a-p5"] },
+  { "id": "q2804", "topico": "t28", "tipo": "multipla", "enunciado": "Por que a SWOT “nunca deve ser copiada de um modelo genérico”?", "alternativas": ["Porque é protegida por direitos autorais", "Porque a mesma força pode ser oportunidade para uma empresa e ameaça para outra, dependendo de seus recursos", "Porque cada setor tem só uma ameaça", "Porque o PESTEL substitui a SWOT"], "correta": 1, "explicacao": "Slide final da Aula 4: a implicação depende da realidade e dos recursos de cada organização.", "fontes": ["aula4-p19"] },
+
+  { "id": "q2901", "topico": "t29", "tipo": "multipla", "enunciado": "Por quanto a Blockbuster poderia ter comprado a Netflix em 2000?", "alternativas": ["US$ 5 milhões", "US$ 50 milhões", "US$ 500 milhões", "US$ 5 bilhões"], "correta": 1, "explicacao": "Em 2000 a Blockbuster teve a chance de comprar a Netflix por US$ 50 milhões e recusou.", "fontes": ["aula6-p5"] },
+  { "id": "q2902", "topico": "t29", "tipo": "multipla", "enunciado": "Qual foi a “fraqueza fatal” da Blockbuster?", "alternativas": ["Falta de lojas", "Dependência de cerca de 10% da receita em multas por atraso", "Falta de consultores", "Falta de dados de mercado"], "correta": 1, "explicacao": "Remover as multas destruiria a receita imediata; mantê-las expulsou os clientes para a Netflix.", "fontes": ["aula6-p6"] },
+  { "id": "q2903", "topico": "t29", "tipo": "multipla", "enunciado": "Como a Netflix reagiu à ameaça dos estúdios retirarem filmes do catálogo?", "alternativas": ["Comprou a Blockbuster", "Investiu bilhões em produções originais", "Voltou a enviar DVDs", "Baixou os preços"], "correta": 1, "explicacao": "Reagiram investindo bilhões em produções Originais.", "fontes": ["aula6-p7"] },
+
+  { "id": "q3001", "topico": "t30", "tipo": "multipla", "enunciado": "O lançamento da Havaianas Top cruzou quais quadrantes?", "alternativas": ["Força x Ameaça", "Fraqueza x Oportunidade", "Força x Oportunidade", "Fraqueza x Ameaça"], "correta": 1, "explicacao": "Fraqueza (estigma, baixo valor agregado) x oportunidade (nova classe média).", "fontes": ["aula6-p16"] },
+  { "id": "q3002", "topico": "t30", "tipo": "multipla", "enunciado": "O modelo Copa 98 e a exportação usaram:", "alternativas": ["A força do “DNA brasileiro” contra a ameaça da saturação interna", "A fraqueza do design contra a oportunidade internacional", "A ameaça das cópias como oportunidade", "O preço tabelado pelo governo"], "correta": 0, "explicacao": "Força x Ameaça: “DNA Brasileiro” contra a saturação interna, faturando em dólar/euro.", "fontes": ["aula6-p16"] },
+  { "id": "q3003", "topico": "t30", "tipo": "multipla", "enunciado": "Qual destes itens estava na coluna de FRAQUEZAS da Havaianas?", "alternativas": ["Conhecimento universal da marca", "Estigma social de produto para classes de baixa renda", "Valorização internacional do estilo brasileiro", "Entrada de concorrentes com design idêntico"], "correta": 1, "explicacao": "Fraquezas: baixo valor agregado, estigma social, falta de atratividade visual.", "fontes": ["aula6-p15"] },
+  { "id": "f3001", "topico": "t30", "tipo": "flashcard", "frente": "A crise das Havaianas nos anos 90", "verso": "Comoditização extrema, estagnação de portfólio (design igual por mais de 25 anos) e guerra de preços com cópias e falsificações.", "fontes": ["aula6-p14"] },
+
+  { "id": "q3101", "topico": "t31", "tipo": "multipla", "enunciado": "Na SWOT pessoal, “avanço da Inteligência Artificial” está em qual ambiente?", "alternativas": ["Interno", "Externo", "Nenhum", "Nos dois"], "correta": 1, "explicacao": "Ambiente externo: vagas de estágio, avanço da IA, crises econômicas.", "fontes": ["aula6-p21"] },
+  { "id": "q3102", "topico": "t31", "tipo": "multipla", "enunciado": "No exemplo do mapa, qual ação corresponde à fraqueza “falta de experiência em gestão de projetos”?", "alternativas": ["Networking no LinkedIn", "Buscar projetos voluntários e entidades estudantis", "Cursos de IA", "Focar em multinacionais de tecnologia"], "correta": 1, "explicacao": "Fraqueza (W) → buscar projetos voluntários e entidades estudantis na faculdade.", "fontes": ["aula6-p22"] }
+ ]
+}
