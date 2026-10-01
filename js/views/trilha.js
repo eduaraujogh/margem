@@ -1,5 +1,5 @@
 import { D } from "../data.js";
-import { esc, ico } from "../ui.js";
+import { esc, ico, anel, numMod } from "../ui.js";
 import { estadoTopico, ROTULO_ESTADO } from "../store.js";
 
 export function render() {
@@ -7,8 +7,8 @@ export function render() {
     const ts = D.topicosDo[m.id];
     const feitos = ts.filter(t => !["nao", "andamento"].includes(estadoTopico(t.id))).length;
     return `
-      <section class="modulo">
-        <div class="modulo-head"><h2>${esc(m.titulo)}</h2><span class="n">${feitos}/${ts.length}</span></div>
+      <section class="modulo-card m-${m.id}" id="${m.id}">
+        <div class="modulo-head"><span class="badge" aria-hidden="true">${numMod(m.id)}</span><h2 class="grow">${esc(m.titulo)}</h2>${anel(Math.round(feitos / ts.length * 100), `${feitos}/${ts.length}`, 46, 5)}</div>
         <p class="modulo-desc">${esc(m.aulas)} · ${esc(m.descricao)}</p>
         <div class="list">
           ${ts.map(t => {

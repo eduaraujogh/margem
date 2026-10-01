@@ -1,5 +1,5 @@
 import { D } from "../data.js";
-import { esc, ico, plural } from "../ui.js";
+import { esc, ico, plural, numMod } from "../ui.js";
 import { devidos, pontosFracos, estadoTopico, estado, LIMITE_REVISAO, hoje } from "../store.js";
 import { iniciarSessao } from "./sessao.js";
 
@@ -12,7 +12,8 @@ export function render() {
   const proxData = Object.values(estado().cartoes).map(c => c.vence).filter(v => v > hoje()).sort()[0];
 
   const rev = n ? `
-    <div class="card hero">
+    <div class="card hero fill">
+      <div class="deco" aria-hidden="true"></div>
       <div class="meta">Revisão espaçada</div>
       <h2>${plural(n, "questão para hoje", "questões para hoje")}</h2>
       <p>As que você acerta demoram mais para voltar. As que você erra voltam amanhã.</p>
@@ -24,9 +25,9 @@ export function render() {
     </div>`;
 
   const opcoes = [];
-  if (fracos.length) opcoes.push(`<button class="item" type="button" data-sim="fracos"><div class="grow"><div class="t">Pontos fracos</div><div class="s">${plural(fracos.length, "tópico", "tópicos")} com mais erros</div></div>${ico.chev}</button>`);
-  if (estudados.length) opcoes.push(`<button class="item" type="button" data-sim="estudados"><div class="grow"><div class="t">Tudo o que já estudei</div><div class="s">${plural(estudados.length, "tópico", "tópicos")}, 10 questões misturadas</div></div>${ico.chev}</button>`);
-  for (const m of D.modulos) opcoes.push(`<button class="item" type="button" data-sim="${m.id}"><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.aulas)}, 10 questões</div></div>${ico.chev}</button>`);
+  if (fracos.length) opcoes.push(`<button class="item" type="button" data-sim="fracos"><span class="tile" aria-hidden="true">!</span><div class="grow"><div class="t">Pontos fracos</div><div class="s">${plural(fracos.length, "tópico", "tópicos")} com mais erros</div></div>${ico.chev}</button>`);
+  if (estudados.length) opcoes.push(`<button class="item" type="button" data-sim="estudados"><span class="tile" aria-hidden="true">∗</span><div class="grow"><div class="t">Tudo o que já estudei</div><div class="s">${plural(estudados.length, "tópico", "tópicos")}, 10 questões misturadas</div></div>${ico.chev}</button>`);
+  for (const m of D.modulos) opcoes.push(`<button class="item m-${m.id}" type="button" data-sim="${m.id}"><span class="tile" aria-hidden="true">${numMod(m.id)}</span><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.aulas)}, 10 questões</div></div>${ico.chev}</button>`);
 
   return {
     html: `
@@ -45,7 +46,7 @@ export function render() {
         if (k === "fracos") { topicos = fracos.map(f => f.t.id); titulo = "Simulado: pontos fracos"; }
         else if (k === "estudados") { topicos = estudados; titulo = "Simulado: tudo o que estudei"; }
         else { topicos = D.topicosDo[k].map(t => t.id); titulo = `Simulado: ${D.mod[k].titulo}`; }
-        iniciarSessao({ tipo: "simulado", topicos, titulo, n: 10 });
+        iniciarSessao({ tipo: "simulado", topicos, titulo, n: 10, mod: D.mod[k] ? k : null });
       });
     },
   };

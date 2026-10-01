@@ -34,7 +34,7 @@ export function render(id, aba = "aprender") {
       <div class="dock"><a class="btn block" href="#/t/${id}/chave" id="lido">Li tudo: ver pontos-chave</a></div>`;
   } else if (aba === "chave") {
     corpo = `
-      <ul class="keypoints">
+      <ul class="keypoints num">
         ${t.pontosChave.map(k => `<li><p class="kp">${esc(k.texto)}</p>${fontes(k.fontes)}</li>`).join("")}
       </ul>
       <div class="dock"><a class="btn block" href="#/t/${id}/praticar">Praticar este tópico</a></div>`;
@@ -60,10 +60,12 @@ export function render(id, aba = "aprender") {
   return {
     titulo: t.titulo,
     voltar: "#/trilha",
+    mod: t.modulo, tinta: true,
     html: `
-      <div class="page-head">
-        <div class="eyebrow">${esc(m.titulo)} · <span>${ROTULO_ESTADO[e]}</span></div>
-        <h1 class="page-title">${esc(t.titulo)}</h1>
+      <div class="topic-head">
+        <div class="row" style="gap:8px;flex-wrap:wrap"><span class="chip-mod">Módulo ${m.id.replace("mod", "")} · ${esc(m.titulo)}</span><span class="eyebrow mod">${ROTULO_ESTADO[e]}</span></div>
+        <h1 class="page-title" style="margin-top:12px">${esc(t.titulo)}</h1>
+        <p class="page-sub" style="color:var(--ink-2)">${esc(t.resumo)}</p>
         ${e === "nao" || e === "andamento" ? `<button class="link-btn" id="ja-sei" type="button">Já sei isso: ir direto às questões</button>` : ""}
       </div>
       <div class="tabs" role="tablist" aria-label="Partes do tópico">

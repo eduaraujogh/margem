@@ -10,14 +10,14 @@ export function render() {
         <p class="page-sub">Os 8 materiais originais. Tudo no app aponta para uma página deles.</p>
       </div>
       <div class="list">
-        <a class="item" href="#/glossario"><div class="grow"><div class="t">Glossário</div><div class="s">${D.glossario.length} termos, cada um com a fonte</div></div>${ico.chev}</a>
+        <a class="item" href="#/glossario"><span class="tile" aria-hidden="true">Aa</span><div class="grow"><div class="t">Glossário</div><div class="s">${D.glossario.length} termos, cada um com a fonte</div></div>${ico.chev}</a>
       </div>
       <section class="section">
         <h2 class="section-title">Materiais</h2>
         <div class="list">
           ${mats.map(m => `
             <a class="item" href="#/material/${m.id}">
-              <div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.tipo)}</div></div>${ico.chev}
+              <span class="tile" aria-hidden="true">${ico.doc}</span><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.tipo)}</div></div>${ico.chev}
             </a>`).join("")}
         </div>
       </section>`,

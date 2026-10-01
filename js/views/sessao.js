@@ -1,6 +1,6 @@
 // Sessão de prática: questões de um tópico, revisão do dia ou simulado
 import { D } from "../data.js";
-import { esc, ico, fontes, embaralhar, plural } from "../ui.js";
+import { esc, ico, fontes, embaralhar, plural, anel } from "../ui.js";
 import { responder, marcarRevisao, marcarPraticado, devidos, estadoTopico, LIMITE_REVISAO } from "../store.js";
 import { abrirReporte } from "../folhas.js";
 
@@ -29,7 +29,7 @@ export function iniciarSessao(cfg) {
 export function render() {
   if (!S) return { html: `<div class="empty">Nenhuma sessão em andamento.<br><a class="btn small mt" href="#/">Ir para Hoje</a></div>` };
   return {
-    titulo: S.titulo, foco: true, voltar: S.voltar,
+    titulo: S.titulo, foco: true, voltar: S.voltar, mod: S.cfg.mod || (S.cfg.topico && D.top[S.cfg.topico].modulo),
     html: `<div id="sessao"></div>`,
     montar(el) { desenhar(el.querySelector("#sessao")); },
   };
@@ -95,7 +95,7 @@ function escolher(box, q, k) {
   });
   registrar(box, q, ok, false);
   box.querySelector("#fb").innerHTML = `
-    <div class="feedback" role="status">
+    <div class="feedback ${ok ? "ok" : "err"}" role="status">
       <div class="verdict ${ok ? "ok" : "err"}">${ok ? "Certo." : "Não é essa."}</div>
       ${ok ? "" : `<p><strong>Resposta certa:</strong> ${esc(q.alternativas[q.correta])}</p>`}
       <p>${esc(q.explicacao)}</p>
@@ -141,8 +141,8 @@ function fim(box) {
   box.innerHTML = `
     <div class="page-head" style="text-align:center;padding-top:36px">
       <div class="eyebrow">${esc(S.titulo)}</div>
-      <p class="result-big mt">${a} de ${n}</p>
-      <p class="muted mt-s">${a === 1 ? "certa" : "certas"}</p>
+      <div class="mt">${anel(pct, `${a}/${n}`, 140, 12, "result-ring")}</div>
+      <p class="muted mt-s">${a === 1 ? "questão certa" : "questões certas"}</p>
       <p class="mt">${msg}</p>
     </div>
     ${erradasTop.length && S.cfg.tipo !== "topico" ? `

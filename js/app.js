@@ -51,6 +51,7 @@ function render() {
   let r;
   try { r = view.render(...args, params); }
   catch (e) { console.error(e); r = { html: `<div class="empty">Não encontrei esta página.<br><a href="#/">Voltar ao início</a></div>` }; }
+  document.body.className = [r.mod ? `m-${r.mod}` : "", r.tinta ? "tinta" : ""].join(" ").trim();
   main.innerHTML = `<div class="fade-in">${r.html}</div>`;
   document.title = r.titulo ? `${r.titulo} · Margem` : "Margem";
   document.getElementById("titulo-topo").textContent = r.titulo || "";
@@ -71,7 +72,8 @@ function render() {
 
 let voltarPara = "#/";
 document.getElementById("voltar").onclick = () => {
-  if (history.length > 1 && sessionStorage.getItem("margem.nav")) history.back();
+  let nav = false; try { nav = !!sessionStorage.getItem("margem.nav"); } catch (e) {}
+  if (history.length > 1 && nav) history.back();
   else location.hash = voltarPara;
 };
 

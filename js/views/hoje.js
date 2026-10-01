@@ -1,5 +1,5 @@
 import { D } from "../data.js";
-import { esc, ico, plural } from "../ui.js";
+import { esc, ico, plural, anel, numMod } from "../ui.js";
 import { devidos, resumo, pontosFracos, proximoAEstudar, estadoTopico, estado, LIMITE_REVISAO } from "../store.js";
 import { iniciarSessao } from "./sessao.js";
 
@@ -20,7 +20,8 @@ export function render() {
   let passo;
   if (nRev > 0) {
     passo = `
-      <div class="card hero">
+      <div class="card hero fill">
+        <div class="deco" aria-hidden="true"></div>
         <div class="meta">Próximo passo</div>
         <h2>Revisão de hoje</h2>
         <p>${plural(nRev, "questão", "questões")} para não esquecer o que você já estudou. Leva poucos minutos.</p>
@@ -30,7 +31,8 @@ export function render() {
     const m = D.mod[prox.modulo];
     const e = estadoTopico(prox.id);
     passo = `
-      <a class="card hero card-link" href="#/t/${prox.id}">
+      <a class="card hero fill card-link" href="#/t/${prox.id}">
+        <div class="deco" aria-hidden="true"></div><div class="num" aria-hidden="true">${numMod(prox.modulo)}</div>
         <div class="meta">${e === "andamento" ? "Continuar" : novo ? "Comece por aqui" : "Próximo tópico"} · ${esc(m.titulo)}</div>
         <h2>${esc(prox.titulo)}</h2>
         <p>${esc(prox.resumo)}</p>
@@ -38,7 +40,8 @@ export function render() {
       </a>`;
   } else {
     passo = `
-      <div class="card hero">
+      <div class="card hero fill">
+        <div class="deco" aria-hidden="true"></div>
         <div class="meta">Trilha concluída</div>
         <h2>Você passou por todos os tópicos</h2>
         <p>Agora o melhor uso do tempo é um simulado misto ou reforçar os pontos fracos.</p>
@@ -51,7 +54,7 @@ export function render() {
     <section class="section">
       <h2 class="section-title">Depois da revisão</h2>
       <div class="list">
-        <a class="item" href="#/t/${prox.id}">
+        <a class="item m-${prox.modulo}" href="#/t/${prox.id}">
           <span class="dot ${estadoTopico(prox.id)}" aria-hidden="true"></span>
           <div class="grow"><div class="t">${esc(prox.titulo)}</div><div class="s">${esc(D.mod[prox.modulo].titulo)}</div></div>${ico.chev}
         </a>
@@ -63,8 +66,8 @@ export function render() {
       <h2 class="section-title">Precisa de atenção</h2>
       <div class="list">
         ${fracos.map(f => `
-          <a class="item" href="#/t/${f.t.id}">
-            <div class="grow"><div class="t">${esc(f.t.titulo)}</div><div class="s">${f.erros} erros nas últimas ${f.total} respostas</div></div>${ico.chev}
+          <a class="item m-${f.t.modulo}" href="#/t/${f.t.id}">
+            <span class="tile" aria-hidden="true">${numMod(f.t.modulo)}</span><div class="grow"><div class="t">${esc(f.t.titulo)}</div><div class="s">${f.erros} erros nas últimas ${f.total} respostas</div></div>${ico.chev}
           </a>`).join("")}
       </div>
     </section>` : "";
@@ -81,6 +84,7 @@ export function render() {
     </section>` : "";
 
   return {
+    mod: nRev > 0 ? null : prox?.modulo,
     html: `
       <div class="page-head">
         <div class="eyebrow">Planejamento Estratégico</div>
@@ -92,10 +96,14 @@ export function render() {
       ${comoFunciona}
       <section class="section">
         <h2 class="section-title">Seu progresso</h2>
-        <a class="card card-link" href="#/trilha">
-          <div class="row"><p class="progress-line grow">${r.estudados} de ${r.total} tópicos estudados · ${r.dominados} ${r.dominados === 1 ? "dominado" : "dominados"}</p>${ico.chev}</div>
-          <div class="bar" aria-hidden="true"><i style="width:${pct}%"></i></div>
-        </a>
+        <div class="card">
+          <div class="rings">${D.modulos.map(m => {
+            const ts = D.topicosDo[m.id];
+            const p = Math.round(ts.filter(t => !["nao", "andamento"].includes(estadoTopico(t.id))).length / ts.length * 100);
+            return `<a class="ring-item m-${m.id}" href="#/trilha">${anel(p)}<span>${esc(m.titulo)}</span></a>`;
+          }).join("")}</div>
+          <p class="progress-line small mt" style="text-align:center">${r.estudados} de ${r.total} tópicos estudados · ${r.dominados} ${r.dominados === 1 ? "dominado" : "dominados"}</p>
+        </div>
       </section>
       <p class="mt" style="text-align:center"><a class="link-btn" href="#/ajustes">Ajustes e backup do progresso</a></p>`,
     montar(el) {

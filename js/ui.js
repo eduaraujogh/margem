@@ -55,4 +55,10 @@ export function embaralhar(arr) {
   return a;
 }
 
+export function anel(pct, rotulo = `${pct}%`, tam = 58, esp = 6, cls = "ring") {
+  const r = (tam - esp) / 2, c = 2 * Math.PI * r;
+  return `<div class="${cls}" role="img" aria-label="${pct}%"><svg viewBox="0 0 ${tam} ${tam}" aria-hidden="true"><circle class="trk" cx="${tam / 2}" cy="${tam / 2}" r="${r}"/><circle class="val" cx="${tam / 2}" cy="${tam / 2}" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - Math.max(0, Math.min(pct, 100)) / 100)}"/></svg><b>${rotulo}</b></div>`;
+}
+export const numMod = id => id.replace("mod", "");
+
 export const plural = (n, um, varios) => `${n} ${n === 1 ? um : varios}`;

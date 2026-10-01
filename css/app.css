@@ -301,3 +301,109 @@ label.lbl { display: block; font-weight: 500; font-size: 14px; margin: 14px 0 6p
   body { padding-bottom: calc(var(--tab-h) + 32px); }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* ============ Cor por módulo ============ */
+:root {
+  --ok: #23874F; --ok-soft: #DDF2E5; --err: #D2513C; --err-soft: #FBE3DE;
+  --m: #2B4A7C; --m-soft: #E3E9F3; --m-on: #FFFFFF; --m-deep: #1D3459;
+}
+.m-mod1 { --m: #C4552D; --m-soft: #F8E3D9; --m-on: #FFFFFF; --m-deep: #8E3A1C; }
+.m-mod2 { --m: #5F7D2B; --m-soft: #E7EFD6; --m-on: #FFFFFF; --m-deep: #405619; }
+.m-mod3 { --m: #1E6676; --m-soft: #D9EBEF; --m-on: #FFFFFF; --m-deep: #134650; }
+.m-mod4 { --m: #D9A21F; --m-soft: #F8EDCC; --m-on: #2B2005; --m-deep: #8A6410; }
+.m-mod5 { --m: #7E3B6E; --m-soft: #F1E1EC; --m-on: #FFFFFF; --m-deep: #5A2950; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --ok: #5BD08C; --ok-soft: #173326; --err: #FF8A73; --err-soft: #3C1F1A; --m: #8FB0EC; --m-soft: #22304A; --m-on: #10192C; --m-deep: #BBD0F5; }
+  :root:not([data-theme="light"]) .m-mod1 { --m: #EE8A63; --m-soft: #3A2219; --m-on: #2A1209; --m-deep: #F7B79C; }
+  :root:not([data-theme="light"]) .m-mod2 { --m: #A9C76A; --m-soft: #252E17; --m-on: #182009; --m-deep: #CBE19A; }
+  :root:not([data-theme="light"]) .m-mod3 { --m: #63B9CB; --m-soft: #152C31; --m-on: #082126; --m-deep: #9AD6E2; }
+  :root:not([data-theme="light"]) .m-mod4 { --m: #EDC04E; --m-soft: #332A12; --m-on: #2B2005; --m-deep: #F5D88A; }
+  :root:not([data-theme="light"]) .m-mod5 { --m: #CF86BE; --m-soft: #33202E; --m-on: #2A0F24; --m-deep: #E6B5DA; }
+}
+:root[data-theme="dark"] { --ok: #5BD08C; --ok-soft: #173326; --err: #FF8A73; --err-soft: #3C1F1A; --m: #8FB0EC; --m-soft: #22304A; --m-on: #10192C; --m-deep: #BBD0F5; }
+:root[data-theme="dark"] .m-mod1 { --m: #EE8A63; --m-soft: #3A2219; --m-on: #2A1209; --m-deep: #F7B79C; }
+:root[data-theme="dark"] .m-mod2 { --m: #A9C76A; --m-soft: #252E17; --m-on: #182009; --m-deep: #CBE19A; }
+:root[data-theme="dark"] .m-mod3 { --m: #63B9CB; --m-soft: #152C31; --m-on: #082126; --m-deep: #9AD6E2; }
+:root[data-theme="dark"] .m-mod4 { --m: #EDC04E; --m-soft: #332A12; --m-on: #2B2005; --m-deep: #F5D88A; }
+:root[data-theme="dark"] .m-mod5 { --m: #CF86BE; --m-soft: #33202E; --m-on: #2A0F24; --m-deep: #E6B5DA; }
+
+/* botões e barras seguem a cor do módulo da tela */
+main .btn:not(.ghost):not(.soft) { background: var(--m); color: var(--m-on); }
+main .btn.soft { background: var(--m-soft); color: var(--m-deep); }
+.bar > i { background: var(--m); }
+.tabs { background: var(--m-soft); }
+.tabs button[aria-selected="true"] { color: var(--m-deep); font-weight: 600; }
+.src { background: var(--m-soft); border-color: transparent; color: var(--m-deep); }
+.eyebrow.mod { color: var(--m-deep); font-weight: 600; }
+.dot.andamento { border-color: var(--m); background: linear-gradient(90deg, var(--m) 50%, transparent 50%); }
+.dot.estudado { border-color: var(--m); background: var(--m); }
+.dot.revisando { border-color: var(--m); background: var(--m-soft); box-shadow: inset 0 0 0 2px var(--m); }
+.dot.dominado { border-color: var(--ok); background: var(--ok); }
+.dot { width: 12px; height: 12px; }
+
+/* card principal cheio na cor do módulo */
+.hero.fill { background: var(--m); color: var(--m-on); border: 0; position: relative; overflow: hidden; box-shadow: 0 10px 30px -12px var(--m); }
+.hero.fill .meta, .hero.fill p { color: var(--m-on); opacity: .88; }
+.hero.fill h2 { color: var(--m-on); font-size: 25px; position: relative; }
+.hero.fill .btn, main .hero.fill .btn:not(.ghost):not(.soft) { background: var(--m-on); color: var(--m); position: relative; }
+.hero.fill .deco { position: absolute; right: -36px; top: -40px; width: 170px; height: 170px; border-radius: 50%; background: var(--m-on); opacity: .1; }
+.hero.fill .deco::after { content: ""; position: absolute; left: -46px; top: 104px; width: 90px; height: 90px; border-radius: 50%; border: 14px solid var(--m-on); opacity: .9; }
+.hero.fill .num { position: absolute; right: 18px; top: 14px; font: 600 54px/1 var(--serif); opacity: .22; }
+
+/* anéis de progresso */
+.rings { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.ring-item { display: flex; flex-direction: column; align-items: center; gap: 6px; text-decoration: none; color: inherit; text-align: center; }
+.ring { width: 58px; height: 58px; position: relative; }
+.ring svg { width: 58px; height: 58px; transform: rotate(-90deg); }
+.ring circle { fill: none; stroke-width: 6; }
+.ring .trk { stroke: var(--m-soft); }
+.ring .val { stroke: var(--m); stroke-linecap: round; transition: stroke-dashoffset .6s; }
+.ring b { position: absolute; inset: 0; display: grid; place-items: center; font: 600 13px/1 var(--sans); color: var(--m-deep); }
+.ring-item span { font-size: 11px; line-height: 1.25; color: var(--ink-2); }
+
+/* trilha: cabeçalho do módulo */
+.modulo-card { border-radius: 18px; background: var(--m-soft); padding: 16px 16px 6px; margin-top: 18px; }
+.modulo-card .modulo-head { margin-bottom: 4px; align-items: center; }
+.modulo-card .modulo-head h2 { color: var(--m-deep); }
+.modulo-card .badge { width: 34px; height: 34px; border-radius: 10px; background: var(--m); color: var(--m-on); display: grid; place-items: center; font: 600 16px/1 var(--serif); flex: none; }
+.modulo-card .list { margin: 12px -16px 0; border-radius: 0 0 18px 18px; border: 0; border-top: 1px solid color-mix(in srgb, var(--m) 20%, transparent); }
+.modulo-card .modulo-desc { color: color-mix(in srgb, var(--m-deep) 80%, var(--muted)); margin: 2px 0 0 46px; }
+
+/* tópico: cabeçalho tingido */
+.topic-head { margin: 0 calc(var(--gutter) * -1); padding: 14px var(--gutter) 20px; background: var(--m-soft); border-radius: 0 0 24px 24px; margin-bottom: 14px; }
+.topic-head .page-title { color: var(--m-deep); }
+.topic-head .link-btn { color: var(--m-deep); }
+.chip-mod { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border-radius: 999px; background: var(--m); color: var(--m-on); font: 600 12px/1 var(--sans); }
+.keypoints.num { counter-reset: kp; }
+.keypoints.num li { position: relative; padding-left: 44px; }
+.keypoints.num li::before { counter-increment: kp; content: counter(kp); position: absolute; left: 0; top: 14px; width: 30px; height: 30px; border-radius: 50%; background: var(--m-soft); color: var(--m-deep); display: grid; place-items: center; font: 600 14px/1 var(--sans); }
+.reading .para { padding-left: 14px; border-left: 3px solid var(--m-soft); }
+
+/* prática */
+.opt { border-width: 2px; }
+.opt:active:not([disabled]) { border-color: var(--m); background: var(--m-soft); }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrong { border-color: var(--err); background: var(--err-soft); }
+.feedback.ok { border-color: var(--ok); background: var(--ok-soft); }
+.feedback.err { border-color: var(--err); background: var(--err-soft); }
+.flash { background: var(--m-soft); border: 0; }
+.result-ring { width: 140px; height: 140px; margin: 0 auto; position: relative; }
+.result-ring svg { width: 140px; height: 140px; transform: rotate(-90deg); }
+.result-ring circle { fill: none; stroke-width: 12; }
+.result-ring .trk { stroke: var(--m-soft); }
+.result-ring .val { stroke: var(--m); stroke-linecap: round; }
+.result-ring b { position: absolute; inset: 0; display: grid; place-items: center; font: 600 34px/1 var(--serif); color: var(--m-deep); }
+
+/* listas com marca de cor */
+.tile { width: 38px; height: 38px; border-radius: 11px; display: grid; place-items: center; flex: none; background: var(--m-soft); color: var(--m-deep); font: 600 15px/1 var(--serif); }
+.tile svg { width: 20px; height: 20px; }
+.tabbar a[aria-current="page"] { color: var(--ink); }
+.tabbar a[aria-current="page"] svg { color: var(--tabc, var(--accent)); }
+body { background: var(--bg); }
+
+.modulo-card .ring, .modulo-card .ring svg { width: 46px; height: 46px; }
+.modulo-card .ring b { font-size: 11px; }
+
+body.tinta .topbar { background: var(--m-soft); }
+body.tinta .topic-head { margin-top: -8px; }
+.tabbar a[aria-current="page"] svg { color: var(--m); }
