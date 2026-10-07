@@ -53,6 +53,9 @@ function cabecalhos(req) {
 }
 const json = (req, status, obj) => new Response(JSON.stringify(obj), { status, headers: { "Content-Type": "application/json; charset=utf-8", ...cabecalhos(req) } });
 
+// o app manda o código com encodeURIComponent; maiúsculas e espaços nas pontas não contam
+const igual = v => { let t = v || ""; try { t = decodeURIComponent(t); } catch (e) {} return t.trim().toLowerCase(); };
+
 export default {
   async fetch(req, env) {
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cabecalhos(req) });
@@ -60,7 +63,7 @@ export default {
     if (req.method === "GET") return json(req, 200, { ok: true, servico: "margem", configurado: !!(env.GEMINI_API_KEY && env.CODIGO) });
     if (req.method !== "POST" || url.pathname !== "/gerar") return json(req, 404, { ok: false, erro: "rota" });
     if (!env.GEMINI_API_KEY || !env.CODIGO) return json(req, 500, { ok: false, erro: "config", msg: "Servidor sem chave ou sem código cadastrados." });
-    if ((req.headers.get("X-Margem-Codigo") || "") !== env.CODIGO) return json(req, 401, { ok: false, erro: "codigo", msg: "Código de acesso incorreto." });
+    if (igual(req.headers.get("X-Margem-Codigo")) !== igual(env.CODIGO)) return json(req, 401, { ok: false, erro: "codigo", msg: "Código de acesso incorreto." });
 
     const pdf = await req.arrayBuffer();
     if (pdf.byteLength < 100) return json(req, 400, { ok: false, erro: "vazio", msg: "Nenhum PDF recebido." });
