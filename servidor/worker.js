@@ -38,8 +38,25 @@ Responda apenas com JSON, neste formato:
    "flashcards": [{"frente": "", "verso": "", "paginas": [1]}]}],
  "glossario": [{"termo": "", "definicao": "", "paginas": [1]}]}`;
 
+// Esquema da resposta: obriga a IA a devolver JSON válido neste formato
+const T = "STRING", PAGS = { type: "ARRAY", items: { type: "INTEGER" } };
+const obj = (props, opcionais = []) => ({ type: "OBJECT", properties: props, required: Object.keys(props).filter(k => !opcionais.includes(k)) });
+const lista = item => ({ type: "ARRAY", items: item });
+const BLOCO = obj({ texto: { type: T }, paginas: PAGS });
+const ESQUEMA = obj({
+  erro: { type: T }, titulo: { type: T }, descricao: { type: T },
+  topicos: lista(obj({
+    titulo: { type: T }, resumo: { type: T },
+    aprender: lista(BLOCO), pontosChave: lista(BLOCO),
+    pratica: obj({ situacao: { type: T }, leitura: { type: T }, sinais: lista({ type: T }), paginas: PAGS }),
+    casos: lista(obj({ enunciado: { type: T }, alternativas: lista({ type: T }), correta: { type: "INTEGER" }, explicacao: { type: T }, paginas: PAGS })),
+    flashcards: lista(obj({ frente: { type: T }, verso: { type: T }, paginas: PAGS })),
+  })),
+  glossario: lista(obj({ termo: { type: T }, definicao: { type: T }, paginas: PAGS })),
+}, ["erro", "titulo", "descricao", "topicos", "glossario"]);
+
 const PREFIXO = '{"contents":[{"parts":[{"inline_data":{"mime_type":"application/pdf","data":"';
-const SUFIXO = '"}},{"text":' + JSON.stringify(PROMPT) + '}]}],"generationConfig":{"responseMimeType":"application/json","temperature":0.3,"maxOutputTokens":24000}}';
+const SUFIXO = '"}},{"text":' + JSON.stringify(PROMPT) + '}]}],"generationConfig":{"responseMimeType":"application/json","responseSchema":' + JSON.stringify(ESQUEMA) + ',"temperature":0.3,"maxOutputTokens":24000}}';
 
 function cabecalhos(req) {
   const o = req.headers.get("Origin") || "";
@@ -71,7 +88,7 @@ export default {
 
     // monta o pedido sem decodificar o PDF: prefixo + base64 recebido + sufixo
     const corpo = new Blob([PREFIXO, pdf, SUFIXO]);
-    let ultimo = "";
+    const falhas = [];
     for (const modelo of MODELOS) {
       let r;
       try {
@@ -80,15 +97,17 @@ export default {
           headers: { "x-goog-api-key": env.GEMINI_API_KEY, "Content-Type": "application/json" },
           body: corpo,
         });
-      } catch (e) { ultimo = `${modelo}: falha de rede`; continue; }
-      if ([429, 500, 503, 404].includes(r.status)) { ultimo = `${modelo}: ${r.status}`; continue; }
+      } catch (e) { falhas.push(`${modelo}: falha de rede`); continue; }
+      if ([429, 500, 503, 404].includes(r.status)) { falhas.push(`${modelo}: ${r.status}`); continue; }
       const d = await r.json().catch(() => null);
       if (!r.ok || !d) return json(req, 502, { ok: false, erro: "ia", msg: d?.error?.message || `A IA respondeu ${r.status}.` });
       const cand = d.candidates?.[0];
       const texto = (cand?.content?.parts || []).filter(p => !p.thought && p.text).map(p => p.text).join("");
       if (!texto) return json(req, 502, { ok: false, erro: "ia-vazia", msg: `A IA não devolveu conteúdo (${cand?.finishReason || d.promptFeedback?.blockReason || "sem motivo"}).` });
-      return json(req, 200, { ok: true, modelo, fim: cand.finishReason, texto, uso: d.usageMetadata });
+      // resposta cortada ou com JSON quebrado: tenta o próximo modelo
+      if (cand.finishReason !== "MAX_TOKENS") { try { JSON.parse(texto); } catch (e) { falhas.push(`${modelo}: JSON inválido`); continue; } }
+      return json(req, 200, { ok: true, modelo, fim: cand.finishReason, texto, uso: d.usageMetadata, falhas });
     }
-    return json(req, 503, { ok: false, erro: "ocupada", msg: "A IA gratuita está sobrecarregada agora. Tente de novo em alguns minutos.", detalhe: ultimo });
+    return json(req, 503, { ok: false, erro: "ocupada", msg: "A IA gratuita está sobrecarregada agora. Tente de novo em alguns minutos.", falhas });
   },
 };
