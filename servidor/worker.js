@@ -18,15 +18,15 @@ REGRAS
 2. Todo item traz o campo "paginas": os números das páginas do PDF em que ele se apoia (inteiros; a primeira página do arquivo é 1). Cite só páginas em que o conteúdo realmente aparece. Leia também o texto que está dentro de imagens e slides.
 3. Ignore capas, calendários, dados pessoais do professor, links e avisos.
 4. Escreva em português do Brasil, em linguagem simples e direta. Não use travessão.
-5. Divida o conteúdo em 2 a 6 tópicos, na ordem em que aparecem no PDF.
+5. Divida o conteúdo em tópicos, um para cada assunto principal, na ordem em que aparecem no PDF: de 2 a 4 em PDFs curtos, até 8 em PDFs longos.
 6. Em cada tópico:
-   - "aprender": 2 a 5 parágrafos curtos que explicam o assunto com outras palavras, sem mudar o sentido.
+   - "aprender": 3 a 5 parágrafos de 2 a 4 frases cada, que explicam o assunto com outras palavras, sem mudar o sentido. Inclua os exemplos e as empresas que o PDF cita.
    - "pontosChave": 3 a 5 frases curtas para memorizar.
    - "pratica": "situacao" é uma situação curta e INVENTADA, em uma empresa ou no dia a dia, que mostra o conceito em uso; "leitura" explica a situação usando o conceito do PDF; "sinais" são 2 a 4 pistas de como reconhecer esse conceito em um caso.
-   - "casos": 3 ou 4 questões de múltipla escolha em formato de situação. O cenário é inventado; o conceito cobrado e a resposta certa vêm do PDF. Exatamente 4 alternativas, só uma correta, erradas plausíveis. "correta" é o índice (0 a 3) e deve variar entre as questões. "explicacao" curta, ligando a resposta ao que o PDF diz.
-   - "flashcards": 1 ou 2 cartões de definição ("frente" e "verso").
-7. "glossario": de 3 a 10 termos que o PDF define.
-8. Se o PDF não tiver conteúdo de estudo suficiente, responda {"erro": "motivo em uma frase"}.
+   - "casos": 3 ou 4 questões de múltipla escolha no formato de situação, como em prova. Cada enunciado começa contando, em 2 ou 3 frases, uma situação INVENTADA (uma empresa ou pessoa fictícia, diferente das que o PDF cita) e termina com uma pergunta sobre ela: que conceito do PDF explica a situação, que erro está sendo cometido ou o que fazer. Não pergunte o que "o texto", "o material" ou "o autor" diz, nem peça para lembrar um exemplo do PDF. Exatamente 4 alternativas curtas, de tamanho e estilo parecidos, só uma correta; as erradas são plausíveis, de preferência outros conceitos do mesmo PDF. "correta" é o índice (0 a 3) e deve variar entre as questões. "explicacao": 1 ou 2 frases que ligam a situação ao que o PDF diz.
+   - "flashcards": 2 cartões de definição ou de exemplo do PDF ("frente" e "verso").
+7. "glossario": de 3 a 10 termos que o PDF define ou explica. "descricao": uma frase sobre o que o material cobre.
+8. Se o PDF não tiver conteúdo de estudo suficiente, preencha "erro" com o motivo em uma frase e deixe "topicos" e "glossario" vazios.
 
 Responda apenas com JSON, neste formato:
 {"titulo": "título curto do material", "descricao": "uma frase",
@@ -53,7 +53,7 @@ const ESQUEMA = obj({
     flashcards: lista(obj({ frente: { type: T }, verso: { type: T }, paginas: PAGS })),
   })),
   glossario: lista(obj({ termo: { type: T }, definicao: { type: T }, paginas: PAGS })),
-}, ["erro", "titulo", "descricao", "topicos", "glossario"]);
+}, ["erro"]);
 
 const PREFIXO = '{"contents":[{"parts":[{"inline_data":{"mime_type":"application/pdf","data":"';
 const SUFIXO = '"}},{"text":' + JSON.stringify(PROMPT) + '}]}],"generationConfig":{"responseMimeType":"application/json","responseSchema":' + JSON.stringify(ESQUEMA) + ',"temperature":0.3,"maxOutputTokens":24000}}';
