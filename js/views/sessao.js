@@ -112,7 +112,7 @@ function escolher(box, q, k) {
       ${ok ? "" : `<p><strong>Resposta certa:</strong> ${esc(q.alternativas[q.correta])}</p>`}
       <p>${esc(q.explicacao)}</p>
       ${fontes(q.fontes)}
-      ${q.criado ? `<p class="criado">Situação criada para praticar. O conceito e a resposta vêm do material.</p>` : ""}
+      ${q.ia ? `<p class="criado">Questão criada por IA a partir do seu PDF, sem revisão humana. Confira na página indicada.</p>` : q.criado ? `<p class="criado">Situação criada para praticar. O conceito e a resposta vêm do material.</p>` : ""}
     </div>
     <div class="dock">
       <button class="btn block" id="prox" type="button">${S.i + 1 < S.ids.length ? "Próxima" : "Ver resultado"}</button>

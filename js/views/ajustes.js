@@ -7,6 +7,7 @@ export function render() {
   let tema = "light";
   try { tema = localStorage.getItem("margem.tema") === "dark" ? "dark" : "light"; } catch (e) {}
   const reps = s.reportes || [];
+  const nMeus = D.materiais.filter(m => m.meu).length;
   const nOcr = D.paginas.filter(p => p.origem === "ocr").length;
   const nTrans = D.paginas.filter(p => p.origem === "transcricao").length;
   return {
@@ -25,6 +26,7 @@ export function render() {
         <h2 class="section-title">Backup do progresso</h2>
         <div class="card stack">
           <p class="small">Seu progresso fica salvo só neste aparelho e neste navegador. Para passar do celular para o computador (ou não perder nada), exporte o arquivo e importe no outro aparelho.</p>
+          ${nMeus ? `<p class="small">O backup leva respostas e notas, mas não leva os PDFs que você enviou. Em outro aparelho, envie os PDFs de novo.</p>` : ""}
           <div class="btn-row"><button class="btn soft small" id="exp" type="button">Exportar</button><button class="btn ghost small" id="imp" type="button">Importar</button></div>
           <input type="file" id="arq" accept="application/json,.json" hidden>
           <p class="muted small">${s.respostas.length} respostas registradas${reps.length ? ` · ${reps.length} ${reps.length === 1 ? "aviso de erro" : "avisos de erro"}` : ""}.</p>
@@ -41,9 +43,10 @@ export function render() {
       <section class="section">
         <h2 class="section-title">Sobre o conteúdo</h2>
         <div class="card stack small">
-          <p>Tudo aqui foi escrito a partir dos ${D.materiais.length} materiais da disciplina. Cada explicação, ponto-chave, questão e termo indica a página de onde veio.</p>
+          <p>Tudo aqui foi escrito a partir dos ${D.materiais.length - nMeus} materiais da disciplina. Cada explicação, ponto-chave, questão e termo indica a página de onde veio.</p>
           <p>As situações do bloco “Na prática” e das questões marcadas como “Situação criada para praticar” foram inventadas para treinar a aplicação. O conceito cobrado e a resposta certa continuam vindo do material, com a página indicada.</p>
           <p>Alguns slides são imagens. ${nTrans} páginas desse tipo foram transcritas e conferidas. Outras ${nOcr} foram lidas automaticamente e aparecem com o aviso “pode ter erros de leitura”; na dúvida, abra o PDF.</p>
+          <p>Os PDFs que você envia em Biblioteca viram módulos escritos pelo Gemini, a IA do Google, sem revisão humana. Eles aparecem marcados como “Criado por IA” e também indicam a página de cada trecho.</p>
           <p>Viu algo errado? Use “Isso está errado?” nas questões.</p>
         </div>
       </section>

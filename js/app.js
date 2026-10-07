@@ -1,6 +1,7 @@
 // Margem: roteador e inicialização
 import { carregar } from "./data.js";
 import { carregarProgresso } from "./store.js";
+import { carregarMeus } from "./meus.js";
 import { fecharFolha, folhaAberta, esc } from "./ui.js";
 import { abrirFonte, abrirTermo } from "./folhas.js";
 import * as hoje from "./views/hoje.js";
@@ -14,6 +15,7 @@ import * as pdf from "./views/pdf.js";
 import * as busca from "./views/busca.js";
 import * as glossario from "./views/glossario.js";
 import * as ajustes from "./views/ajustes.js";
+import * as adicionar from "./views/adicionar.js";
 
 const ROTAS = [
   [/^$/, hoje, "hoje"],
@@ -27,6 +29,7 @@ const ROTAS = [
   [/^busca$/, busca, null],
   [/^glossario$/, glossario, "biblioteca"],
   [/^ajustes$/, ajustes, null],
+  [/^adicionar$/, adicionar, "biblioteca"],
 ];
 
 const main = document.getElementById("main");
@@ -55,7 +58,7 @@ function render() {
   main.innerHTML = `<div class="fade-in">${r.html}</div>`;
   document.title = r.titulo ? `${r.titulo} · Margem` : "Margem";
   document.getElementById("titulo-topo").textContent = r.titulo || "";
-  const raiz = ["hoje", "trilha", "revisar", "biblioteca"].includes(aba) && args.length === 0;
+  const raiz = [hoje, trilha, revisar, biblioteca].includes(view);
   topbar.classList.toggle("has-back", !raiz);
   document.getElementById("voltar").hidden = raiz;
   document.body.classList.toggle("foco", !!r.foco);
@@ -104,6 +107,7 @@ addEventListener("hashchange", () => { try { sessionStorage.setItem("margem.nav"
   carregarProgresso();
   try {
     await carregar();
+    await carregarMeus();
   } catch (e) {
     main.innerHTML = `<div class="empty">${esc(e.message)}<br><button class="btn small mt" onclick="location.reload()">Tentar de novo</button></div>`;
     return;

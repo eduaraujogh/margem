@@ -27,6 +27,11 @@
 .m-mod3 { --m: #CDE6F7; --m-deep: #1D4B6B; --m-strong: #4C9ED6; }
 .m-mod4 { --m: #FBE9AB; --m-deep: #6A5008; --m-strong: #E0AE1E; }
 .m-mod5 { --m: #E7D2F7; --m-deep: #5A2D7A; --m-strong: #A574D6; }
+/* módulos criados a partir dos PDFs enviados */
+.m-mod6, .m-mod10, .m-mod14 { --m: #C9EDE6; --m-deep: #1E5A50; --m-strong: #3FAE9B; }
+.m-mod7, .m-mod11, .m-mod15 { --m: #F9D3DE; --m-deep: #7A2740; --m-strong: #E0668A; }
+.m-mod8, .m-mod12, .m-mod16 { --m: #E3E8B8; --m-deep: #4E5612; --m-strong: #A3AE2E; }
+.m-mod9, .m-mod13, .m-mod17 { --m: #D5D8F6; --m-deep: #2E3378; --m-strong: #6E76D8; }
 
 :root[data-theme="dark"] {
   --bg: #1B1814; --bg-grad: linear-gradient(180deg, #211D18 0%, #1B1814 100%);
@@ -337,7 +342,7 @@ mark { background: #FBE9AB; color: #1C1915; border-radius: 4px; padding: 0 2px; 
 .sheet-head .icon-btn { box-shadow: none; background: var(--surface-2); width: 40px; height: 40px; }
 .sheet-body { overflow: auto; padding: 4px 20px 24px; overscroll-behavior: contain; }
 .sheet-body .actions { margin-top: 16px; display: grid; gap: 10px; }
-textarea.input, select.input { width: 100%; border: 0; border-radius: 18px; background: var(--surface-2); color: var(--ink); padding: 14px; font: 15px var(--sans); }
+textarea.input, select.input, input.input { width: 100%; border: 0; border-radius: 18px; background: var(--surface-2); color: var(--ink); padding: 14px; font: 15px var(--sans); }
 textarea.input { min-height: 110px; }
 label.lbl { display: block; font-weight: 700; font-size: 14px; margin: 14px 0 6px; }
 @keyframes up { from { transform: translateY(24px); opacity: 0; } }
@@ -384,3 +389,23 @@ label.lbl { display: block; font-weight: 700; font-size: 14px; margin: 14px 0 6p
 .tag.caso { background: var(--m); color: var(--m-deep); margin-top: 6px; }
 .feedback .criado { font-size: 12.5px; color: #5A5046; margin-top: 10px; }
 main:focus-visible { outline: none; }
+
+/* Adicionar PDF */
+input.input { min-height: 52px; font-weight: 600; }
+input.input:focus { outline: none; box-shadow: 0 0 0 3px var(--ink); }
+.hint.err { color: var(--err); font-weight: 600; }
+.passo-t { display: flex; align-items: center; gap: 10px; font: 800 16px/1.2 var(--sans); letter-spacing: -0.01em; }
+.passo-n { width: 28px; height: 28px; border-radius: 50%; background: var(--black); color: var(--on-black); display: grid; place-items: center; font-size: 13px; flex: none; }
+.passos { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 14px; }
+.passos li { display: flex; align-items: center; gap: 12px; color: var(--muted); font-weight: 600; }
+.passos .b { width: 26px; height: 26px; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--line); display: grid; place-items: center; flex: none; }
+.passos .b svg { width: 16px; height: 16px; stroke-width: 2.6; }
+.passos .feito { color: var(--ink-2); }
+.passos .feito .b { background: var(--ok-bg); color: var(--ok); box-shadow: none; }
+.passos .agora { color: var(--ink); }
+.passos .agora .b { box-shadow: inset 0 0 0 2px var(--line); border-top: 2.5px solid var(--ink); animation: gira .9s linear infinite; }
+.seg { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--ink-2); }
+@keyframes gira { to { transform: rotate(360deg); } }
+.ia-nota { font-size: 12.5px; color: var(--m-deep); margin-top: 10px; }
+.ia-nota a { font-weight: 700; }
+.modulo-desc .tag { height: 22px; font-size: 11px; vertical-align: 1px; }

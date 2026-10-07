@@ -1,9 +1,9 @@
 // Funciona offline depois da primeira visita. App e conteúdo: rede primeiro (pega atualizações),
 // cache como reserva. PDFs, fontes e PDF.js: cache primeiro.
-const V = "margem-v7";
-const APP = ["./", "index.html", "css/app.css", "js/app.js", "js/data.js", "js/store.js", "js/ui.js", "js/folhas.js", "js/busca.js",
+const V = "margem-v8";
+const APP = ["./", "index.html", "css/app.css", "js/app.js", "js/data.js", "js/store.js", "js/ui.js", "js/folhas.js", "js/busca.js", "js/config.js", "js/pdfjs.js", "js/meus.js",
   "js/views/hoje.js", "js/views/trilha.js", "js/views/topico.js", "js/views/sessao.js", "js/views/revisar.js", "js/views/biblioteca.js",
-  "js/views/material.js", "js/views/pdf.js", "js/views/busca.js", "js/views/glossario.js", "js/views/ajustes.js",
+  "js/views/material.js", "js/views/pdf.js", "js/views/busca.js", "js/views/glossario.js", "js/views/ajustes.js", "js/views/adicionar.js",
   "content/conteudo.json", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(V).then(c => c.addAll(APP)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== V).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

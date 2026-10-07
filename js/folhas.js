@@ -7,6 +7,7 @@ export const ORIGEM = {
   texto: { rotulo: "Texto do PDF", cls: "" },
   transcricao: { rotulo: "Slide em imagem, transcrito e conferido", cls: "" },
   ocr: { rotulo: "Lido de imagem: pode ter erros de leitura", cls: "ocr" },
+  imagem: { rotulo: "Página em imagem", cls: "" },
 };
 
 export function abrirFonte(id) {
@@ -18,7 +19,7 @@ export function abrirFonte(id) {
       <span class="tag">Página ${f.pagina}</span>
       <span class="origem ${o.cls}">${esc(o.rotulo)}</span>
     </div>
-    <div class="quote">${esc(f.texto)}</div>
+    ${f.texto ? `<div class="quote">${esc(f.texto)}</div>` : `<p class="muted">Esta página do PDF é uma imagem, então não há texto para mostrar aqui. Abra a página para conferir.</p>`}
     <div class="actions">
       <a class="btn" href="#/pdf/${esc(f.material)}/${f.pagina}">${ico.doc} Ver a página no PDF</a>
     </div>`);

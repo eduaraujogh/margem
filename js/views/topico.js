@@ -78,6 +78,7 @@ export function render(id, aba = "aprender") {
     html: `
       <div class="topic-head">
         <div class="row" style="gap:8px;flex-wrap:wrap"><span class="chip-mod">Módulo ${m.id.replace("mod", "")} · ${esc(m.titulo)}</span><span class="eyebrow mod">${ROTULO_ESTADO[e]}</span></div>
+        ${t.ia ? `<p class="ia-nota"><a href="#/material/${m.material}">Criado por IA a partir do seu PDF</a>, sem revisão humana. Confira nas páginas citadas.</p>` : ""}
         <h1 class="page-title" style="margin-top:12px">${esc(t.titulo)}</h1>
         <p class="page-sub" style="color:var(--ink-2)">${esc(t.resumo)}</p>
         ${e === "nao" || e === "andamento" ? `<button class="link-btn" id="ja-sei" type="button">Já sei isso: ir direto às questões</button>` : ""}

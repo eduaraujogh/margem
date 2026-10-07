@@ -8,6 +8,7 @@ const norm = s => Array.from(s, normCh).join("");
 const tokens = s => norm(s).match(/[a-z0-9]+/g) || [];
 
 let idx = null;
+export function reiniciarBusca() { idx = null; }
 function construir() {
   idx = [];
   const add = (tipo, id, titulo, texto, peso, extra) => {
@@ -20,7 +21,7 @@ function construir() {
     const txt = q.tipo === "multipla" ? `${q.alternativas.join(" ")} ${q.explicacao}` : q.verso;
     add("questao", q.id, q.tipo === "multipla" ? q.enunciado : q.frente, txt, 1.2, { sub: D.top[q.topico].titulo });
   }
-  for (const p of D.paginas) add("pagina", p.id, "", p.texto, 1, { sub: fonte(p.id).rotulo });
+  for (const p of D.paginas) if (p.texto) add("pagina", p.id, "", p.texto, 1, { sub: fonte(p.id).rotulo });
 }
 
 function dist1(a, b) { // distância de edição até 1

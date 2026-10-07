@@ -27,7 +27,7 @@ export function render() {
   const opcoes = [];
   if (fracos.length) opcoes.push(`<button class="item" type="button" data-sim="fracos"><span class="tile" aria-hidden="true">!</span><div class="grow"><div class="t">Pontos fracos</div><div class="s">${plural(fracos.length, "tópico", "tópicos")} com mais erros</div></div>${ico.chev}</button>`);
   if (estudados.length) opcoes.push(`<button class="item" type="button" data-sim="estudados"><span class="tile" aria-hidden="true">∗</span><div class="grow"><div class="t">Tudo o que já estudei</div><div class="s">${plural(estudados.length, "tópico", "tópicos")}, 10 casos misturados</div></div>${ico.chev}</button>`);
-  for (const m of D.modulos) opcoes.push(`<button class="item m-${m.id}" type="button" data-sim="${m.id}"><span class="tile" aria-hidden="true">${numMod(m.id)}</span><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.aulas)}, 10 casos</div></div>${ico.chev}</button>`);
+  for (const m of D.modulos) opcoes.push(`<button class="item m-${m.id}" type="button" data-sim="${m.id}"><span class="tile" aria-hidden="true">${numMod(m.id)}</span><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.aulas)}, até 10 casos</div></div>${ico.chev}</button>`);
   const totalCasos = D.questoes.filter(q => q.caso).length;
 
   return {

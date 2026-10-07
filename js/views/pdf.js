@@ -1,10 +1,8 @@
 // Visualizador de PDF (PDF.js), abre direto na página citada
 import { D } from "../data.js";
 import { esc, ico } from "../ui.js";
+import { pdfjs } from "../pdfjs.js";
 
-const PDFJS = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/pdf.min.mjs";
-const WORKER = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/pdf.worker.min.mjs";
-let lib = null;
 const cache = {};
 
 export function render(mid, pg) {
@@ -38,7 +36,7 @@ export function render(mid, pg) {
         el.querySelector("#ext").href = `${m.arquivo}#page=${n}`;
         history.replaceState(null, "", `#/pdf/${mid}/${n}`);
         try {
-          if (!lib) { lib = await import(PDFJS); lib.GlobalWorkerOptions.workerSrc = WORKER; }
+          const lib = await pdfjs();
           const doc = cache[mid] ||= await lib.getDocument({ url: m.arquivo }).promise;
           const page = await doc.getPage(n);
           if (!vivo || n !== pagina) return;
