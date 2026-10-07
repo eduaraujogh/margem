@@ -42,6 +42,7 @@ export function render() {
         <h2 class="section-title">Sobre o conteúdo</h2>
         <div class="card stack small">
           <p>Tudo aqui foi escrito a partir dos ${D.materiais.length} materiais da disciplina. Cada explicação, ponto-chave, questão e termo indica a página de onde veio.</p>
+          <p>As situações do bloco “Na prática” e das questões marcadas como “Situação criada para praticar” foram inventadas para treinar a aplicação. O conceito cobrado e a resposta certa continuam vindo do material, com a página indicada.</p>
           <p>Alguns slides são imagens. ${nTrans} páginas desse tipo foram transcritas e conferidas. Outras ${nOcr} foram lidas automaticamente e aparecem com o aviso “pode ter erros de leitura”; na dúvida, abra o PDF.</p>
           <p>Viu algo errado? Use “Isso está errado?” nas questões.</p>
         </div>

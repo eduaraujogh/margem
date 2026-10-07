@@ -1,16 +1,26 @@
 // Sessão de prática: questões de um tópico, revisão do dia ou simulado
 import { D } from "../data.js";
 import { esc, ico, fontes, embaralhar, plural, anel } from "../ui.js";
-import { responder, marcarRevisao, marcarPraticado, devidos, estadoTopico, LIMITE_REVISAO } from "../store.js";
+import { responder, marcarRevisao, marcarPraticado, devidos, estado, LIMITE_REVISAO } from "../store.js";
 import { abrirReporte } from "../folhas.js";
 
 let S = null;
 
+// embaralha, mas deixa na frente as questões que ela ainda não respondeu
+function novasPrimeiro(qs) {
+  const vistos = estado().cartoes;
+  const e = embaralhar(qs);
+  return [...e.filter(q => !vistos[q.id]), ...e.filter(q => vistos[q.id])];
+}
+
 export function iniciarSessao(cfg) {
   let ids = [], titulo = "", voltar = "#/";
   if (cfg.tipo === "topico") {
+    // prova cobra situação: casos primeiro (até 5), depois 1 de conceito e os flashcards
     const qs = D.questoesDo[cfg.topico];
-    ids = [...embaralhar(qs.filter(q => q.tipo === "multipla")), ...qs.filter(q => q.tipo !== "multipla")].map(q => q.id);
+    const casos = novasPrimeiro(qs.filter(q => q.caso)).slice(0, 5);
+    const conceito = novasPrimeiro(qs.filter(q => q.tipo === "multipla" && !q.caso)).slice(0, 1);
+    ids = [...casos, ...conceito, ...qs.filter(q => q.tipo !== "multipla")].map(q => q.id);
     titulo = D.top[cfg.topico].titulo; voltar = `#/t/${cfg.topico}`;
   } else if (cfg.tipo === "revisao") {
     ids = devidos().slice(0, LIMITE_REVISAO);
@@ -18,7 +28,9 @@ export function iniciarSessao(cfg) {
   } else if (cfg.tipo === "simulado") {
     const tops = cfg.topicos;
     const pool = D.questoes.filter(q => q.tipo === "multipla" && tops.includes(q.topico));
-    ids = embaralhar(pool).slice(0, cfg.n || 10).map(q => q.id);
+    const casos = novasPrimeiro(pool.filter(q => q.caso));
+    const resto = cfg.soCasos ? [] : embaralhar(pool.filter(q => !q.caso));
+    ids = embaralhar([...casos, ...resto].slice(0, cfg.n || 10)).map(q => q.id);
     titulo = cfg.titulo || "Simulado"; voltar = "#/revisar";
   }
   if (!ids.length) return;
@@ -53,7 +65,7 @@ function desenhar(box) {
     const ordem = S.ordem[q.id] ||= embaralhar(q.alternativas.map((_, k) => k));
     box.innerHTML = `
       ${topo()}
-      <div class="q-tipo">${rotuloTopico}</div>
+      <div class="q-tipo">${rotuloTopico}${q.caso ? `<span class="tag caso">Caso</span>` : ""}</div>
       <h2 class="q-enunciado" id="enun" tabindex="-1">${esc(q.enunciado)}</h2>
       <ul class="options" role="list">
         ${ordem.map(k => `<li><button class="opt" type="button" data-k="${k}"><span class="mark" aria-hidden="true"></span><span>${esc(q.alternativas[k])}</span></button></li>`).join("")}
@@ -100,6 +112,7 @@ function escolher(box, q, k) {
       ${ok ? "" : `<p><strong>Resposta certa:</strong> ${esc(q.alternativas[q.correta])}</p>`}
       <p>${esc(q.explicacao)}</p>
       ${fontes(q.fontes)}
+      ${q.criado ? `<p class="criado">Situação criada para praticar. O conceito e a resposta vêm do material.</p>` : ""}
     </div>
     <div class="dock">
       <button class="btn block" id="prox" type="button">${S.i + 1 < S.ids.length ? "Próxima" : "Ver resultado"}</button>

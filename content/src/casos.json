@@ -1,0 +1,2497 @@
+{
+ "pratica": {
+  "t01": {
+   "situacao": "Uma cafeteria de bairro tem dinheiro para uma coisa só neste ano: abrir uma segunda loja ou montar um serviço de assinatura de café para escritórios. Os donos escolhem a assinatura e deixam a segunda loja de lado.",
+   "leitura": "Isso é estratégia: uma escolha consciente de para onde ir, que inclui dizer não a uma opção boa. Trocar a marca do copo ou reorganizar o balcão seria operação.",
+   "sinais": [
+    "Há uma escolha de direção: para onde ir e por quê.",
+    "Alguma opção foi recusada (estratégia é dizer não).",
+    "A decisão define como competir, e não só uma meta a bater."
+   ],
+   "fontes": [
+    "aula2-p11",
+    "aula3-guia-p1"
+   ]
+  },
+  "t02": {
+   "situacao": "Uma livraria de rua vê as vendas caírem. O gerente propõe reorganizar as prateleiras e treinar os caixas para atender mais rápido. A dona propõe deixar de vender livros novos e virar um sebo especializado com clube de leitura.",
+   "leitura": "A proposta do gerente é operacional: melhora o que já existe. A da dona é estratégica: muda a direção e o cliente, exige muito recurso, tem efeito de longo prazo e envolve incerteza.",
+   "sinais": [
+    "Estratégica: define a direção geral, envolve muitos recursos, tem impacto de longo prazo e lida com incerteza.",
+    "Operacional: melhora a execução do que já é feito.",
+    "Pergunta-teste: isso muda para onde a empresa vai, ou só como ela faz o que já faz?"
+   ],
+   "fontes": [
+    "aula2-p12",
+    "plano-aulas-1-2-p7"
+   ]
+  },
+  "t03": {
+   "situacao": "Uma clínica veterinária foi fundada por uma veterinária que atendia de madrugada sem cobrar a mais. Anos depois, com 40 funcionários, ninguém escreveu essa regra, mas todo mundo sabe que “aqui não se recusa emergência”.",
+   "leitura": "Isso é cultura: uma regra não escrita, que veio da história e das crenças da fundadora. Se a clínica escrever “nunca recusamos uma emergência”, estará formalizando um valor.",
+   "sinais": [
+    "Cultura: regras não escritas, “como as coisas funcionam por aqui”.",
+    "Missão: o que a empresa faz hoje e por que existe.",
+    "Visão: aonde quer chegar, com prazo.",
+    "Valores: crenças inegociáveis, como a empresa age."
+   ],
+   "fontes": [
+    "plano-aulas-1-2-p5",
+    "aula2-p30"
+   ]
+  },
+  "t04": {
+   "situacao": "Uma escola de idiomas planejou abrir três unidades em cinco anos. No segundo ano, os professores começaram por conta própria a dar aulas por vídeo para alunos que se mudaram. Deu tão certo que a escola desistiu da terceira unidade e criou uma operação on-line.",
+   "leitura": "O plano das três unidades era a estratégia pretendida. As duas que abriram são a parte deliberada. A terceira é a não realizada. As aulas por vídeo, que surgiram da base sem plano formal, são a emergente. O que a escola fez de fato é a realizada.",
+   "sinais": [
+    "Deliberada: estava no plano e foi executada como planejado.",
+    "Emergente: surgiu da prática, de baixo para cima, sem intenção formal.",
+    "Planejamento clássico: plano rígido de 5 a 10 anos (mapa de papel, trem nos trilhos).",
+    "Planejamento ágil: o destino fica, a rota é recalculada (GPS, barco a vela)."
+   ],
+   "fontes": [
+    "plano-aulas-1-2-p14",
+    "plano-aulas-1-2-p15",
+    "aula2-p15"
+   ]
+  },
+  "t05": {
+   "situacao": "Um grupo dono de uma rede de supermercados decide comprar uma rede de farmácias. Meses depois, a diretora das farmácias decide competir com entrega em 30 minutos.",
+   "leitura": "Comprar as farmácias é estratégia corporativa: decide em quais negócios o grupo atua. A entrega em 30 minutos é estratégia de negócios: decide como vencer naquele mercado.",
+   "sinais": [
+    "Corporativa: a pergunta é “em quais negócios devemos atuar?” (comprar, vender, diversificar, alocar capital).",
+    "De negócios: a pergunta é “como vencer a concorrência neste negócio?” (diferenciação ou custo).",
+    "Dica: se a decisão mexe no portfólio do grupo, é corporativa."
+   ],
+   "fontes": [
+    "aula2-p35",
+    "aula2-p36"
+   ]
+  },
+  "t06": {
+   "situacao": "A diretoria de uma rede de hotéis decide que o grupo vai focar em turismo de negócios. A gerente de marketing cria um pacote corporativo com empresas parceiras. Na recepção, os atendentes passam a oferecer check-in expresso para quem viaja a trabalho.",
+   "leitura": "Diretoria: nível estratégico (define o destino, longo prazo). Gerente: nível tático (traduz a meta em um projeto). Recepção: nível operacional (rotina do dia a dia).",
+   "sinais": [
+    "Estratégico: alta diretoria, horizonte de anos, olha o ambiente externo.",
+    "Tático: gerentes, semestres ou um ano, traduz metas em projetos.",
+    "Operacional: supervisores e operadores, dias ou meses, executa a rotina."
+   ],
+   "fontes": [
+    "aula2-p38",
+    "aula2-p39"
+   ]
+  },
+  "t07": {
+   "situacao": "Um aplicativo de entrega de comida dominava sua cidade por ter restaurantes exclusivos. Em dois anos, os concorrentes fecharam contratos com os mesmos restaurantes. Em vez de brigar por eles, o aplicativo lançou entrega de mercado e de farmácia.",
+   "leitura": "A vantagem dos contratos exclusivos era transitória. O aplicativo agiu como o surfista: saiu da onda que estava quebrando e remou para a próxima.",
+   "sinais": [
+    "Sinal de vantagem transitória: o diferencial está sendo copiado ou perdendo força.",
+    "“Proteger a posição para sempre” é a visão antiga, do castelo com fosso.",
+    "Mover recursos para algo novo antes do declínio é reconfiguração.",
+    "Encerrar de forma planejada um produto obsoleto é desengajamento."
+   ],
+   "fontes": [
+    "aula2-p41",
+    "aula2-p47",
+    "plano-aulas-1-2-p16"
+   ]
+  },
+  "t08": {
+   "situacao": "Três pizzarias do mesmo bairro compram o mesmo forno, usam o mesmo aplicativo e prometem entregar em 30 minutos. Os preços caem mês a mês. Uma quarta pizzaria decide vender só pizza em fatia, para quem almoça sozinho perto dos escritórios.",
+   "leitura": "As três primeiras buscaram eficácia operacional: fazem a mesma coisa cada vez melhor, ficaram iguais e entraram em guerra de preços. A quarta escolheu um posicionamento: fazer diferente e abrir mão do resto.",
+   "sinais": [
+    "Todos fazem o mesmo, só que melhor: eficácia operacional.",
+    "Empresas iguais brigando por preço: convergência competitiva.",
+    "Fazer algo diferente, ou de um jeito diferente: posicionamento estratégico.",
+    "Há uma renúncia clara: trade-off, a essência da estratégia."
+   ],
+   "fontes": [
+    "plano-aulas-1-2-p13",
+    "plano-aulas-1-2-p14"
+   ]
+  },
+  "t09": {
+   "situacao": "Uma fábrica de sucos corta custos comprando frutas mais baratas. O setor de compras bate a meta. Mas a qualidade cai, as devoluções sobem, o atendimento fica sobrecarregado e as vendas caem.",
+   "leitura": "Compras olhou só para a sua parte. A visão sistêmica olha o todo e a interação entre as partes: uma decisão em um setor mexe nos outros.",
+   "sinais": [
+    "Uma decisão isolada gera efeito em outras áreas.",
+    "O caso pede olhar forças internas e externas ao mesmo tempo.",
+    "O foco está no médio e no longo prazo, e não só no resultado imediato."
+   ],
+   "fontes": [
+    "aula1-p8"
+   ]
+  },
+  "t10": {
+   "situacao": "Uma estudante de Contábeis adora explicar a matéria para os colegas, é boa nisso, já recebe por aulas particulares e percebe que muita gente tem dificuldade com finanças pessoais.",
+   "leitura": "Os quatro elementos se cruzam: o que ela ama (explicar), no que é boa (ensinar), pelo que pode ser paga (aulas) e o que o mundo precisa (educação financeira). Esse cruzamento é o ikigai.",
+   "sinais": [
+    "O que amo fazer? (paixão)",
+    "No que sou bom? (profissão)",
+    "Pelo que posso ser pago? (vocação)",
+    "O que o mundo precisa? (missão)"
+   ],
+   "fontes": [
+    "aula1-p21",
+    "aula1-p24"
+   ]
+  },
+  "t11": {
+   "situacao": "Todo mês de outubro, a diretoria de uma distribuidora passa dois dias em um hotel. Sai de lá com uma planilha: crescer 12% sobre o ano anterior, dividido por filial e por mês.",
+   "leitura": "É o ritual de planejamento incremental: olha o passado e projeta um crescimento linear. Não houve escolha de onde competir nem do que deixar de fazer, então não há estratégia.",
+   "sinais": [
+    "A meta é “o ano passado mais X%”.",
+    "O resultado da reunião é um orçamento e uma planilha.",
+    "Ninguém discutiu escolhas difíceis nem o que recusar.",
+    "Nada prepara a empresa para uma ruptura tecnológica."
+   ],
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  "t12": {
+   "situacao": "Uma fabricante de autopeças tem um plano de dez anos aprovado em 2020, baseado em motores a combustão. A diretoria se recusa a revisá-lo antes de 2030, mesmo com o avanço dos carros elétricos.",
+   "leitura": "É a lógica da era clássica (planos longos em ambiente previsível) aplicada a um ambiente volátil. O guia recomenda planejar em ciclos de 1 ano, com revisões profundas 2 a 3 vezes por ano.",
+   "sinais": [
+    "Plano de 5 ou 10 anos seguido sem revisão: lógica da era clássica.",
+    "Tecnologia mudando o mercado rapidamente: era adaptativa.",
+    "A saída indicada: ciclos de 1 ano, com revisões profundas 2 a 3 vezes por ano."
+   ],
+   "fontes": [
+    "aula3-guia-p2"
+   ]
+  },
+  "t13": {
+   "situacao": "Em uma empresa de cosméticos, Marina pergunta na reunião: “E se a gente parasse de vender em farmácia e vendesse só por assinatura?”. A sala fica desconfortável. Paulo responde: “Se for isso, preciso saber quem faz o quê, até quando e com que orçamento”.",
+   "leitura": "Marina tem o perfil de estrategista: faz perguntas, quebra estruturas e gera desconforto. Paulo tem o perfil de planejador: organiza, coordena e traz previsibilidade. A empresa precisa dos dois.",
+   "sinais": [
+    "Estrategista: perguntas, visão panorâmica, decisão sob incerteza, gera desconforto.",
+    "Planejador: o que, quem, quando e como; cronograma, orçamento e medição; gera conforto.",
+    "Um sem o outro falha: na execução ou na direção."
+   ],
+   "fontes": [
+    "aula3-interno-p10",
+    "aula3-guia-p3"
+   ]
+  },
+  "t14": {
+   "situacao": "Uma rede de livrarias com 200 lojas vê uma livraria on-line crescer. Em vez de fechar lojas, passa a usá-las como pontos de retirada e de entrega rápida no bairro.",
+   "leitura": "É o mesmo movimento do Walmart: dar um novo uso a um ativo que já existe (as lojas físicas), em vez de tratá-lo como peso.",
+   "sinais": [
+    "Nubank: vence sem o ativo que protegia os antigos; a inovação é o modelo de negócios.",
+    "Walmart: ressignifica um ativo que já tem.",
+    "Shein: produz só sob demanda real, guiada por dados.",
+    "Netflix: pergunta “E se?” e se antecipa a um risco.",
+    "Intel x NVIDIA: desprezar um nicho (“mercado pequeno demais”)."
+   ],
+   "fontes": [
+    "aula3-guia-p3",
+    "aula3-guia-p4"
+   ]
+  },
+  "t15": {
+   "situacao": "Uma rede de sorveterias artesanais é excelente em criar sabores, percebe que os clientes buscam opções sem açúcar e existe para “levar sorvete de verdade a todo mundo”. Ela lança uma linha sem açúcar.",
+   "leitura": "As três dimensões da Teoria dos Negócios estão alinhadas: capacidades (criar sabores), ambiente (o que o cliente busca) e propósito (a razão de existir).",
+   "sinais": [
+    "Capacidades: olhar para dentro (no que somos imbatíveis?).",
+    "Ambiente: olhar para fora (cliente, concorrentes, tecnologia, regulação).",
+    "Propósito: o direcionador das outras duas.",
+    "Alerta de Drucker: sucesso longo faz a empresa parar de fazer perguntas."
+   ],
+   "fontes": [
+    "aula3-guia-p4"
+   ]
+  },
+  "t16": {
+   "situacao": "Em uma empresa familiar, toda a estratégia sai da cabeça do fundador, que decide por intuição e faro para oportunidades. Em uma multinacional, a estratégia sai de um processo formal, com etapas, cronograma e orçamento.",
+   "leitura": "A primeira funciona como a Escola Empreendedora (o líder visionário). A segunda, como a Escola do Planejamento (processo formal e sequencial).",
+   "sinais": [
+    "Design: encaixe entre forças/fraquezas e oportunidades/ameaças.",
+    "Planejamento: etapas, cronogramas e orçamentos.",
+    "Posicionamento: análise do setor e da concorrência (Porter).",
+    "Empreendedora: a visão do líder.",
+    "Aprendizado: tentativa e erro, estratégia emergente.",
+    "Poder: negociação e política.",
+    "Cultural: valores e crenças coletivas.",
+    "Ambiental: a empresa só reage ao ambiente."
+   ],
+   "fontes": [
+    "aula3-interno-p5"
+   ]
+  },
+  "t17": {
+   "situacao": "Uma confeitaria lista seus problemas: a equipe atrasa pedidos, o forno é antigo, o preço do açúcar subiu e abriu uma concorrente na mesma rua.",
+   "leitura": "Atraso da equipe e forno antigo são internos: a confeitaria pode decidir e mudar. Preço do açúcar e concorrente nova são externos: ela não controla, só monitora e se adapta.",
+   "sinais": [
+    "Pergunta-teste: a empresa consegue mudar isso por decisão própria?",
+    "Sim: é interno (força ou fraqueza). Cabe decisão.",
+    "Não: é externo (oportunidade ou ameaça). Cabe monitorar e se adaptar.",
+    "Internos: cultura, liderança, processos, estrutura, tecnologia. Externos: concorrentes, legislação, macroeconomia, clientes."
+   ],
+   "fontes": [
+    "aula3-interno-p16"
+   ]
+  },
+  "t18": {
+   "situacao": "Duas cafeterias ficam na mesma rua, pagam o mesmo aluguel e veem os mesmos clientes passar na porta. Uma lota todos os dias; a outra, não. A que lota tem um mestre de torra reconhecido e uma marca querida no bairro.",
+   "leitura": "O setor e o ponto são iguais, então a diferença não vem de fora. Pela VBR, a vantagem vem dos recursos internos: aqui, reputação e conhecimento, que são intangíveis e difíceis de imitar.",
+   "sinais": [
+    "Duas empresas no mesmo mercado com resultados diferentes: procure a causa dentro delas.",
+    "Tangível: aparece no balanço e o rival consegue comprar.",
+    "Intangível: marca, reputação, patentes, dados, relacionamentos.",
+    "O desempenho é o sintoma; os recursos são a causa."
+   ],
+   "fontes": [
+    "aula3-interno-p12",
+    "aula3-interno-p17",
+    "aula3-interno-p18"
+   ]
+  },
+  "t19": {
+   "situacao": "Uma rede de fast-food compra o mesmo equipamento de cozinha da líder do setor. Mesmo assim, demora o dobro para entregar um pedido. A líder passou anos treinando suas equipes para trabalhar em sincronia.",
+   "leitura": "O equipamento é um recurso (ativo). A habilidade coletiva de usá-lo em sincronia é uma capacidade. Se essa capacidade gera valor para o cliente, reduz custo e é difícil de copiar, ela é uma competência essencial.",
+   "sinais": [
+    "Recurso: algo que a empresa tem.",
+    "Capacidade: algo que a empresa sabe fazer com o que tem.",
+    "Competência essencial: passa nos três filtros ao mesmo tempo (valor para o cliente, eficiência interna, difícil de imitar)."
+   ],
+   "fontes": [
+    "aula3-interno-p19",
+    "aula3-interno-p20",
+    "aula3-interno-p23"
+   ]
+  },
+  "t20": {
+   "situacao": "O dono de uma rede de pet shops afirma: “Nosso ponto forte é o atendimento, todo mundo sabe”. Uma consultora pede a pesquisa de satisfação e a taxa de saída de funcionários. A satisfação está em queda e metade da equipe saiu no último ano.",
+   "leitura": "A opinião do dono era percepção. O diagnóstico exige evidência: dados, auditorias e pesquisas. Aqui os dados de RH e de Marketing mostram uma fraqueza, e não uma força.",
+   "sinais": [
+    "Finanças: estrutura de capital, liquidez, capacidade de investimento.",
+    "RH: clima, turnover, estrutura de carreira.",
+    "Produção: uso da capacidade instalada, logística, qualidade.",
+    "Marketing: marca, custo de aquisição, lealdade do consumidor.",
+    "Desconfie de “todo mundo sabe”: peça o dado."
+   ],
+   "fontes": [
+    "aula3-interno-p24"
+   ]
+  },
+  "t21": {
+   "situacao": "Uma pizzaria de delivery define que seu sucesso depende de “entregar a pizza quente e no prazo”. Para acompanhar, mede o tempo médio de entrega e o número de reclamações de pizza fria.",
+   "leitura": "“Entregar quente e no prazo” é o FCS: diz onde focar. Tempo médio de entrega e reclamações são KPIs: medem quão bem a pizzaria está executando.",
+   "sinais": [
+    "FCS: uma frase sobre onde focar, sem número.",
+    "KPI: um número que mede a execução.",
+    "Ignorar um FCS leva ao fracasso aos olhos do cliente.",
+    "Lista com dezenas de fatores “críticos” é erro: o máximo é de 7 a 10."
+   ],
+   "fontes": [
+    "aula3-interno-p25",
+    "aula3-interno-p28",
+    "aula3-interno-p29"
+   ]
+  },
+  "t22": {
+   "situacao": "Uma rede de academias analisa dois fatos: os juros subiram no país inteiro e uma academia de baixo custo abriu ao lado de três de suas unidades.",
+   "leitura": "Os juros são macroambiente: afetam todas as indústrias e entram no PESTEL. A concorrente nova é microambiente: é própria do setor de academias e entra nas 5 Forças de Porter.",
+   "sinais": [
+    "Afeta todos os setores: macroambiente, analisado pelo PESTEL.",
+    "É próprio do setor (concorrentes, fornecedores, compradores, entrantes, substitutos): microambiente, analisado pelas 5 Forças.",
+    "Uma mudança macro pode mexer no micro: as duas camadas são interdependentes."
+   ],
+   "fontes": [
+    "aula4-p4"
+   ]
+  },
+  "t23": {
+   "situacao": "Uma exportadora de café analisa o cenário: o dólar subiu, a Europa passou a exigir rastreabilidade contra o desmatamento, os consumidores jovens preferem cafés especiais e drones agora monitoram a lavoura.",
+   "leitura": "Dólar: força Econômica. Regra europeia: Ecológica e Legal. Preferência dos jovens: Social. Drones: Tecnológica. O PESTEL serve para separar essas forças e ficar com as que realmente mexem com o setor.",
+   "sinais": [
+    "P: governo, tarifas, estabilidade política.",
+    "E: juros, inflação, câmbio, emprego.",
+    "S: demografia, valores, estilo de vida, comportamento.",
+    "T: inovação, automação, digitalização.",
+    "E: clima, regulação ambiental, recursos, ESG.",
+    "L: leis trabalhistas, defesa da concorrência, proteção de dados."
+   ],
+   "fontes": [
+    "aula4-p5",
+    "aula4-p6",
+    "aula4-p7",
+    "aula4-p8"
+   ]
+  },
+  "t24": {
+   "situacao": "Uma fábrica de sucos compra laranja de apenas dois fornecedores, vende 70% da produção para uma única rede de supermercados e vê a água de coco ganhar espaço nas geladeiras.",
+   "leitura": "Poucos fornecedores de um insumo essencial: poder dos fornecedores alto. Um comprador concentrado: poder dos compradores alto. Água de coco: produto de outra indústria que atende à mesma necessidade, ou seja, um substituto.",
+   "sinais": [
+    "Quem vende para a empresa consegue impor condições? Fornecedores.",
+    "Quem compra consegue exigir desconto? Compradores.",
+    "É fácil alguém novo entrar no setor? Novos entrantes.",
+    "Outra indústria resolve a mesma necessidade? Substitutos.",
+    "Muitos concorrentes parecidos e mercado parado? Rivalidade."
+   ],
+   "fontes": [
+    "aula4-p9",
+    "aula4-p10"
+   ]
+  },
+  "t25": {
+   "situacao": "Uma papelaria vende agendas de papel. A papelaria da rua de trás vende agendas parecidas. Enquanto isso, os clientes passam a usar a agenda do celular.",
+   "leitura": "A outra papelaria é concorrente direta: mesma indústria, mesmo tipo de produto. A agenda do celular é um substituto: vem de outra indústria e resolve a mesma necessidade. É ela que limita quanto a papelaria consegue cobrar.",
+   "sinais": [
+    "Mesma indústria e mesmo tipo de produto: concorrente direto.",
+    "Outra indústria, mesma necessidade: substituto.",
+    "Sempre há um trade-off: o cliente perde algo e ganha algo.",
+    "Defesas: elevar o custo de troca, diferenciar pela experiência ou adotar o substituto (hibridização)."
+   ],
+   "fontes": [
+    "aula4-p12",
+    "aula4-p18"
+   ]
+  },
+  "t26": {
+   "situacao": "A dona de uma floricultura senta com a equipe e separa em quatro quadros: o que a loja faz bem, onde ela falha, o que está acontecendo fora que pode ajudar e o que está acontecendo fora que pode atrapalhar. Depois decide o que fazer com cada item.",
+   "leitura": "Isso é uma análise SWOT: separar o interno (forças e fraquezas) do externo (oportunidades e ameaças) para apoiar o planejamento.",
+   "sinais": [
+    "O caso separa o que é de dentro da empresa do que é de fora.",
+    "Aparecem quatro grupos: pontos fortes, pontos fracos, chances e riscos.",
+    "O objetivo é apoiar uma decisão ou um plano.",
+    "Se o caso só olha para fora (economia, leis, concorrentes), é análise de ambiente externo, e não a SWOT inteira."
+   ],
+   "fontes": [
+    "plataforma-a-p2",
+    "plataforma-a-p4",
+    "plataforma-a-p5"
+   ]
+  },
+  "t27": {
+   "situacao": "Uma escola de natação tem professores muito bem formados e uma piscina aquecida nova, mas o sistema de matrícula é confuso e a recepção demora para responder mensagens.",
+   "leitura": "Professores e piscina são forças: dão destaque e estão sob controle da escola. Matrícula confusa e recepção lenta são fraquezas: atrapalham, e a escola pode corrigir. Os quatro itens são internos.",
+   "sinais": [
+    "Está dentro da empresa e ela controla.",
+    "Força: dá vantagem; deve ser intensificada e explorada.",
+    "Fraqueza: atrapalha; deve ser minimizada.",
+    "Mesmo sendo interno, compare com os concorrentes."
+   ],
+   "fontes": [
+    "plataforma-a-p5",
+    "plataforma-a-p9",
+    "plataforma-a-p10"
+   ]
+  },
+  "t28": {
+   "situacao": "Uma pousada na serra recebe duas notícias: a cidade vai sediar um festival de inverno, e uma estrada nova vai desviar o trânsito para outra cidade.",
+   "leitura": "O festival é oportunidade: fator externo que pode ajudar. A estrada é ameaça: fator externo que pode atrapalhar. A pousada não controla nenhum dos dois, mas pode se preparar para aproveitar um e reduzir o efeito do outro.",
+   "sinais": [
+    "Vem de fora e a empresa não controla.",
+    "Se ajuda: oportunidade. Se atrapalha: ameaça.",
+    "Exemplos típicos: câmbio, leis, clima, grandes eventos, novos concorrentes.",
+    "O que cabe à empresa: monitorar sempre e ter um plano de contingência."
+   ],
+   "fontes": [
+    "plataforma-a-p10",
+    "plataforma-a-p11",
+    "plataforma-a-p5"
+   ]
+  },
+  "t29": {
+   "situacao": "Uma rede de estacionamentos sabe há anos que os aplicativos de transporte reduzem o número de carros no centro. Os relatórios mostram a ameaça, mas a rede não muda nada, porque boa parte do lucro vem das mensalidades atuais.",
+   "leitura": "É o mesmo padrão da Blockbuster: a ameaça estava mapeada, mas agir exigia mexer na receita atual. A lição da Aula 6 é que SWOT sem ação não serve.",
+   "sinais": [
+    "A empresa conhecia a ameaça.",
+    "Chamou a novidade de “nicho”.",
+    "Não agiu para proteger uma receita atual.",
+    "Quem agiu transformou a ameaça ou a oportunidade em força."
+   ],
+   "fontes": [
+    "aula6-p5",
+    "aula6-p6",
+    "aula6-p7"
+   ]
+  },
+  "t30": {
+   "situacao": "Uma marca de mochilas escolares baratas é vista como “coisa de criança”. Ao mesmo tempo, cresce o número de adultos que vão de bicicleta ao trabalho. A marca lança uma linha urbana, com design novo e preço maior.",
+   "leitura": "É o cruzamento Fraqueza x Oportunidade, o mesmo da Havaianas Top: usar uma oportunidade de fora para corrigir uma fraqueza de dentro e mudar a imagem do produto.",
+   "sinais": [
+    "Fraqueza x Oportunidade: uma chance de fora ajuda a consertar algo de dentro.",
+    "Força x Ameaça: algo que a empresa faz bem é usado para escapar de um risco de fora.",
+    "A matriz é revisitada de tempos em tempos: o ciclo é contínuo."
+   ],
+   "fontes": [
+    "aula6-p15",
+    "aula6-p16",
+    "aula6-p18"
+   ]
+  },
+  "t31": {
+   "situacao": "Uma estudante de Administração fala espanhol fluente e nunca fez estágio. Ela vê empresas que atendem outros países da América do Sul abrindo vagas na cidade, e sabe que a concorrência por essas vagas é alta.",
+   "leitura": "Espanhol: força. Falta de estágio: fraqueza. Vagas abrindo: oportunidade. Concorrência alta: ameaça. As duas primeiras dependem dela; as duas últimas, não.",
+   "sinais": [
+    "Depende de você (habilidades, idiomas, inteligência emocional, contatos): ambiente interno.",
+    "Vem do mercado (vagas, tecnologia, crises): ambiente externo.",
+    "Cada quadrante pede uma ação. Escolha uma fraqueza para atacar ou uma oportunidade para aproveitar."
+   ],
+   "fontes": [
+    "aula6-p21",
+    "aula6-p22",
+    "aula6-p24"
+   ]
+  }
+ },
+ "questoes": [
+  {
+   "id": "c0101",
+   "topico": "t01",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A diretoria de uma rede de academias anuncia: “Nossa estratégia é crescer 20% no ano que vem”. Pelo que o guia da Aula 3 ensina, o que há de errado nessa frase?",
+   "alternativas": [
+    "Crescer 20% é um objetivo (o fim); falta dizer como a empresa vai competir para chegar lá",
+    "Nada: crescer já é uma estratégia",
+    "A meta deveria ser de 10%, e não de 20%",
+    "Estratégia só existe em empresas grandes"
+   ],
+   "correta": 0,
+   "explicacao": "Os objetivos são os fins, não o caminho. A estratégia é o “como” a organização vai competir e se posicionar.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "c0102",
+   "topico": "t01",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um restaurante bem avaliado recebe propostas para abrir delivery, vender congelados e fazer eventos. O dono recusa as três para manter o foco no salão. Que ideia da disciplina descreve essa atitude?",
+   "alternativas": [
+    "Eficiência operacional",
+    "Estratégia é fazer escolhas difíceis e saber ao que dizer “não”",
+    "Planejamento incremental",
+    "Estratégia emergente"
+   ],
+   "correta": 1,
+   "explicacao": "Para Salibi e Magaldi, estratégia é fazer escolhas difíceis, selecionar territórios de atuação e saber ao que dizer “não”.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "c0103",
+   "topico": "t01",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma fábrica de móveis contrata uma consultoria, que começa levantando a situação atual da empresa e do mercado. Na analogia do aplicativo de navegação, essa etapa é:",
+   "alternativas": [
+    "O Ponto B: o objetivo de longo prazo",
+    "A rota: a estratégia",
+    "O Ponto A: o diagnóstico (onde a empresa está)",
+    "A operação do dia a dia"
+   ],
+   "correta": 2,
+   "explicacao": "Ponto A é o diagnóstico do ambiente; Ponto B é o objetivo; a rota é a estratégia.",
+   "fontes": [
+    "aula2-p16"
+   ]
+  },
+  {
+   "id": "c0201",
+   "topico": "t02",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma transportadora troca o sistema de rotas por um mais moderno, que economiza 8% de combustível. Essa decisão é:",
+   "alternativas": [
+    "Estratégica, pois envolve tecnologia",
+    "Corporativa, pois afeta toda a empresa",
+    "Estratégica, pois reduz custos",
+    "Operacional, pois é uma melhoria de eficiência"
+   ],
+   "correta": 3,
+   "explicacao": "É o mesmo raciocínio do forno da padaria: melhorar a eficiência do que já se faz é operacional.",
+   "fontes": [
+    "plano-aulas-1-2-p7"
+   ]
+  },
+  {
+   "id": "c0202",
+   "topico": "t02",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A mesma transportadora decide parar de entregar para lojas e passar a atender só e-commerces, com entrega no mesmo dia. Essa decisão é:",
+   "alternativas": [
+    "Estratégica, pois muda a direção e o cliente de destino",
+    "Operacional, pois trata de entregas",
+    "Operacional, pois é uma melhoria de eficiência",
+    "Tática, pois cabe aos gerentes"
+   ],
+   "correta": 0,
+   "explicacao": "Mudar o modelo de negócios e o cliente atendido é uma decisão estratégica, como no caso da padaria que passa a vender por assinatura.",
+   "fontes": [
+    "plano-aulas-1-2-p7"
+   ]
+  },
+  {
+   "id": "c0203",
+   "topico": "t02",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma locadora de carros é elogiada pela frota impecável e pelo atendimento rápido, mas os clientes estão migrando para carros por assinatura em aplicativos. Ela continua investindo só em melhorar o balcão. Que erro a disciplina aponta?",
+   "alternativas": [
+    "Investir pouco em atendimento",
+    "Fazer muito bem feito (operação) algo que talvez nem devesse estar sendo feito (estratégia)",
+    "Ter uma frota grande demais",
+    "Trocar de estratégia rápido demais"
+   ],
+   "correta": 1,
+   "explicacao": "É o padrão da Blockbuster: uma operação impecável de um modelo que está ficando para trás.",
+   "fontes": [
+    "aula2-p12",
+    "aula2-p13"
+   ]
+  },
+  {
+   "id": "c0301",
+   "topico": "t03",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma startup de energia solar escreve no site: “Ser a maior instaladora de painéis solares do Sul do Brasil até 2032”. Isso é:",
+   "alternativas": [
+    "Missão: o que faz hoje",
+    "Valores: crenças inegociáveis",
+    "Visão: aonde quer chegar, com prazo definido",
+    "Cultura: regras não escritas"
+   ],
+   "correta": 2,
+   "explicacao": "No slide da Apple, a frase com meta e prazo (“carbono neutro até 2030”) é a visão.",
+   "fontes": [
+    "aula2-p30"
+   ]
+  },
+  {
+   "id": "c0302",
+   "topico": "t03",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma cooperativa de crédito declara: “Oferecemos crédito justo para pequenos produtores rurais da nossa região”. Isso é:",
+   "alternativas": [
+    "Visão: o sonho grande com prazo",
+    "Valores: as regras inegociáveis",
+    "Uma estratégia de negócios",
+    "Missão: o que faz hoje, para quem e por quê"
+   ],
+   "correta": 3,
+   "explicacao": "A missão responde por que existimos, o que fazemos, para quem e como fazemos agora.",
+   "fontes": [
+    "aula2-p29",
+    "aula2-p30"
+   ]
+  },
+  {
+   "id": "c0303",
+   "topico": "t03",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Numa construtora, um engenheiro propõe usar material fora da norma para cumprir o prazo. O diretor responde: “Aqui segurança não se negocia, nem para entregar no prazo”. O diretor está defendendo:",
+   "alternativas": [
+    "Um valor: uma crença inegociável",
+    "A visão da empresa",
+    "A missão da empresa",
+    "Uma meta operacional"
+   ],
+   "correta": 0,
+   "explicacao": "Valores são as regras inegociáveis do jogo e a postura ética da empresa.",
+   "fontes": [
+    "aula2-p29",
+    "plano-aulas-1-2-p5"
+   ]
+  },
+  {
+   "id": "c0304",
+   "topico": "t03",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um funcionário novo percebe que ninguém na empresa marca reunião depois das 17h, embora isso não esteja em nenhum manual. Ele está percebendo:",
+   "alternativas": [
+    "A visão da empresa",
+    "A cultura organizacional: as regras não escritas",
+    "O planejamento estratégico",
+    "A missão da empresa"
+   ],
+   "correta": 1,
+   "explicacao": "Cultura é o conjunto de regras não escritas: “como as coisas funcionam por aqui”.",
+   "fontes": [
+    "plano-aulas-1-2-p5"
+   ]
+  },
+  {
+   "id": "c0401",
+   "topico": "t04",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Vendedores de uma loja de materiais de construção começam, sem ordem da diretoria, a atender por WhatsApp. As vendas pelo canal crescem e viram prática da empresa. Segundo Mintzberg, isso é estratégia:",
+   "alternativas": [
+    "Deliberada",
+    "Pretendida",
+    "Emergente",
+    "Não realizada"
+   ],
+   "correta": 2,
+   "explicacao": "Emergente é o padrão que surge ao longo do tempo, vindo da base, sem intenção formal prévia.",
+   "fontes": [
+    "plano-aulas-1-2-p15"
+   ]
+  },
+  {
+   "id": "c0402",
+   "topico": "t04",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma rede de farmácias planejou abrir 10 lojas no ano e abriu exatamente as 10, nos bairros previstos. Essa parte do plano é a estratégia:",
+   "alternativas": [
+    "Emergente",
+    "Não realizada",
+    "Transitória",
+    "Deliberada"
+   ],
+   "correta": 3,
+   "explicacao": "Deliberada é a parcela das intenções iniciais executada exatamente como planejada.",
+   "fontes": [
+    "plano-aulas-1-2-p15"
+   ]
+  },
+  {
+   "id": "c0403",
+   "topico": "t04",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma editora mantém há oito anos o mesmo plano de dez anos, focado em livros impressos, apesar do crescimento dos e-books. Na metáfora da disciplina, ela trata o planejamento como:",
+   "alternativas": [
+    "Um mapa impresso, rígido, em vez de um GPS que recalcula a rota",
+    "Um GPS que recalcula a rota o tempo todo",
+    "Um barco a vela que segue o vento",
+    "Uma estratégia emergente"
+   ],
+   "correta": 0,
+   "explicacao": "O mapa impresso representa o plano rígido feito para durar 5 ou 10 anos, que supõe um mundo previsível.",
+   "fontes": [
+    "aula2-p15"
+   ]
+  },
+  {
+   "id": "c0404",
+   "topico": "t04",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa de eventos mantém o objetivo de ser referência em casamentos, mas depois de uma crise passa a fazer cerimônias menores e ao ar livre. O que mudou e o que ficou?",
+   "alternativas": [
+    "O destino mudou; a rota ficou igual",
+    "O destino (a visão) ficou; a rota foi recalculada",
+    "Mudaram o destino e a rota",
+    "Nada mudou: é só operação"
+   ],
+   "correta": 1,
+   "explicacao": "No planejamento ágil o objetivo final se mantém, mas a rota muda conforme o vento.",
+   "fontes": [
+    "aula2-p15",
+    "aula2-p32"
+   ]
+  },
+  {
+   "id": "c0501",
+   "topico": "t05",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um grupo educacional dono de escolas decide comprar uma editora de livros didáticos. Essa decisão é estratégia:",
+   "alternativas": [
+    "De negócios: define como vencer a concorrência",
+    "Operacional",
+    "Corporativa: define em quais negócios o grupo atua",
+    "Emergente"
+   ],
+   "correta": 2,
+   "explicacao": "Decidir em quais negócios atuar (diversificação, aquisições) é estratégia corporativa, como a Disney comprando a Marvel.",
+   "fontes": [
+    "aula2-p35"
+   ]
+  },
+  {
+   "id": "c0502",
+   "topico": "t05",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A editora comprada decide vender seus livros 15% mais baratos que os da principal concorrente. Essa decisão é estratégia:",
+   "alternativas": [
+    "Corporativa: em quais negócios atuar",
+    "De portfólio",
+    "Deliberada",
+    "De negócios: como vencer a concorrência neste negócio"
+   ],
+   "correta": 3,
+   "explicacao": "Competir por custo ou diferenciação dentro de um mercado é estratégia de negócios.",
+   "fontes": [
+    "aula2-p35"
+   ]
+  },
+  {
+   "id": "c0503",
+   "topico": "t05",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um conglomerado vende sua divisão de alimentos para concentrar os investimentos na divisão de bebidas. Isso é:",
+   "alternativas": [
+    "Estratégia corporativa, pois trata do portfólio de negócios do grupo",
+    "Estratégia de negócios, pois trata de bebidas",
+    "Decisão operacional",
+    "Decisão tática do gerente de vendas"
+   ],
+   "correta": 0,
+   "explicacao": "É o mesmo raciocínio do gabarito da Petrobras: gerenciar o portfólio e definir o foco do grupo é corporativo.",
+   "fontes": [
+    "plano-aulas-1-2-p9"
+   ]
+  },
+  {
+   "id": "c0601",
+   "topico": "t06",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O gerente de RH de uma indústria cria um programa de treinamento de seis meses para cumprir a meta da diretoria de reduzir acidentes. Esse programa é de nível:",
+   "alternativas": [
+    "Estratégico",
+    "Tático",
+    "Operacional",
+    "Corporativo"
+   ],
+   "correta": 1,
+   "explicacao": "O nível tático traduz metas da diretoria em processos práticos, no médio prazo.",
+   "fontes": [
+    "aula2-p39"
+   ]
+  },
+  {
+   "id": "c0602",
+   "topico": "t06",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O supervisor de um call center define a escala de quem atende em cada turno da próxima semana. Isso é planejamento:",
+   "alternativas": [
+    "Tático",
+    "Estratégico",
+    "Operacional",
+    "Corporativo"
+   ],
+   "correta": 2,
+   "explicacao": "É o mesmo caso do quadro de horários do supermercado: curto prazo e rotina imediata.",
+   "fontes": [
+    "plano-aulas-1-2-p11",
+    "aula2-p38"
+   ]
+  },
+  {
+   "id": "c0603",
+   "topico": "t06",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O conselho de um banco decide entrar no mercado de seguros nos próximos cinco anos. Essa decisão é de nível:",
+   "alternativas": [
+    "Tático",
+    "Operacional",
+    "De rotina",
+    "Estratégico"
+   ],
+   "correta": 3,
+   "explicacao": "Alta diretoria, longo prazo e decisões de alto impacto e risco caracterizam o nível estratégico.",
+   "fontes": [
+    "aula2-p38"
+   ]
+  },
+  {
+   "id": "c0604",
+   "topico": "t06",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A diretoria de uma varejista define “aumentar a satisfação do cliente”, mas os gerentes não criam nenhum projeto e a loja continua igual. Segundo a Aula 2, o que falhou?",
+   "alternativas": [
+    "A tradução: o nível tático não transformou a meta em processos práticos",
+    "A meta estava alta demais",
+    "O nível operacional se recusou a trabalhar",
+    "A diretoria deveria executar a tarefa"
+   ],
+   "correta": 0,
+   "explicacao": "“A estratégia falha se não for traduzida”: o papel do gerente é ser a ponte entre a diretoria e a base.",
+   "fontes": [
+    "aula2-p39"
+   ]
+  },
+  {
+   "id": "c0701",
+   "topico": "t07",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma fabricante de pen drives percebe a queda nas vendas e, antes que o produto morra, transfere engenheiros e dinheiro para uma linha de armazenamento em nuvem. Em que fase da vantagem transitória ela está?",
+   "alternativas": [
+    "Lançamento",
+    "Reconfiguração",
+    "Exploração máxima",
+    "Aceleração"
+   ],
+   "correta": 1,
+   "explicacao": "Na reconfiguração, os recursos são realocados para novas oportunidades antes do declínio.",
+   "fontes": [
+    "plano-aulas-1-2-p16"
+   ]
+  },
+  {
+   "id": "c0702",
+   "topico": "t07",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O dono de uma rede de bancas de jornal diz: “Nosso ponto na esquina é imbatível; basta protegê-lo e estaremos seguros para sempre”. Esse raciocínio corresponde a:",
+   "alternativas": [
+    "Vantagem transitória: o surfista",
+    "Estratégia emergente",
+    "Vantagem competitiva sustentável: o castelo com fosso",
+    "Hibridização estratégica"
+   ],
+   "correta": 2,
+   "explicacao": "A ideia clássica era construir um diferencial e defendê-lo para sempre. Hoje os fossos secam.",
+   "fontes": [
+    "aula2-p41"
+   ]
+  },
+  {
+   "id": "c0703",
+   "topico": "t07",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa de software encerra de forma planejada um produto antigo, avisa os clientes e move a equipe para um produto novo. Essa fase é:",
+   "alternativas": [
+    "Reconfiguração",
+    "Lançamento",
+    "Exploração máxima",
+    "Desengajamento"
+   ],
+   "correta": 3,
+   "explicacao": "Desengajamento é a descontinuação estruturada de produtos obsoletos, liberando recursos para reiniciar o ciclo.",
+   "fontes": [
+    "plano-aulas-1-2-p16"
+   ]
+  },
+  {
+   "id": "c0704",
+   "topico": "t07",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma startup testa uma ideia com poucos clientes e, quando vê que funciona, investe pesado para crescer rápido. Essa segunda etapa é:",
+   "alternativas": [
+    "Aceleração (ramp-up)",
+    "Lançamento (launch)",
+    "Reconfiguração",
+    "Desengajamento"
+   ],
+   "correta": 0,
+   "explicacao": "Depois do lançamento vem a aceleração: a ideia ganha escala e exige alocação pesada de recursos.",
+   "fontes": [
+    "plano-aulas-1-2-p16"
+   ]
+  },
+  {
+   "id": "c0801",
+   "topico": "t08",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Duas redes de lavanderia investem nas mesmas máquinas e no mesmo software, e passam a competir só baixando o preço. Segundo Porter, o que explica isso?",
+   "alternativas": [
+    "As duas escolheram posicionamentos muito diferentes",
+    "As duas buscaram só eficácia operacional e ficaram idênticas (convergência competitiva)",
+    "Faltou investir em máquinas melhores",
+    "As duas fizeram trade-offs demais"
+   ],
+   "correta": 1,
+   "explicacao": "Quando todas fazem as mesmas coisas melhor, ficam idênticas e a competição vira guerra de preços.",
+   "fontes": [
+    "plano-aulas-1-2-p13"
+   ]
+  },
+  {
+   "id": "c0802",
+   "topico": "t08",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma oficina decide trabalhar só com troca de pneus e não faz nenhum outro serviço. Esse posicionamento se baseia em:",
+   "alternativas": [
+    "Necessidade: tudo para um grupo de clientes",
+    "Acesso: clientes alcançados de forma distinta",
+    "Variedade: um subconjunto dos serviços do setor",
+    "Eficácia operacional"
+   ],
+   "correta": 2,
+   "explicacao": "É o caso da Jiffy Lube, focada só em lubrificantes: posicionamento por variedade.",
+   "fontes": [
+    "plano-aulas-1-2-p13"
+   ]
+  },
+  {
+   "id": "c0803",
+   "topico": "t08",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um banco decide atender só médicos, oferecendo tudo de que eles precisam: conta, crédito para consultório, seguro e investimentos. Esse posicionamento se baseia em:",
+   "alternativas": [
+    "Variedade: um subconjunto de produtos",
+    "Acesso: geografia ou escala",
+    "Liderança em custo",
+    "Necessidade: atender a maioria das necessidades de um grupo específico"
+   ],
+   "correta": 3,
+   "explicacao": "É o caso do Bessemer Trust, focado em famílias de altíssima renda: posicionamento por necessidade.",
+   "fontes": [
+    "plano-aulas-1-2-p14"
+   ]
+  },
+  {
+   "id": "c0804",
+   "topico": "t08",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma companhia aérea de baixo custo decide não servir refeições, não marcar assentos e não fazer conexões. Para Porter, essas renúncias são:",
+   "alternativas": [
+    "Trade-offs: a essência da estratégia é escolher o que não fazer",
+    "Falhas de eficácia operacional",
+    "Sinais de falta de estratégia",
+    "Uma estratégia emergente"
+   ],
+   "correta": 0,
+   "explicacao": "Sem trade-offs, qualquer posicionamento pode ser copiado.",
+   "fontes": [
+    "plano-aulas-1-2-p14"
+   ]
+  },
+  {
+   "id": "c0901",
+   "topico": "t09",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O setor de vendas de uma empresa promete entrega em 24 horas para fechar mais contratos, sem combinar com a logística, que não consegue cumprir. Que conceito da Aula 1 faltou?",
+   "alternativas": [
+    "Ikigai",
+    "Visão sistêmica",
+    "Marketing de guerrilha",
+    "Estratégia do oceano azul"
+   ],
+   "correta": 1,
+   "explicacao": "Visão sistêmica é compreender o todo a partir das partes e da interação entre elas.",
+   "fontes": [
+    "aula1-p8"
+   ]
+  },
+  {
+   "id": "c0902",
+   "topico": "t09",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Duas operadoras de telefonia, em vez de entrar em guerra de preços, fecham um acordo para compartilhar torres e as duas reduzem custos. Que ensinamento de Sun Tzu isso ilustra?",
+   "alternativas": [
+    "A guerra deve ser travada com o máximo de força",
+    "O general deve atacar primeiro",
+    "A melhor vitória é a obtida sem conflito",
+    "Só vence quem tem o maior exército"
+   ],
+   "correta": 2,
+   "explicacao": "Sun Tzu ensina que a verdadeira maestria é vencer sem lutar, por diplomacia, estratégia e dissuasão.",
+   "fontes": [
+    "aula1-p12"
+   ]
+  },
+  {
+   "id": "c0903",
+   "topico": "t09",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma marca de café decide não competir por preço e cria uma proposta única: cafés de pequenos produtores, com a história de cada um na embalagem. Isso segue a ideia de qual autor da Aula 1?",
+   "alternativas": [
+    "Sun Tzu: vencer pela força",
+    "Henry Mintzberg: estratégia deliberada",
+    "Warren Buffett: fazer o que ama",
+    "Michael Porter: estratégia competitiva é ser único, com uma proposta de valor diferente"
+   ],
+   "correta": 3,
+   "explicacao": "Para Porter, a estratégia competitiva é escolher um caminho diferente do dos concorrentes, com proposta de valor única.",
+   "fontes": [
+    "aula1-p18"
+   ]
+  },
+  {
+   "id": "c1001",
+   "topico": "t10",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um designer é muito bom em criar logotipos e é bem pago por isso, mas não gosta do trabalho. Que elemento do ikigai está faltando?",
+   "alternativas": [
+    "O que você ama (paixão)",
+    "Pelo que você pode ser pago (vocação)",
+    "No que você é bom (profissão)",
+    "Nenhum: ele já encontrou o ikigai"
+   ],
+   "correta": 0,
+   "explicacao": "O ikigai exige o cruzamento dos quatro elementos; aqui falta a paixão.",
+   "fontes": [
+    "aula1-p21"
+   ]
+  },
+  {
+   "id": "c1002",
+   "topico": "t10",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma pessoa ama pintar e pinta muito bem, mas ninguém compra os quadros. Que elemento do ikigai está faltando?",
+   "alternativas": [
+    "O que você ama (paixão)",
+    "Pelo que você pode ser pago (vocação)",
+    "No que você é bom (profissão)",
+    "Nenhum: ela já encontrou o ikigai"
+   ],
+   "correta": 1,
+   "explicacao": "Ela tem paixão e habilidade, mas falta aquilo pelo que pode ser paga.",
+   "fontes": [
+    "aula1-p21"
+   ]
+  },
+  {
+   "id": "c1101",
+   "topico": "t11",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma rede de papelarias define seu “plano estratégico”: vender 10% a mais que no ano passado em cada loja. Para Salibi e Magaldi, isso é:",
+   "alternativas": [
+    "Uma estratégia adaptativa",
+    "Uma estratégia emergente",
+    "Planejamento incremental, e não estratégia",
+    "Uma vantagem transitória"
+   ],
+   "correta": 2,
+   "explicacao": "Crescer um percentual sobre a base anterior é incrementalismo: “para crescer 10% ao ano, eu não preciso de estratégia”.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "c1102",
+   "topico": "t11",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma gerente propõe um projeto novo, fora do orçamento aprovado em outubro. A resposta é: “Não está no budget, fica para o ano que vem”. Que risco do planejamento tradicional isso mostra?",
+   "alternativas": [
+    "O excesso de inovação desorganiza a empresa",
+    "A falta de orçamento impede o planejamento",
+    "A estratégia emergente atrapalha o plano",
+    "O foco em orçamentos rígidos mata a inovação"
+   ],
+   "correta": 3,
+   "explicacao": "O guia afirma que o planejamento tradicional, focado em orçamentos rígidos, mata a inovação dentro das empresas.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "c1103",
+   "topico": "t11",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa de táxi cresce 10% ao ano há cinco anos e bate todas as metas. Um aplicativo de transporte chega à cidade. Por que o crescimento incremental não protege a empresa?",
+   "alternativas": [
+    "Porque mexe só em variáveis operacionais e não garante a sobrevivência diante de rupturas tecnológicas",
+    "Porque 10% ao ano é pouco; com 20% ela estaria protegida",
+    "Porque as metas não estavam em planilha",
+    "Porque faltou um plano de dez anos"
+   ],
+   "correta": 0,
+   "explicacao": "O crescimento incremental não garante sustentabilidade nem sobrevivência diante de rupturas.",
+   "fontes": [
+    "aula3-guia-p1"
+   ]
+  },
+  {
+   "id": "c1201",
+   "topico": "t12",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um diretor defende: “Fizemos um plano de cinco anos, agora é só seguir à risca”. Em um mercado volátil, o guia da Aula 3 considera isso:",
+   "alternativas": [
+    "A melhor prática atual",
+    "Um erro grave de gestão",
+    "Uma estratégia emergente",
+    "Uma vantagem transitória"
+   ],
+   "correta": 1,
+   "explicacao": "Tentar manter planos rígidos de 5 anos em ambiente volátil é um erro grave de gestão.",
+   "fontes": [
+    "aula3-guia-p2"
+   ]
+  },
+  {
+   "id": "c1202",
+   "topico": "t12",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Nos anos 1990, uma rede de locadoras fazia planos de dez anos e protegia sua posição abrindo lojas em todos os bairros. Essa lógica é típica de qual era?",
+   "alternativas": [
+    "Era digital e adaptativa: ciclos rápidos",
+    "Era da vantagem transitória",
+    "Era clássica: ambiente previsível e vantagem sustentável com barreiras de entrada",
+    "Era do planejamento ágil"
+   ],
+   "correta": 2,
+   "explicacao": "Na era clássica, as empresas faziam planos de 5 ou 10 anos e focavam em construir barreiras de entrada.",
+   "fontes": [
+    "aula3-guia-p2"
+   ]
+  },
+  {
+   "id": "c1301",
+   "topico": "t13",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um diretor tem ótimas ideias de novos mercados, mas nada sai do papel porque ninguém organiza prazos e responsáveis. O que o guia diz sobre isso?",
+   "alternativas": [
+    "Um excelente plano sem visão executa a direção errada",
+    "A estratégia deve ficar só com o planejador",
+    "Ideias demais atrapalham a empresa",
+    "Uma excelente estratégia sem um bom planejador morre na execução"
+   ],
+   "correta": 3,
+   "explicacao": "As duas funções são essenciais e interdependentes.",
+   "fontes": [
+    "aula3-guia-p3"
+   ]
+  },
+  {
+   "id": "c1302",
+   "topico": "t13",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma coordenadora monta cronogramas detalhados, define responsáveis e mede cada etapa. Pelo quadro da Aula 3, esse é o perfil de:",
+   "alternativas": [
+    "Planejador / gestor de projetos",
+    "Estrategista",
+    "Líder visionário",
+    "Operador"
+   ],
+   "correta": 0,
+   "explicacao": "O planejador coordena processos (o que, quem, quando, como) e mede.",
+   "fontes": [
+    "aula3-interno-p10"
+   ]
+  },
+  {
+   "id": "c1303",
+   "topico": "t13",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma equipe executa com perfeição, no prazo e dentro do orçamento, o lançamento de um produto que ninguém queria comprar. Segundo o guia, o que aconteceu?",
+   "alternativas": [
+    "Uma excelente estratégia morreu na execução",
+    "Um excelente plano sem visão estratégica executou com perfeição a direção errada",
+    "Faltou um cronograma melhor",
+    "Faltou orçamento"
+   ],
+   "correta": 1,
+   "explicacao": "Sem visão estratégica, o plano bem executado leva ao lugar errado.",
+   "fontes": [
+    "aula3-guia-p3"
+   ]
+  },
+  {
+   "id": "c1401",
+   "topico": "t14",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma grande fabricante de câmeras recusa investir em câmeras para drones porque “é um mercado pequeno demais para nós”. Anos depois, esse mercado explode. Que caso da Aula 3 ensina essa lição?",
+   "alternativas": [
+    "Walmart: ressignificação de ativos",
+    "Zara x Shein: real-time fashion",
+    "Intel x NVIDIA: a “frase da morte”",
+    "Spotify: Hack Weeks"
+   ],
+   "correta": 2,
+   "explicacao": "Grandes empresas morrem ao ignorar mercados emergentes com a frase “este mercado é muito pequeno para a gente entrar”.",
+   "fontes": [
+    "aula3-guia-p4"
+   ]
+  },
+  {
+   "id": "c1402",
+   "topico": "t14",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma seguradora on-line cresce sem nenhuma corretora física, enquanto as tradicionais se protegiam com milhares de corretores. Esse caso se parece com:",
+   "alternativas": [
+    "Walmart: novo uso para as lojas",
+    "Intel: inovação incremental",
+    "Netflix: conteúdo original",
+    "Nubank: a inovação está no modelo de negócios"
+   ],
+   "correta": 3,
+   "explicacao": "O Nubank cresceu sem abrir uma agência, quebrando a barreira física dos bancos tradicionais.",
+   "fontes": [
+    "aula3-guia-p3"
+   ]
+  },
+  {
+   "id": "c1403",
+   "topico": "t14",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma marca de camisetas só fabrica uma estampa depois de ver, pelos dados das redes sociais, que há procura real por ela. Esse modelo se parece com o de qual empresa estudada?",
+   "alternativas": [
+    "Shein",
+    "Zara",
+    "Walmart",
+    "Intel"
+   ],
+   "correta": 0,
+   "explicacao": "A Shein analisa o comportamento do consumidor e aciona a produção apenas sob demanda real.",
+   "fontes": [
+    "aula3-guia-p3"
+   ]
+  },
+  {
+   "id": "c1404",
+   "topico": "t14",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma plataforma de cursos percebe que as universidades parceiras podem retirar seus cursos do catálogo e, antes disso, começa a produzir cursos próprios. Esse movimento repete o de:",
+   "alternativas": [
+    "Walmart, ao usar drones",
+    "Netflix, ao produzir conteúdo original",
+    "Spotify, com as Hack Weeks",
+    "Intel, com novos processadores"
+   ],
+   "correta": 1,
+   "explicacao": "A Netflix previu que os estúdios poderiam retirar as licenças e passou a produzir conteúdo original.",
+   "fontes": [
+    "aula3-guia-p4"
+   ]
+  },
+  {
+   "id": "c1501",
+   "topico": "t15",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma gráfica analisa suas máquinas, sua equipe e os processos em que é melhor que as concorrentes. Na Teoria dos Negócios de Drucker, ela está olhando para:",
+   "alternativas": [
+    "Ambiente (olhar para fora)",
+    "Propósito",
+    "Capacidades (olhar para dentro)",
+    "Concorrência"
+   ],
+   "correta": 2,
+   "explicacao": "Capacidades são as fortalezas, competências, tecnologias e processos em que a empresa é imbatível.",
+   "fontes": [
+    "aula3-guia-p4"
+   ]
+  },
+  {
+   "id": "c1502",
+   "topico": "t15",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa líder há 20 anos responde a toda crítica com “sempre fizemos assim e deu certo”. Que alerta de Drucker se aplica?",
+   "alternativas": [
+    "“Estratégia é falar não”",
+    "“Nenhuma estratégia é formulada no vácuo”",
+    "“Este mercado é muito pequeno para nós”",
+    "“As árvores não crescem até o céu”: muito sucesso leva a ter respostas e não fazer as perguntas certas"
+   ],
+   "correta": 3,
+   "explicacao": "Drucker alertou Salibi sobre o perigo do sucesso de longo prazo.",
+   "fontes": [
+    "aula3-guia-p4"
+   ]
+  },
+  {
+   "id": "c1503",
+   "topico": "t15",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma escola estuda quem são seus alunos, o que as escolas concorrentes oferecem e as novas regras do setor. Na Teoria dos Negócios, essa é a dimensão:",
+   "alternativas": [
+    "Ambiente (olhar para fora)",
+    "Capacidades (olhar para dentro)",
+    "Propósito",
+    "Operação"
+   ],
+   "correta": 0,
+   "explicacao": "Ambiente: quem é o cliente, o que os concorrentes fazem e quais são as transformações tecnológicas e regulatórias.",
+   "fontes": [
+    "aula3-guia-p4"
+   ]
+  },
+  {
+   "id": "c1601",
+   "topico": "t16",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Em uma empresa, a estratégia nasce de experimentos: as equipes testam ideias pequenas, veem o que funciona e ampliam. Isso corresponde à Escola:",
+   "alternativas": [
+    "do Planejamento",
+    "do Aprendizado",
+    "do Posicionamento",
+    "Ambiental"
+   ],
+   "correta": 1,
+   "explicacao": "Na Escola do Aprendizado, a estratégia surge de forma incremental e emergente, por experimentação.",
+   "fontes": [
+    "aula3-interno-p5"
+   ]
+  },
+  {
+   "id": "c1602",
+   "topico": "t16",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Antes de decidir, uma consultoria analisa a estrutura do setor e a concorrência, e escolhe entre liderança em custo e diferenciação. Essa é a lógica da Escola:",
+   "alternativas": [
+    "Empreendedora",
+    "Cultural",
+    "do Posicionamento",
+    "do Poder"
+   ],
+   "correta": 2,
+   "explicacao": "A Escola do Posicionamento (Porter) seleciona posições no mercado a partir da análise da indústria.",
+   "fontes": [
+    "aula3-interno-p5"
+   ]
+  },
+  {
+   "id": "c1603",
+   "topico": "t16",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Em uma empresa, as decisões estratégicas resultam de disputas entre diretorias e de alianças com parceiros externos. Isso corresponde à Escola:",
+   "alternativas": [
+    "do Design",
+    "Cognitiva",
+    "do Aprendizado",
+    "do Poder"
+   ],
+   "correta": 3,
+   "explicacao": "A Escola do Poder trata de negociação e manobras políticas: micropoder (interno) e macropoder (externo).",
+   "fontes": [
+    "aula3-interno-p5"
+   ]
+  },
+  {
+   "id": "c1701",
+   "topico": "t17",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma transportadora coloca “alta do diesel” na lista de fraquezas da sua SWOT. Qual é o erro?",
+   "alternativas": [
+    "É um fator externo e incontrolável; o lugar dele é em ameaças",
+    "Não há erro: tudo que atrapalha é fraqueza",
+    "Deveria estar em forças",
+    "Deveria estar em oportunidades"
+   ],
+   "correta": 0,
+   "explicacao": "Confundir forças e fraquezas (internas) com oportunidades e ameaças (externas) é o erro fatal do diagnóstico.",
+   "fontes": [
+    "aula3-interno-p16"
+   ]
+  },
+  {
+   "id": "c1702",
+   "topico": "t17",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma loja percebe que seu processo de troca de produtos é lento e confuso. Segundo o princípio da controlabilidade, o que cabe à loja?",
+   "alternativas": [
+    "Apenas monitorar e se adaptar",
+    "Decisão e gestão ativa: ela tem o poder de alterar o processo",
+    "Esperar o mercado mudar",
+    "Nada, pois é incontrolável"
+   ],
+   "correta": 1,
+   "explicacao": "Processos são fatores internos: não cabe adaptação, cabe decisão.",
+   "fontes": [
+    "aula3-interno-p16"
+   ]
+  },
+  {
+   "id": "c1703",
+   "topico": "t17",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O governo aprova uma lei que muda as regras do setor de uma empresa. O que cabe à empresa?",
+   "alternativas": [
+    "Decidir e alterar a lei",
+    "Tratar a lei como uma fraqueza interna",
+    "Reagir, prever e se adaptar, pois ela não dita as regras do jogo",
+    "Ignorar, pois é um fator externo"
+   ],
+   "correta": 2,
+   "explicacao": "Legislação é força externa e incontrolável: a empresa monitora e se adapta.",
+   "fontes": [
+    "aula3-interno-p16"
+   ]
+  },
+  {
+   "id": "c1801",
+   "topico": "t18",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma concorrente compra as mesmas máquinas de uma fábrica líder, mas não consegue copiar a reputação que a líder construiu em 30 anos. O que isso mostra?",
+   "alternativas": [
+    "Ativos tangíveis são impossíveis de copiar",
+    "Reputação é um ativo tangível",
+    "Máquinas são o ativo mais valioso",
+    "Ativos tangíveis são fáceis de comprar; os intangíveis têm imitabilidade baixíssima"
+   ],
+   "correta": 3,
+   "explicacao": "Tangíveis: imitabilidade alta. Intangíveis: protegidos por complexidade e tempo.",
+   "fontes": [
+    "aula3-interno-p18"
+   ]
+  },
+  {
+   "id": "c1802",
+   "topico": "t18",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um investidor quer entender por que uma rede de clínicas lucra mais que as rivais do mesmo setor. Pela VBR, onde ele deve procurar a causa?",
+   "alternativas": [
+    "Na quantidade, qualidade e adequação dos recursos internos",
+    "Apenas na atratividade do setor",
+    "Na sorte da empresa",
+    "Nos preços dos concorrentes"
+   ],
+   "correta": 0,
+   "explicacao": "O desempenho superior é um sintoma; a causa está nos recursos internos.",
+   "fontes": [
+    "aula3-interno-p17"
+   ]
+  },
+  {
+   "id": "c1803",
+   "topico": "t18",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Qual destes itens de uma empresa de software é um ativo intangível?",
+   "alternativas": [
+    "Os servidores",
+    "O banco de dados de clientes",
+    "O dinheiro em caixa",
+    "O prédio da sede"
+   ],
+   "correta": 1,
+   "explicacao": "Reputação da marca, patentes e banco de dados são exemplos de ativos intangíveis.",
+   "fontes": [
+    "aula3-interno-p18"
+   ]
+  },
+  {
+   "id": "c1901",
+   "topico": "t19",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um hospital compra o tomógrafo mais moderno do mercado, mas a equipe não sabe interpretar bem os exames. O que falta ao hospital?",
+   "alternativas": [
+    "O recurso tangível",
+    "Um fator crítico de sucesso ambiental",
+    "A capacidade: a habilidade coletiva que coloca o ativo em movimento",
+    "Um ativo financeiro"
+   ],
+   "correta": 2,
+   "explicacao": "É o mesmo raciocínio do CRM: o ativo é inútil sem a habilidade coletiva de usá-lo.",
+   "fontes": [
+    "aula3-interno-p20"
+   ]
+  },
+  {
+   "id": "c1902",
+   "topico": "t19",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma loja on-line criou um jeito de embalar que os clientes adoram e que reduz custos, mas qualquer concorrente copia em uma semana. Pelos três filtros, isso é:",
+   "alternativas": [
+    "Uma competência essencial",
+    "Um ativo tangível",
+    "Um fator crítico de sucesso setorial",
+    "Apenas uma vantagem temporária, não uma competência essencial"
+   ],
+   "correta": 3,
+   "explicacao": "Passa nos filtros de valor e eficiência, mas não no de inimitabilidade.",
+   "fontes": [
+    "aula3-interno-p23"
+   ]
+  },
+  {
+   "id": "c1903",
+   "topico": "t19",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma montadora domina a engenharia de motores pequenos e usa esse conhecimento em carros, motos, geradores e cortadores de grama. Que característica de competência essencial isso mostra?",
+   "alternativas": [
+    "Dá acesso a uma ampla variedade de mercados",
+    "É fácil de ser imitada",
+    "Sofre depreciação com o uso",
+    "É um ativo tangível"
+   ],
+   "correta": 0,
+   "explicacao": "Uma competência essencial deve proporcionar acesso potencial a uma ampla variedade de mercados.",
+   "fontes": [
+    "aula3-interno-p19"
+   ]
+  },
+  {
+   "id": "c2001",
+   "topico": "t20",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma indústria descobre que usa só 50% da capacidade de suas máquinas. Esse dado pertence ao diagnóstico de qual área?",
+   "alternativas": [
+    "Finanças",
+    "Produção (operações)",
+    "Recursos Humanos",
+    "Marketing"
+   ],
+   "correta": 1,
+   "explicacao": "Uso de capacidade instalada, logística e certificações de qualidade são de Produção.",
+   "fontes": [
+    "aula3-interno-p24"
+   ]
+  },
+  {
+   "id": "c2002",
+   "topico": "t20",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A diretoria de uma escola lista as forças da instituição “pela experiência de quem está aqui há anos”, sem consultar nenhum dado. O que a Aula 3 diz sobre esse método?",
+   "alternativas": [
+    "É o método mais confiável",
+    "Basta consultar o fundador",
+    "O diagnóstico exige evidência (controladoria, auditorias, pesquisas), e não apenas a intuição da diretoria",
+    "Forças não precisam ser comprovadas"
+   ],
+   "correta": 2,
+   "explicacao": "Evidência vs. percepção: o diagnóstico deve cruzar dados, e não se apoiar só na intuição.",
+   "fontes": [
+    "aula3-interno-p24"
+   ]
+  },
+  {
+   "id": "c2003",
+   "topico": "t20",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa descobre que gasta cada vez mais para conquistar cada cliente novo. Esse dado é da área de:",
+   "alternativas": [
+    "Finanças (liquidez)",
+    "Produção (logística)",
+    "Recursos Humanos (turnover)",
+    "Marketing (custo de aquisição)"
+   ],
+   "correta": 3,
+   "explicacao": "Patrimônio da marca, custo de aquisição e lealdade do consumidor são indicadores de Marketing.",
+   "fontes": [
+    "aula3-interno-p24"
+   ]
+  },
+  {
+   "id": "c2101",
+   "topico": "t21",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um supermercado define que “filas curtas no caixa são vitais para nós” e passa a medir o tempo médio de espera. O que é cada coisa?",
+   "alternativas": [
+    "Filas curtas é o FCS; tempo médio de espera é o KPI",
+    "Filas curtas é o KPI; tempo médio de espera é o FCS",
+    "Os dois são FCS",
+    "Os dois são KPIs"
+   ],
+   "correta": 0,
+   "explicacao": "FCS define onde focar; KPI mede quão bem se executa.",
+   "fontes": [
+    "aula3-interno-p29"
+   ]
+  },
+  {
+   "id": "c2102",
+   "topico": "t21",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa apresenta uma lista com 25 fatores críticos de sucesso. Qual é o problema, segundo a Aula 3?",
+   "alternativas": [
+    "A lista é curta demais",
+    "O excesso de fatores anula a palavra “crítico”; o máximo é de 7 a 10 por ciclo",
+    "FCS não podem ser listados",
+    "Faltam KPIs financeiros"
+   ],
+   "correta": 1,
+   "explicacao": "Foco restrito: mapear no máximo de 7 a 10 FCS por ciclo estratégico.",
+   "fontes": [
+    "aula3-interno-p28"
+   ]
+  },
+  {
+   "id": "c2103",
+   "topico": "t21",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Para uma companhia aérea, a segurança dos voos é um fator crítico de sucesso de que tipo?",
+   "alternativas": [
+    "Ambiental",
+    "Empresarial",
+    "Setorial",
+    "Organizacional"
+   ],
+   "correta": 2,
+   "explicacao": "Setoriais são os específicos do mercado em que se atua, como a segurança na aviação.",
+   "fontes": [
+    "aula3-interno-p27"
+   ]
+  },
+  {
+   "id": "c2104",
+   "topico": "t21",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma nova lei tributária muda os custos de todas as empresas do país. Para uma empresa, isso é um FCS de que tipo?",
+   "alternativas": [
+    "Setorial",
+    "Organizacional",
+    "Empresarial",
+    "Ambiental"
+   ],
+   "correta": 3,
+   "explicacao": "Ambientais são mudanças fora do controle direto, como novas leis tributárias e oscilações macroeconômicas.",
+   "fontes": [
+    "aula3-interno-p27"
+   ]
+  },
+  {
+   "id": "c2201",
+   "topico": "t22",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma fábrica de calçados estuda o envelhecimento da população brasileira. Essa análise é de:",
+   "alternativas": [
+    "Macroambiente (PESTEL)",
+    "Microambiente (5 Forças de Porter)",
+    "Ambiente interno",
+    "Fatores críticos de sucesso"
+   ],
+   "correta": 0,
+   "explicacao": "Demografia é uma força social do PESTEL, que analisa o macroambiente.",
+   "fontes": [
+    "aula4-p4",
+    "aula4-p7"
+   ]
+  },
+  {
+   "id": "c2202",
+   "topico": "t22",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A mesma fábrica estuda o poder de barganha das grandes redes de lojas que compram seus sapatos. Essa análise é de:",
+   "alternativas": [
+    "Macroambiente (PESTEL)",
+    "Microambiente (5 Forças de Porter)",
+    "Ambiente interno",
+    "Visão baseada em recursos"
+   ],
+   "correta": 1,
+   "explicacao": "O poder de negociação dos compradores é uma das 5 Forças, que analisam o microambiente.",
+   "fontes": [
+    "aula4-p4",
+    "aula4-p9"
+   ]
+  },
+  {
+   "id": "c2203",
+   "topico": "t22",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma nova regulação nacional de emissões atrai montadoras novas e aumenta a rivalidade no setor automotivo. O que esse caso mostra sobre macro e microambiente?",
+   "alternativas": [
+    "São paralelos e não se afetam",
+    "O micro sempre determina o macro",
+    "São interdependentes: uma mudança macro rompe a estrutura da indústria",
+    "Só o macroambiente importa"
+   ],
+   "correta": 2,
+   "explicacao": "As duas camadas são totalmente interdependentes, não paralelas.",
+   "fontes": [
+    "aula4-p4",
+    "aula4-p11"
+   ]
+  },
+  {
+   "id": "c2301",
+   "topico": "t23",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O governo aumenta as tarifas de importação do aço. Para uma fábrica de eletrodomésticos, essa é uma força do PESTEL de que tipo?",
+   "alternativas": [
+    "Social",
+    "Tecnológica",
+    "Ecológica",
+    "Política"
+   ],
+   "correta": 3,
+   "explicacao": "Política tarifária é uma força política.",
+   "fontes": [
+    "aula4-p6"
+   ]
+  },
+  {
+   "id": "c2302",
+   "topico": "t23",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma rede de restaurantes nota que cada vez mais clientes procuram pratos vegetarianos. No PESTEL, essa é uma força:",
+   "alternativas": [
+    "Social",
+    "Econômica",
+    "Legal",
+    "Política"
+   ],
+   "correta": 0,
+   "explicacao": "Valores culturais, estilo de vida e comportamento do consumidor são forças sociais.",
+   "fontes": [
+    "aula4-p7"
+   ]
+  },
+  {
+   "id": "c2303",
+   "topico": "t23",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um banco passa a usar inteligência artificial para atender clientes e reduz o custo do atendimento. No PESTEL, isso é uma força:",
+   "alternativas": [
+    "Social",
+    "Tecnológica",
+    "Econômica",
+    "Legal"
+   ],
+   "correta": 1,
+   "explicacao": "A IA generativa atua como força tecnológica, redesenhando o atendimento e os custos operacionais.",
+   "fontes": [
+    "aula4-p7"
+   ]
+  },
+  {
+   "id": "c2304",
+   "topico": "t23",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Investidores pressionam uma mineradora a reduzir emissões e a adotar metas ESG. No PESTEL, essa é uma força:",
+   "alternativas": [
+    "Política",
+    "Tecnológica",
+    "Ecológica",
+    "Social"
+   ],
+   "correta": 2,
+   "explicacao": "Mudanças climáticas, regulação ambiental e pressão sustentável (ESG) são forças ecológicas.",
+   "fontes": [
+    "aula4-p8"
+   ]
+  },
+  {
+   "id": "c2305",
+   "topico": "t23",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "A inflação sobe e o desemprego aumenta. Uma loja de móveis registra isso no PESTEL como força:",
+   "alternativas": [
+    "Política",
+    "Social",
+    "Legal",
+    "Econômica"
+   ],
+   "correta": 3,
+   "explicacao": "Taxa de juros, inflação, câmbio, ciclo econômico e nível de emprego são forças econômicas.",
+   "fontes": [
+    "aula4-p6"
+   ]
+  },
+  {
+   "id": "c2401",
+   "topico": "t24",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma fábrica de computadores depende de um único fabricante de processadores, e trocar de fornecedor custaria muito caro. Que força de Porter está alta?",
+   "alternativas": [
+    "Poder de negociação dos fornecedores",
+    "Poder de negociação dos compradores",
+    "Ameaça de substitutos",
+    "Ameaça de novos entrantes"
+   ],
+   "correta": 0,
+   "explicacao": "Poucos players, insumo essencial e alto custo de troca elevam o poder dos fornecedores.",
+   "fontes": [
+    "aula4-p10"
+   ]
+  },
+  {
+   "id": "c2402",
+   "topico": "t24",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Em um setor com muitos concorrentes do mesmo tamanho, produtos quase iguais e mercado que não cresce, que força tende a ser alta?",
+   "alternativas": [
+    "Poder dos fornecedores",
+    "Rivalidade entre concorrentes",
+    "Ameaça de substitutos",
+    "Poder dos compradores"
+   ],
+   "correta": 1,
+   "explicacao": "Concorrentes numerosos e equilibrados, crescimento lento e baixa diferenciação elevam a rivalidade.",
+   "fontes": [
+    "aula4-p10"
+   ]
+  },
+  {
+   "id": "c2403",
+   "topico": "t24",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Para abrir uma companhia aérea é preciso muito capital, licenças do governo e escala. O que isso faz com a ameaça de novos entrantes?",
+   "alternativas": [
+    "Aumenta, pois o setor é atraente",
+    "Não afeta essa força",
+    "Reduz, pois são barreiras de entrada",
+    "Transforma os entrantes em substitutos"
+   ],
+   "correta": 2,
+   "explicacao": "Barreiras como escala, capital, marca e regulação reduzem a ameaça de novos entrantes.",
+   "fontes": [
+    "aula4-p10"
+   ]
+  },
+  {
+   "id": "c2404",
+   "topico": "t24",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma pequena fábrica de embalagens vende quase tudo para três grandes redes de varejo, que compram em grande volume e conhecem bem os preços do mercado. Que força está alta?",
+   "alternativas": [
+    "Poder de negociação dos fornecedores",
+    "Ameaça de novos entrantes",
+    "Ameaça de substitutos",
+    "Poder de negociação dos compradores"
+   ],
+   "correta": 3,
+   "explicacao": "Compradores concentrados, com grandes volumes e alta informação de mercado, têm muito poder.",
+   "fontes": [
+    "aula4-p10"
+   ]
+  },
+  {
+   "id": "c2501",
+   "topico": "t25",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Para uma fabricante de despertadores, o alarme do celular é:",
+   "alternativas": [
+    "Um produto substituto: vem de outra indústria e atende à mesma necessidade",
+    "Um concorrente direto",
+    "Um novo entrante do mesmo setor",
+    "Um fornecedor"
+   ],
+   "correta": 0,
+   "explicacao": "Substitutos pertencem a indústrias diferentes, mas resolvem a mesma necessidade básica do cliente.",
+   "fontes": [
+    "aula4-p12"
+   ]
+  },
+  {
+   "id": "c2502",
+   "topico": "t25",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma escola de idiomas presencial investe em conversação ao vivo, eventos e intercâmbio, coisas que os aplicativos de idiomas não oferecem. Que defesa contra substitutos ela usa?",
+   "alternativas": [
+    "Elevar os custos de troca",
+    "Diferenciação pela experiência",
+    "Hibridização estratégica",
+    "Guerra de preços"
+   ],
+   "correta": 1,
+   "explicacao": "É focar nos pontos em que o substituto falha, como os cinemas com salas VIP e IMAX.",
+   "fontes": [
+    "aula4-p18"
+   ]
+  },
+  {
+   "id": "c2503",
+   "topico": "t25",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma rede de livrarias lança seu próprio leitor digital e sua loja de e-books antes das concorrentes. Que defesa é essa?",
+   "alternativas": [
+    "Diferenciação pela experiência",
+    "Elevar os custos de troca",
+    "Hibridização estratégica: adotar o substituto antes do concorrente",
+    "Barreira de entrada"
+   ],
+   "correta": 2,
+   "explicacao": "É o que fazem os hospitais que criam seus próprios canais de telemedicina.",
+   "fontes": [
+    "aula4-p18"
+   ]
+  },
+  {
+   "id": "c2504",
+   "topico": "t25",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um banco integra conta, investimentos, seguros e pagamentos automáticos, de modo que sair dele dá muito trabalho ao cliente. Que defesa é essa?",
+   "alternativas": [
+    "Hibridização estratégica",
+    "Diferenciação pela experiência",
+    "Liderança em custo",
+    "Elevar os custos de troca"
+   ],
+   "correta": 3,
+   "explicacao": "Criar um ecossistema em que o cliente tenha dificuldade de migrar eleva os custos de troca.",
+   "fontes": [
+    "aula4-p18"
+   ]
+  },
+  {
+   "id": "c2601",
+   "topico": "t26",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma startup lista o que a equipe faz bem e mal, e também as chances e os riscos do mercado, para decidir o plano do ano. Que ferramenta ela está usando?",
+   "alternativas": [
+    "Análise SWOT",
+    "PESTEL",
+    "5 Forças de Porter",
+    "Ikigai"
+   ],
+   "correta": 0,
+   "explicacao": "A SWOT relaciona forças e fraquezas internas com oportunidades e ameaças externas.",
+   "fontes": [
+    "plataforma-a-p2",
+    "plataforma-a-p5"
+   ]
+  },
+  {
+   "id": "c2602",
+   "topico": "t26",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa preenche a SWOT em janeiro, guarda na gaveta e nunca mais olha. Segundo a Aula 6, qual é o erro?",
+   "alternativas": [
+    "Fazer a SWOT em janeiro",
+    "Tratar a SWOT como formulário estático; ela é um mapa dinâmico e precisa estar sempre atualizada",
+    "Incluir ameaças na matriz",
+    "Não contratar uma consultoria"
+   ],
+   "correta": 1,
+   "explicacao": "O mito é o formulário para guardar na gaveta; a verdade é o mapa dinâmico de sobrevivência estratégica.",
+   "fontes": [
+    "aula6-p4",
+    "plataforma-a-p5"
+   ]
+  },
+  {
+   "id": "c2603",
+   "topico": "t26",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma padaria copia da internet a SWOT pronta de uma “padaria modelo”. Por que isso não funciona?",
+   "alternativas": [
+    "Porque a SWOT só serve para empresas grandes",
+    "Porque a SWOT não pode ter mais de quatro itens",
+    "Porque a mesma força externa pode ser oportunidade para uma empresa e ameaça para outra, conforme seus recursos",
+    "Porque padarias não têm ameaças"
+   ],
+   "correta": 2,
+   "explicacao": "A SWOT nunca deve ser copiada de um modelo genérico.",
+   "fontes": [
+    "aula4-p19"
+   ]
+  },
+  {
+   "id": "c2604",
+   "topico": "t26",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma clínica faz uma SWOT “da empresa toda”, com itens vagos como “somos bons” e “o mercado é difícil”. O que o capítulo da Sagah recomenda?",
+   "alternativas": [
+    "Que a análise seja o mais genérica possível",
+    "Que só a diretoria participe",
+    "Que as fraquezas sejam omitidas",
+    "Que a análise seja específica, com orientação clara (financeira, RH, marketing etc.)"
+   ],
+   "correta": 3,
+   "explicacao": "A SWOT é subjetiva; para ser eficiente e eficaz precisa ser específica, com orientação clara e objetiva.",
+   "fontes": [
+    "plataforma-a-p8"
+   ]
+  },
+  {
+   "id": "c2701",
+   "topico": "t27",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma construtora trabalha com máquinas desgastadas, que quebram toda semana. Na SWOT, isso é:",
+   "alternativas": [
+    "Fraqueza",
+    "Ameaça",
+    "Oportunidade",
+    "Força"
+   ],
+   "correta": 0,
+   "explicacao": "O próprio texto cita construtoras com máquinas desgastadas como exemplo de fraqueza.",
+   "fontes": [
+    "plataforma-a-p9"
+   ]
+  },
+  {
+   "id": "c2702",
+   "topico": "t27",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma marca de chocolates é conhecida e querida há 50 anos. Na SWOT, isso é:",
+   "alternativas": [
+    "Oportunidade",
+    "Força",
+    "Ameaça",
+    "Fraqueza"
+   ],
+   "correta": 1,
+   "explicacao": "Marca consolidada no mercado é exemplo de força: algo interno que dá destaque.",
+   "fontes": [
+    "plataforma-a-p9"
+   ]
+  },
+  {
+   "id": "c2703",
+   "topico": "t27",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma loja identifica que seu produto mais vendido é muito superior ao dos rivais. Segundo o texto, o que fazer com esse ponto forte?",
+   "alternativas": [
+    "Deixá-lo de lado e focar só nas fraquezas",
+    "Tratá-lo como uma oportunidade externa",
+    "Explorá-lo e incentivá-lo, para que se intensifique ainda mais",
+    "Reduzir a produção para valorizá-lo"
+   ],
+   "correta": 2,
+   "explicacao": "Ao constatar um ponto forte, a empresa pode incentivá-lo; um produto que se destaca deve ser explorado.",
+   "fontes": [
+    "plataforma-a-p5",
+    "plataforma-a-p9"
+   ]
+  },
+  {
+   "id": "c2704",
+   "topico": "t27",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa de entregas tem equipe pouco qualificada. O gerente diz: “Não há o que fazer, é o mercado”. Por que ele está errado?",
+   "alternativas": [
+    "Porque é uma ameaça externa",
+    "Porque é uma oportunidade",
+    "Porque fraquezas não podem ser corrigidas",
+    "Porque é um fator interno e controlável: a própria empresa pode agir para corrigir"
+   ],
+   "correta": 3,
+   "explicacao": "Sobre pontos fortes e fracos a empresa tem controle: para suprimir um ponto fraco, ela mesma pode agir.",
+   "fontes": [
+    "plataforma-a-p10"
+   ]
+  },
+  {
+   "id": "c2801",
+   "topico": "t28",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O dólar sobe muito. Para uma empresa que exporta, isso é, na SWOT:",
+   "alternativas": [
+    "Oportunidade",
+    "Força",
+    "Fraqueza",
+    "Ameaça"
+   ],
+   "correta": 0,
+   "explicacao": "O texto cita a organização exportadora favorecida pelo câmbio elevado como exemplo de oportunidade.",
+   "fontes": [
+    "plataforma-a-p11"
+   ]
+  },
+  {
+   "id": "c2802",
+   "topico": "t28",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O mesmo dólar alto, para uma pequena loja que revende produtos importados, é:",
+   "alternativas": [
+    "Oportunidade",
+    "Ameaça",
+    "Força",
+    "Fraqueza"
+   ],
+   "correta": 1,
+   "explicacao": "O texto traz o caso do empresário que importava e passou a lutar pela sobrevivência quando o dólar subiu.",
+   "fontes": [
+    "plataforma-a-p13",
+    "aula4-p19"
+   ]
+  },
+  {
+   "id": "c2803",
+   "topico": "t28",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma grande rede anuncia que vai abrir uma loja na cidade de um mercadinho. Para o mercadinho, isso é:",
+   "alternativas": [
+    "Fraqueza",
+    "Oportunidade",
+    "Ameaça",
+    "Força"
+   ],
+   "correta": 2,
+   "explicacao": "A entrada de novas empresas concorrentes no mercado é exemplo de ameaça.",
+   "fontes": [
+    "plataforma-a-p11"
+   ]
+  },
+  {
+   "id": "c2804",
+   "topico": "t28",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "O governo aprova uma lei que dá incentivo ao setor de uma fábrica. Na SWOT da fábrica, isso é:",
+   "alternativas": [
+    "Força",
+    "Ameaça",
+    "Fraqueza",
+    "Oportunidade"
+   ],
+   "correta": 3,
+   "explicacao": "Leis que favorecem a organização são exemplo de oportunidade: fator externo e positivo.",
+   "fontes": [
+    "plataforma-a-p11"
+   ]
+  },
+  {
+   "id": "c2901",
+   "topico": "t29",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma rede de bancas tem estudos mostrando a migração dos leitores para o digital, mas não age para não perder a receita das revistas impressas. Segundo a Aula 6, o que falta?",
+   "alternativas": [
+    "Vontade executiva de mudar operações dolorosas com base nos dados",
+    "Mais consultores",
+    "Mais dados de mercado",
+    "Uma matriz SWOT maior"
+   ],
+   "correta": 0,
+   "explicacao": "A verdadeira disciplina SWOT não é mapear o mercado, é ter vontade de agir.",
+   "fontes": [
+    "aula6-p7",
+    "aula6-p5"
+   ]
+  },
+  {
+   "id": "c2902",
+   "topico": "t29",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma empresa de táxi chama os aplicativos de transporte de “moda para poucos”. Que erro da Blockbuster ela repete?",
+   "alternativas": [
+    "Comprar a concorrente cedo demais",
+    "Tratar a mudança como “nicho” e subestimar a mudança no comportamento do consumidor",
+    "Investir demais em tecnologia",
+    "Cortar as multas por atraso"
+   ],
+   "correta": 1,
+   "explicacao": "A Blockbuster viu o streaming e a entrega pelo correio como apenas um nicho.",
+   "fontes": [
+    "aula6-p6"
+   ]
+  },
+  {
+   "id": "c2903",
+   "topico": "t29",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma escola de cursos presenciais percebe a migração para o on-line e transforma sua plataforma digital em seu principal diferencial. Isso repete o que a Netflix fez ao:",
+   "alternativas": [
+    "Ignorar uma ameaça externa",
+    "Manter as multas por atraso",
+    "Transformar uma oportunidade (a migração digital) em força",
+    "Recusar uma oferta de compra"
+   ],
+   "correta": 2,
+   "explicacao": "A Netflix identificou a migração digital como oportunidade e fez do streaming uma força.",
+   "fontes": [
+    "aula6-p7"
+   ]
+  },
+  {
+   "id": "c3001",
+   "topico": "t30",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma vinícola com marca forte enfrenta a saturação do mercado interno e passa a exportar, apoiada na fama do seu vinho. Que cruzamento da SWOT é esse?",
+   "alternativas": [
+    "Fraqueza x Oportunidade",
+    "Fraqueza x Ameaça",
+    "Força x Fraqueza",
+    "Força x Ameaça"
+   ],
+   "correta": 3,
+   "explicacao": "É o que a Havaianas fez com o modelo Copa 98: usou a força do “DNA brasileiro” contra a ameaça da saturação interna.",
+   "fontes": [
+    "aula6-p16"
+   ]
+  },
+  {
+   "id": "c3002",
+   "topico": "t30",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma fábrica de sandálias tem imagem de produto popular. Com o crescimento da classe média, lança uma linha com design novo e embalagem premium. Que cruzamento é esse?",
+   "alternativas": [
+    "Fraqueza x Oportunidade",
+    "Força x Ameaça",
+    "Força x Oportunidade",
+    "Fraqueza x Ameaça"
+   ],
+   "correta": 0,
+   "explicacao": "É o caso da Havaianas Top: o reposicionamento quebrou o estigma e permitiu aumentar preço e margem.",
+   "fontes": [
+    "aula6-p16"
+   ]
+  },
+  {
+   "id": "c3003",
+   "topico": "t30",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Depois de anos de sucesso, uma empresa revisa sua SWOT e corta metade dos produtos menos rentáveis. O que isso mostra, segundo o caso Havaianas?",
+   "alternativas": [
+    "Que a SWOT só serve em momentos de crise",
+    "Que o ciclo é contínuo: a matriz deve ser revisitada",
+    "Que a empresa perdeu suas forças",
+    "Que a SWOT deve ser feita uma única vez"
+   ],
+   "correta": 1,
+   "explicacao": "A Havaianas revisitou a matriz e cortou 50% do portfólio menos rentável para proteger o caixa.",
+   "fontes": [
+    "aula6-p18"
+   ]
+  },
+  {
+   "id": "c3004",
+   "topico": "t30",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma marca de cadernos mantém o mesmo design há 25 anos, vende só por preço e sofre com cópias baratas. Esse quadro se parece com qual momento da Havaianas?",
+   "alternativas": [
+    "O lançamento da Havaianas Top",
+    "A exportação depois da Copa de 98",
+    "A crise dos anos 90: comoditização, estagnação de portfólio e guerra de preços",
+    "A entrada nas passarelas em 1999"
+   ],
+   "correta": 2,
+   "explicacao": "Os três sintomas da crise foram comoditização extrema, design inalterado por mais de 25 anos e guerra de preços.",
+   "fontes": [
+    "aula6-p14"
+   ]
+  },
+  {
+   "id": "c3101",
+   "topico": "t31",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um estudante trava em apresentações em público. Na SWOT pessoal, isso é:",
+   "alternativas": [
+    "Ameaça (ambiente externo)",
+    "Oportunidade",
+    "Força",
+    "Fraqueza (ambiente interno)"
+   ],
+   "correta": 3,
+   "explicacao": "É algo que depende dele e o freia: ambiente interno, fraqueza.",
+   "fontes": [
+    "aula6-p21",
+    "aula6-p4"
+   ]
+  },
+  {
+   "id": "c3102",
+   "topico": "t31",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Uma estudante percebe que as empresas da sua área estão contratando quem sabe usar inteligência artificial. Para ela, isso é:",
+   "alternativas": [
+    "Oportunidade",
+    "Força",
+    "Fraqueza",
+    "Ameaça"
+   ],
+   "correta": 0,
+   "explicacao": "No mapa da Aula 6, o crescimento do uso de IA no setor aparece como oportunidade, e a ação é fazer cursos para se diferenciar.",
+   "fontes": [
+    "aula6-p22"
+   ]
+  },
+  {
+   "id": "c3103",
+   "topico": "t31",
+   "tipo": "multipla",
+   "caso": true,
+   "criado": true,
+   "enunciado": "Um estudante tem uma boa rede de contatos, com ex-colegas que já trabalham na área. Na SWOT pessoal, isso é:",
+   "alternativas": [
+    "Oportunidade (ambiente externo)",
+    "Força (ambiente interno)",
+    "Ameaça",
+    "Fraqueza"
+   ],
+   "correta": 1,
+   "explicacao": "Rede de contatos faz parte do ambiente interno do estudante, junto com hard skills e idiomas.",
+   "fontes": [
+    "aula6-p21"
+   ]
+  }
+ ],
+ "casosDoMaterial": [
+  "q0201",
+  "q0202",
+  "q0301",
+  "q0302",
+  "q0501",
+  "q0502",
+  "q0503",
+  "q0601",
+  "q0604",
+  "q0703",
+  "q0802",
+  "q0803",
+  "q1901",
+  "q1902",
+  "q2103",
+  "q2301",
+  "q2302",
+  "q2404",
+  "q2502",
+  "q2503",
+  "q2801",
+  "q3001",
+  "q3002",
+  "q3102"
+ ]
+}

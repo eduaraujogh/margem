@@ -15,7 +15,15 @@ for f in sorted(glob.glob("content/src/m*.json")):
         t["modulo"] = d["modulo"]["id"]; t["ordem"] = i
         tops.append(t)
     qs += d["questoes"]
-out = {"versao": 1, "materiais": mats, "modulos": mods, "topicos": tops, "questoes": qs,
+# casos: "Na prática" por tópico, questões de caso criadas e marcação dos casos que já vinham do material
+casos = json.load(open("content/src/casos.json"))
+for t in tops:
+    if t["id"] in casos["pratica"]: t["pratica"] = casos["pratica"][t["id"]]
+for x in qs:
+    if x["id"] in casos["casosDoMaterial"]: x["caso"] = True
+qs += casos["questoes"]
+out = {"versao": 2, "materiais": mats, "modulos": mods, "topicos": tops, "questoes": qs,
        "glossario": json.load(open("content/src/glossario.json")), "paginas": pags}
 json.dump(out, open("content/conteudo.json", "w"), ensure_ascii=False, separators=(",", ":"))
+print(f"{sum(1 for x in qs if x.get('caso'))} questões de caso ({sum(1 for x in qs if x.get('criado'))} com cenário criado)")
 print(f"{len(mods)} módulos, {len(tops)} tópicos, {len(qs)} questões, {len(out['glossario'])} termos, {len(pags)} páginas")

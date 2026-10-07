@@ -21,6 +21,20 @@ export function render(id, aba = "aprender") {
       <div class="reading">
         ${t.aprender.map(a => `<div class="para"><p>${esc(a.texto)}</p>${fontes(a.fontes)}</div>`).join("")}
       </div>
+      ${t.pratica ? `
+        <section class="section pratica">
+          <h2 class="section-title">Na prática</h2>
+          <div class="card on-m">
+            <span class="tag">Situação criada para praticar</span>
+            <p class="reading sit">${esc(t.pratica.situacao)}</p>
+          </div>
+          <p class="reading leitura">${esc(t.pratica.leitura)}</p>
+          <div class="card mt">
+            <h3 class="sub">Como reconhecer</h3>
+            <ul class="sinais">${t.pratica.sinais.map(s => `<li>${esc(s)}</li>`).join("")}</ul>
+            ${fontes(t.pratica.fontes)}
+          </div>
+        </section>` : ""}
       ${t.termos.length ? `
         <section class="section">
           <h2 class="section-title">Termos</h2>
@@ -39,14 +53,14 @@ export function render(id, aba = "aprender") {
       </ul>
       <div class="dock"><a class="btn block" href="#/t/${id}/praticar">Praticar este tópico</a></div>`;
   } else if (aba === "praticar") {
-    const mult = qs.filter(q => q.tipo === "multipla").length;
-    const fl = qs.length - mult;
+    const nCasos = qs.filter(q => q.caso).length;
+    const fl = qs.filter(q => q.tipo !== "multipla").length;
     const rs = estado().respostas.filter(r => r.t === id);
     const ult = rs.slice(-qs.length);
     corpo = `
       <div class="card mt">
-        <p class="reading" style="font-size:17px">${plural(mult, "questão de múltipla escolha", "questões de múltipla escolha")}${fl ? ` e ${plural(fl, "flashcard", "flashcards")}` : ""}.</p>
-        <p class="muted small mt-s">Cada resposta mostra a explicação e a página do PDF. Depois, as questões voltam na revisão.</p>
+        <p class="reading" style="font-size:17px">Questões de caso, como na prova: uma situação em uma empresa e você decide o que está acontecendo.</p>
+        <p class="muted small mt-s">Este tópico tem ${plural(nCasos, "caso", "casos")}${fl ? ` e ${plural(fl, "flashcard", "flashcards")} de definição` : ""}. Cada rodada traz até 5 casos, começando pelos que você ainda não viu. Toda resposta mostra a explicação e a página do PDF.</p>
         ${rs.length ? `<p class="small mt-s">Última vez: ${ult.filter(r => r.ok).length} de ${ult.length} certas.</p>` : ""}
         <button class="btn block mt" id="praticar" type="button">${rs.length ? "Praticar de novo" : "Começar"}</button>
       </div>`;

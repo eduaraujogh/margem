@@ -42,6 +42,30 @@ for f in sorted(glob.glob("content/src/m*.json")):
             checar(q["id"], q["enunciado"] + " " + q["alternativas"][q["correta"]] + " " + q["explicacao"], q["fontes"])
         else:
             checar(q["id"], q["frente"] + " " + q["verso"], q["fontes"])
+# casos: cenário criado, conceito e resposta citados do PDF. Confere fonte, gabarito, IDs e travessão.
+casos = json.load(open("content/src/casos.json"))
+def so_fontes(onde, texto, fontes):
+    if "—" in texto: erros.append(f"{onde}: travessão no texto")
+    if not fontes: erros.append(f"{onde}: sem fonte")
+    for f in fontes:
+        if f not in P: erros.append(f"{onde}: fonte inexistente {f}")
+for tid, p in casos["pratica"].items():
+    if tid not in tops: erros.append(f"pratica {tid}: tópico inexistente")
+    so_fontes(f"pratica {tid}", p["situacao"] + p["leitura"] + " ".join(p["sinais"]), p["fontes"])
+for t in tops:
+    if t not in casos["pratica"]: erros.append(f"{t}: sem bloco Na prática")
+for q in casos["questoes"]:
+    uid(q["id"])
+    if q["topico"] not in tops: erros.append(f"{q['id']}: tópico inexistente")
+    if not 0 <= q["correta"] < len(q["alternativas"]) or len(q["alternativas"]) != 4: erros.append(f"{q['id']}: gabarito ou alternativas")
+    if len(set(q["alternativas"])) != 4: erros.append(f"{q['id']}: alternativas repetidas")
+    so_fontes(q["id"], q["enunciado"] + " ".join(q["alternativas"]) + q["explicacao"], q["fontes"])
+for i in casos["casosDoMaterial"]:
+    if i not in ids: erros.append(f"casosDoMaterial: {i} não existe")
+ncaso = {}
+for q in casos["questoes"]: ncaso[q["topico"]] = ncaso.get(q["topico"], 0) + 1
+for t in tops:
+    if ncaso.get(t, 0) < 2: alertas.append(f"{t}: só {ncaso.get(t,0)} casos criados")
 for t in tops.values():
     for r in t["relacionados"]:
         if r not in tops: erros.append(f"{t['id']}: relacionado inexistente {r}")

@@ -78,7 +78,7 @@ export function render() {
       <h2 class="section-title">Como funciona</h2>
       <div class="card stack small">
         <p><strong>1. Estude um tópico.</strong> Explicação curta, pontos-chave e, em cada trecho, a página do PDF de onde veio.</p>
-        <p><strong>2. Pratique.</strong> Questões com resposta explicada e fonte.</p>
+        <p><strong>2. Pratique com casos.</strong> Situações de empresas, como na prova, com resposta explicada e fonte.</p>
         <p><strong>3. Revise.</strong> O que você praticou volta aqui nos dias certos para não esquecer.</p>
       </div>
     </section>` : "";

@@ -371,3 +371,16 @@ label.lbl { display: block; font-weight: 700; font-size: 14px; margin: 14px 0 6p
 .dock .btn { box-shadow: 0 12px 24px -10px rgba(30, 20, 5, .45); }
 .install { margin-bottom: 14px; }
 @media (min-width: 720px) { .search-box { box-shadow: none; } }
+
+/* Na prática e casos */
+.pratica .on-m { background: var(--m); color: #1C1915; box-shadow: none; }
+.pratica .on-m .tag { background: rgba(255,255,255,.7); color: var(--m-deep); }
+.pratica .sit { font-size: 17px; line-height: 1.6; color: #1C1915; margin-top: 10px; padding: 0; }
+.pratica .leitura { font-size: 17px; margin-top: 14px; }
+.pratica .sub { font: 800 15px/1.2 var(--sans); letter-spacing: -0.01em; }
+.sinais { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.sinais li { position: relative; padding-left: 26px; font-size: 15px; line-height: 1.45; color: var(--ink-2); }
+.sinais li::before { content: ""; position: absolute; left: 2px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--m); box-shadow: inset 0 0 0 3px var(--m-strong); }
+.tag.caso { background: var(--m); color: var(--m-deep); margin-top: 6px; }
+.feedback .criado { font-size: 12.5px; color: #5A5046; margin-top: 10px; }
+main:focus-visible { outline: none; }

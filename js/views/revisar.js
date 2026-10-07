@@ -26,20 +26,30 @@ export function render() {
 
   const opcoes = [];
   if (fracos.length) opcoes.push(`<button class="item" type="button" data-sim="fracos"><span class="tile" aria-hidden="true">!</span><div class="grow"><div class="t">Pontos fracos</div><div class="s">${plural(fracos.length, "tópico", "tópicos")} com mais erros</div></div>${ico.chev}</button>`);
-  if (estudados.length) opcoes.push(`<button class="item" type="button" data-sim="estudados"><span class="tile" aria-hidden="true">∗</span><div class="grow"><div class="t">Tudo o que já estudei</div><div class="s">${plural(estudados.length, "tópico", "tópicos")}, 10 questões misturadas</div></div>${ico.chev}</button>`);
-  for (const m of D.modulos) opcoes.push(`<button class="item m-${m.id}" type="button" data-sim="${m.id}"><span class="tile" aria-hidden="true">${numMod(m.id)}</span><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.aulas)}, 10 questões</div></div>${ico.chev}</button>`);
+  if (estudados.length) opcoes.push(`<button class="item" type="button" data-sim="estudados"><span class="tile" aria-hidden="true">∗</span><div class="grow"><div class="t">Tudo o que já estudei</div><div class="s">${plural(estudados.length, "tópico", "tópicos")}, 10 casos misturados</div></div>${ico.chev}</button>`);
+  for (const m of D.modulos) opcoes.push(`<button class="item m-${m.id}" type="button" data-sim="${m.id}"><span class="tile" aria-hidden="true">${numMod(m.id)}</span><div class="grow"><div class="t">${esc(m.titulo)}</div><div class="s">${esc(m.aulas)}, 10 casos</div></div>${ico.chev}</button>`);
+  const totalCasos = D.questoes.filter(q => q.caso).length;
 
   return {
     html: `
       <div class="page-head"><h1 class="page-title">Revisar</h1></div>
       ${rev}
       <section class="section">
-        <h2 class="section-title">Simulado</h2>
-        <p class="muted small" style="margin:-4px 0 10px">Questões de múltipla escolha sorteadas, como numa prova.</p>
+        <h2 class="section-title">Prova chegando?</h2>
+        <div class="card">
+          <p style="font-weight:700">Treino só de casos</p>
+          <p class="muted small mt-s">15 situações de empresas, de todos os módulos, no formato que cai na prova. São ${totalCasos} casos no total; os que você ainda não viu vêm primeiro.</p>
+          <button class="btn block mt" id="so-casos" type="button">Treinar 15 casos</button>
+        </div>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Simulado por módulo</h2>
+        <p class="muted small" style="margin:-4px 0 10px">Casos sorteados de um módulo ou dos seus pontos fracos.</p>
         <div class="list">${opcoes.join("")}</div>
       </section>`,
     montar(el) {
       el.querySelector("#rev")?.addEventListener("click", () => iniciarSessao({ tipo: "revisao" }));
+      el.querySelector("#so-casos").onclick = () => iniciarSessao({ tipo: "simulado", topicos: D.topicos.map(t => t.id), titulo: "Treino de casos", n: 15, soCasos: true });
       el.querySelectorAll("[data-sim]").forEach(b => b.onclick = () => {
         const k = b.dataset.sim;
         let topicos, titulo;
