@@ -73,8 +73,33 @@ const json = (req, status, obj) => new Response(JSON.stringify(obj), { status, h
 // o app manda o código com encodeURIComponent; maiúsculas e espaços nas pontas não contam
 const igual = v => { let t = v || ""; try { t = decodeURIComponent(t); } catch (e) {} return t.trim().toLowerCase(); };
 
+// Tenta os modelos em ordem. Devolve o objeto que o app recebe.
+async function gerar(corpo, env) {
+  const falhas = [];
+  for (const modelo of MODELOS) {
+    let r;
+    try {
+      r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent`, {
+        method: "POST",
+        headers: { "x-goog-api-key": env.GEMINI_API_KEY, "Content-Type": "application/json" },
+        body: corpo,
+      });
+    } catch (e) { falhas.push(`${modelo}: falha de rede`); continue; }
+    if ([429, 500, 503, 404].includes(r.status)) { falhas.push(`${modelo}: ${r.status}`); continue; }
+    const d = await r.json().catch(() => null);
+    if (!r.ok || !d) return { ok: false, erro: "ia", msg: d?.error?.message || `A IA respondeu ${r.status}.`, falhas };
+    const cand = d.candidates?.[0];
+    const texto = (cand?.content?.parts || []).filter(p => !p.thought && p.text).map(p => p.text).join("");
+    if (!texto) return { ok: false, erro: "ia-vazia", msg: `A IA não devolveu conteúdo (${cand?.finishReason || d.promptFeedback?.blockReason || "sem motivo"}).`, falhas };
+    // resposta cortada ou com JSON quebrado: tenta o próximo modelo
+    if (cand.finishReason !== "MAX_TOKENS") { try { JSON.parse(texto); } catch (e) { falhas.push(`${modelo}: JSON inválido`); continue; } }
+    return { ok: true, modelo, fim: cand.finishReason, texto, uso: d.usageMetadata, falhas };
+  }
+  return { ok: false, erro: "ocupada", msg: "A IA gratuita está sobrecarregada agora. Tente de novo em alguns minutos.", falhas };
+}
+
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cabecalhos(req) });
     const url = new URL(req.url);
     if (req.method === "GET") return json(req, 200, { ok: true, servico: "margem", configurado: !!(env.GEMINI_API_KEY && env.CODIGO) });
@@ -88,26 +113,20 @@ export default {
 
     // monta o pedido sem decodificar o PDF: prefixo + base64 recebido + sufixo
     const corpo = new Blob([PREFIXO, pdf, SUFIXO]);
-    const falhas = [];
-    for (const modelo of MODELOS) {
-      let r;
-      try {
-        r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent`, {
-          method: "POST",
-          headers: { "x-goog-api-key": env.GEMINI_API_KEY, "Content-Type": "application/json" },
-          body: corpo,
-        });
-      } catch (e) { falhas.push(`${modelo}: falha de rede`); continue; }
-      if ([429, 500, 503, 404].includes(r.status)) { falhas.push(`${modelo}: ${r.status}`); continue; }
-      const d = await r.json().catch(() => null);
-      if (!r.ok || !d) return json(req, 502, { ok: false, erro: "ia", msg: d?.error?.message || `A IA respondeu ${r.status}.` });
-      const cand = d.candidates?.[0];
-      const texto = (cand?.content?.parts || []).filter(p => !p.thought && p.text).map(p => p.text).join("");
-      if (!texto) return json(req, 502, { ok: false, erro: "ia-vazia", msg: `A IA não devolveu conteúdo (${cand?.finishReason || d.promptFeedback?.blockReason || "sem motivo"}).` });
-      // resposta cortada ou com JSON quebrado: tenta o próximo modelo
-      if (cand.finishReason !== "MAX_TOKENS") { try { JSON.parse(texto); } catch (e) { falhas.push(`${modelo}: JSON inválido`); continue; } }
-      return json(req, 200, { ok: true, modelo, fim: cand.finishReason, texto, uso: d.usageMetadata, falhas });
-    }
-    return json(req, 503, { ok: false, erro: "ocupada", msg: "A IA gratuita está sobrecarregada agora. Tente de novo em alguns minutos.", falhas });
+
+    // A IA pode levar minutos. A resposta sai em fluxo: um espaço a cada 10 s mantém a conexão viva
+    // (rede de celular derruba conexão parada) e o JSON vai no fim. JSON aceita espaços antes.
+    // Por isso o status é sempre 200 daqui em diante; o resultado está em "ok" no corpo.
+    const { readable, writable } = new TransformStream();
+    const w = writable.getWriter(), enc = new TextEncoder();
+    const pulso = setInterval(() => { w.write(enc.encode(" ")).catch(() => {}); }, 10000);
+    ctx.waitUntil((async () => {
+      let saida;
+      try { w.write(enc.encode(" ")).catch(() => {}); saida = await gerar(corpo, env); }
+      catch (e) { saida = { ok: false, erro: "interno", msg: "O servidor falhou ao falar com a IA. Tente de novo." }; }
+      clearInterval(pulso);
+      try { await w.write(enc.encode(JSON.stringify(saida))); await w.close(); } catch (e) {}
+    })());
+    return new Response(readable, { status: 200, headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store, no-transform", ...cabecalhos(req) } });
   },
 };

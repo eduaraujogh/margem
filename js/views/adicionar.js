@@ -55,9 +55,10 @@ async function pedir(b64, codigo) {
     } catch (e) {
       throw new Falha(e?.name === "AbortError" ? "A IA demorou demais para responder. Tente de novo; se repetir, envie um PDF menor." : "Sem conexão com o servidor. Confira a internet e tente de novo.");
     } finally { clearTimeout(tm); }
+    // o servidor responde 200 e manda o resultado em "ok" (ver servidor/worker.js)
     if (r.ok && d?.ok && d.texto) return d;
     if (r.status === 401) throw new Falha("Código de acesso incorreto. Confira com quem te passou o Margem.", "codigo");
-    if (r.status === 503 && t < TENTATIVAS) {
+    if ((r.status === 503 || d?.erro === "ocupada") && t < TENTATIVAS) {
       job.espera = `A IA gratuita está cheia agora. Nova tentativa em ${ESPERA_S} segundos (${t + 1} de ${TENTATIVAS}).`; avisar();
       await pausa(ESPERA_S * 1000);
       job.espera = ""; avisar();
