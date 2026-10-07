@@ -18,7 +18,7 @@ REGRAS
 2. Todo item traz o campo "paginas": os números das páginas do PDF em que ele se apoia (inteiros; a primeira página do arquivo é 1). Cite só páginas em que o conteúdo realmente aparece. Leia também o texto que está dentro de imagens e slides.
 3. Ignore capas, calendários, dados pessoais do professor, links e avisos.
 4. Escreva em português do Brasil, em linguagem simples e direta. Não use travessão.
-5. Divida o conteúdo em tópicos, um para cada assunto principal, na ordem em que aparecem no PDF: de 2 a 4 em PDFs curtos, até 8 em PDFs longos.
+5. Divida o conteúdo em tópicos, um para cada assunto principal, na ordem em que aparecem no PDF. PDF com até 10 páginas: 2 a 4 tópicos. De 11 a 30 páginas: 4 a 6 tópicos. Mais de 30 páginas: 6 a 8 tópicos. Cubra o PDF inteiro, do começo ao fim, sem pular assuntos.
 6. Em cada tópico:
    - "aprender": 3 a 5 parágrafos de 2 a 4 frases cada, que explicam o assunto com outras palavras, sem mudar o sentido. Inclua os exemplos e as empresas que o PDF cita.
    - "pontosChave": 3 a 5 frases curtas para memorizar.
